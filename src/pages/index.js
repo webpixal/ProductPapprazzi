@@ -1,10 +1,12 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
+import Home from './Home/Home'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export default function Home() {
+function App() {
   return (
-    <h2 className='text-red-900 font-bold' >Home</h2>
+    <Home/>
   )
 }
+export default App 
