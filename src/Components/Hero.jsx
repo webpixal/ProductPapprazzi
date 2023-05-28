@@ -6,7 +6,7 @@ const Hero = () => {
     <div className="relative flex justify-start items-center">
           <div className=' 2xl:container md:mx-auto'>
             <div className='w-[641px] h[77px] text-white'>
-            <h3 className=''>Captivate</h3>
+            <h3 className='font-light track'>Captivate</h3>
             <h2>Your Audience at First Glance</h2>
             <p>Exceptional product photography shapes consumers' crucial initial<br/>
               impressions, compelling them to explore and engage with your brand further.
