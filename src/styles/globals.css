@@ -6,6 +6,19 @@
     .clip{
         @apply bg-clip-text text-transparent bg-gradient-to-r from-[#FC365A] to-[#A00BFB]
     }
+    .bgone{
+        @apply bg-gradient-to-r from-[#FC365A] from-[-10%] to-[#A00BFB] to-[96.82%]
+    }
+    .bgtwo{
+        @apply bg-gradient-to-r
+        from-[#FFBC21] from-[-12.8%] 
+        via-[#FD843A] via-[3.38%] 
+        via-[#FC5554] via-[20.22%] 
+        via-[#FC365F] via-[39%] 
+        via-[#F02E6B] via-[61.01%]
+        via-[#DD3578] via-[85.68%]
+        to-[#81399D] to-[107.63%]   
+    }
     .cliptwo{
         @apply bg-clip-text text-transparent bg-gradient-to-r
         from-[#FFBC21] from-[-12.8%] 
@@ -14,10 +27,10 @@
         via-[#FC365F] via-[39%] 
         via-[#F02E6B] via-[61.01%]
         via-[#DD3578] via-[85.68%]
-        to-[#81399D] to-[107.63%]
+        to-[#81399D] to-[107.63%]   
     }
 
-   
+    
 
 
 }
