@@ -3,9 +3,6 @@
 @tailwind utilities;
 
 @layer components{
-    .clip{
-        @apply bg-clip-text text-transparent bg-gradient-to-r from-[#FC365A] to-[#A00BFB]
-    }
     .bgone{
         @apply bg-gradient-to-r from-[#FC365A] from-[-10%] to-[#A00BFB] to-[96.82%]
     }
@@ -19,6 +16,9 @@
         via-[#DD3578] via-[85.68%]
         to-[#81399D] to-[107.63%]   
     }
+    .clip{
+        @apply bg-clip-text text-transparent bg-gradient-to-r from-[#FC365A] to-[#A00BFB]
+    }
     .cliptwo{
         @apply bg-clip-text text-transparent bg-gradient-to-r
         from-[#FFBC21] from-[-12.8%] 
@@ -29,8 +29,20 @@
         via-[#DD3578] via-[85.68%]
         to-[#81399D] to-[107.63%]   
     }
+    .link{ 
+       @apply relative rounded-full 
+       
+    }
+    .link::before{
+        @apply content-[""] absolute w-[100%] h-[100%] bgtwo rounded-full top-0 left-0 scale-x-0 transition-transform ease-in origin-right duration-500
+        
+    }
+    .link:hover::before{
+        @apply scale-x-100 origin-left rounded-full ease-in 
+    }
 
-    
-
-
+    .video-docker::after {
+       @apply content-[""] absolute w-[100%] h-[100%] top-0 left-0 bg-black bg-opacity-50 z-10
+ 
+      }
 }
