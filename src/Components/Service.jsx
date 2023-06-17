@@ -5,6 +5,9 @@ const Service = () => {
     <div className='mt-[92px] mb-[92px]'>
         <div className='2xl:container md:mx-auto'>
             <div className='flex flex-wrap justify-center items-center gap-4'>
+            <h2 className='text-[32px] font-bold clip '>Service</h2>
+            </div>
+            <div className='flex flex-wrap justify-center items-center gap-4'>
                     <div className='servicecard'></div>
                     <div className='servicecard'></div>
                     <div className='servicecard'></div>
