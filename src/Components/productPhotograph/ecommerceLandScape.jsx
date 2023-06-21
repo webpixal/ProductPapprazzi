@@ -9,7 +9,7 @@ import Image from "next/image";
 const Ecommercelandscape = () => {
   return (
     <main className="container mx-auto mt-28">
-      <div className="flex justify-between flex-col xl:flex-row items-center mx-4">
+      <div className="flex justify-between flex-col xl:flex-row items-center">
         <div>
           <h1 className="text-[30px] leading-[40px]  xl:text-[48px] max-w-[739px] xl:leading-[60px] font-extrabold italic font-sans w-full xl:w-9/12 text-cap capitalize">
             In today's{" "}
@@ -25,7 +25,7 @@ const Ecommercelandscape = () => {
             images can captivate potential customers, ultimately influencing
             their purchasing decisions.
           </p>
-          <div className="flex  gap-4 mt-11 w-[537px] xl:w-[800px] mx-auto">
+          <div className="flex  gap-4 mt-11 w-[537px] lg:w-[800px] mx-auto">
             <div className="bgone w-[122px] h-[122px] lg:w-[172px] lg:h-[172px] relative  mb-28">
               <Image
                 src={Show1}
@@ -54,7 +54,7 @@ const Ecommercelandscape = () => {
           </div>
         </div>
         <div className="mt-8 xl:mt-0">
-          <Image src={cameraMan} className="w-[777px] h-[439px] object-contain lg:object-fill" />
+          <Image src={cameraMan} className="w-[777px] h-[439px]" />
         </div>
       </div>
     </main>

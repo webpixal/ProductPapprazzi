@@ -66,3 +66,13 @@ export { default as Product_seo } from "./product_seo.svg";
 export { default as Product_webbild } from "./product_webbild.svg";
 export { default as Line_left } from "./Line_left.svg";
 
+export { default as Graphics_boost } from "./graphics_boost.svg";
+export { default as Graphics_Encourage } from "./graphics_Encourage.svg";
+export { default as Graphics_enhanced } from "./graphics_enhanced.svg";
+export { default as Graphics_facitates } from "./graphics_facitates.svg";
+export { default as Graphics_increases_share } from "./graphics_increases_share.svg";
+export { default as Graphics_learning } from "./graphics_learning-tools.svg";
+export { default as Graphics_seo } from "./graphics_seo.svg";
+export { default as Graphics_Simplify0 } from "./graphics_Simplify0.svg";
+export { default as Pattern_colarings } from "./Pattern-colarings.svg";
+

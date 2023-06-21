@@ -6,7 +6,9 @@ module.exports = {
     "./src/pages/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      display: ["group-hover"],
+    },
   },
   plugins: [],
 };

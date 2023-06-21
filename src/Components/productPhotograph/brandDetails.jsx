@@ -10,6 +10,7 @@ import {
   OurmeetCustomers,
   ZIcon,
   Pattern,
+  Pattern_colarings,
 } from "@/Assets/SVGs/SVG";
 import React from "react";
 import MyDetailsCard from "../Common/myDetailsCard";
@@ -108,8 +109,8 @@ const BrandDetails = () => {
             <ZIcon /> Book a Zoom call
           </button>
         </div>
-        <div className="relative sm:left-[480px] sm:-top-20 lg:left-0">
-          <Pattern />
+        <div className="relative md:ml-[500px] lg:ml-0 sm:-top-20 lg:left-0">
+          <Pattern_colarings />
         </div>
       </section>
     </div>

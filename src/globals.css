@@ -19,6 +19,7 @@
   .clip {
     @apply bg-clip-text text-transparent bg-gradient-to-r from-[#FC365A] to-[#A00BFB];
   }
+
   .cliptwo {
     @apply bg-clip-text text-transparent bg-gradient-to-r
         from-[#FFBC21] from-[-12.8%] 
@@ -29,6 +30,7 @@
         via-[#DD3578] via-[85.68%]
         to-[#81399D] to-[107.63%];
   }
+  
   .link {
     @apply relative rounded-full;
   }
@@ -65,6 +67,8 @@
   .border_right{
     @apply rounded-md bg-gradient-to-r from-[#FC365A] to-[#A00BFB] p-1;
   }
+
+
 }
 
 .border_bottom {

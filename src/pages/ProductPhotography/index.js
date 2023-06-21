@@ -16,7 +16,6 @@ const ProductPhotography = () => {
       <Ecommercelandscape />
       <BrandDetails />
       <InfoGraphics />
-
     </main>
   );
 };
