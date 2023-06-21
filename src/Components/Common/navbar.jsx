@@ -8,7 +8,7 @@ const Navbar = () => {
     {name: "Contuct Us", link:"./"},
   ];
   return (
-    <div className='bg-black drop-shadow-[0px_25px_13px_rgba(0,0,0,26%)] w-full h-[131px]'>
+    <div className='bg-black drop-shadow-[0px_25px_13px_rgba(0,0,0,26%)] w-full h-[130px]'>
           <div className='2xl:container md:mx-auto'>
             <div className=' flex justify-between items-center h-[131px] '>
               <div>
