@@ -44,7 +44,9 @@
   .video-docker::after {
     @apply content-[""] absolute w-[100%] h-[100%] top-0 left-0 bg-black bg-opacity-50 z-10;
   }
-
+ .blank_mode{
+  @apply bg-blend-multiply bg-[#A7A7A7];
+ }
   .servicecard {
     @apply h-60 w-60 rounded-[18px] bg-white hover:shadow-xl shadow-gray-700 flex items-center justify-center flex-col;
   }
@@ -88,4 +90,9 @@
 .bg-color-blend-mode {
   background-blend-mode: multiply;
   background-color: #F8BB54;
+}
+
+.blank_modes {
+  background-blend-mode: multiply;
+  background-color: #A7A7A7 ;
 }

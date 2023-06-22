@@ -14,6 +14,7 @@ import {
   Product_seo,
   Product_webbild,
 } from "@/Assets/SVGs/SVG";
+import Link from "next/link";
 import React from "react";
 
 const NavContext = () => {
@@ -21,9 +22,11 @@ const NavContext = () => {
     <section className="h-[313px] w-[965px] bg-white">
       <section className="py-8 px-8 flex justify-between relative">
         <div>
-          <h1 className="flex items-center text-[22px] font-semibold leading-7 text-black cursor-pointer  tracking-tight">
-            <Product_photograph className="mr-3" /> Product Photography
-          </h1>
+          <Link href={"/ProductPhotography"}>
+            <h1 className="flex items-center text-[22px] font-semibold leading-7 text-black cursor-pointer  tracking-tight">
+              <Product_photograph className="mr-3" /> Product Photography
+            </h1>
+          </Link>
           <div className="mt-3 ml-10">
             <p className="flex items-center text-[18px] cursor-pointer leading-6 font-semibold tracking-tight">
               <Product_no_img className="mr-3" /> White background Photography
@@ -40,9 +43,11 @@ const NavContext = () => {
           </div>
         </div>
         <div>
-          <h1 className="flex items-center text-[22px] font-semibold leading-7 text-black cursor-pointer  tracking-tight">
-            <Product_network className="mr-3" /> Infographics services
-          </h1>
+          <Link href={"/infographic"}>
+            <h1 className="flex items-center text-[22px] font-semibold leading-7 text-black cursor-pointer  tracking-tight">
+              <Product_network className="mr-3" /> Infographics services
+            </h1>
+          </Link>
           <div className="mt-3 ml-10">
             <p className="flex items-center text-[18px] cursor-pointer leading-6 font-semibold tracking-tight">
               <Product_Chart className="mr-3" /> Product Infographics
@@ -56,9 +61,12 @@ const NavContext = () => {
           </div>
         </div>
         <div>
-          <h1 className="flex items-center text-[22px] font-semibold leading-7 cursor-pointer text-[#0B002D] tracking-tight">
-            <ProducImajon className="mr-3" /> Amazon Services
-          </h1>
+          <Link href={"/amazoneservice"}>
+            <h1 className="flex items-center text-[22px] font-semibold leading-7 cursor-pointer text-[#0B002D] tracking-tight">
+              <ProducImajon className="mr-3" /> Amazon Services
+            </h1>
+          </Link>
+
           <div className="mt-3 ml-10">
             <p className="flex items-center text-[18px] cursor-pointer leading-6 font-semibold text-[#0B002D] tracking-tight">
               <Product_seo className="mr-3" /> SEO / Product copywriting

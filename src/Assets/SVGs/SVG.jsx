@@ -76,3 +76,34 @@ export { default as Graphics_seo } from "./graphics_seo.svg";
 export { default as Graphics_Simplify0 } from "./graphics_Simplify0.svg";
 export { default as Pattern_colarings } from "./Pattern-colarings.svg";
 
+export { default as Website } from "./Website.svg";
+export { default as Social_media } from "./social-media.svg";
+export { default as Email_marketing } from "./Marketing Email.svg";
+export { default as Ecommerce } from "./Ecommerce.svg";
+export { default as Advertisement } from "./Advertisement.svg";
+export { default as Press } from "./press.svg";
+export { default as Presentation } from "./presentation board.svg";
+export { default as Printer } from "./Printer.svg";
+export { default as Trade } from "./trade.svg";
+export { default as Display } from "./Display.svg";
+
+export { default as Info_arcticons_boost } from "./info_arcticons_boost.svg";
+export { default as Info_compative } from "./info_compative.svg";
+export { default as Info_customer } from "./info_customer-service.svg";
+export { default as Info_enhanced } from "./info_enhanced.svg";
+export { default as Info_improved } from "./info_improved.svg";
+export { default as Info_search } from "./info_search.svg";
+export { default as Info_shared } from "./info_shared.svg";
+
+
+export { default as Process_animation_icon } from "./process_animation.svg";
+export { default as Process_design } from "./process_design.svg";
+export { default as Process_integration } from "./process_integration.svg";
+export { default as Process_optimization_svgrepo } from "./process_optimization_svgrepo.com.svg";
+
+export { default as Be_emotion } from "./be_emotion.com.svg";
+export { default as Be_enhance } from "./be_enhance.svg";
+export { default as Be_improved } from "./be_improved.svg";
+export { default as Be_stand } from "./be_stand.svg";
+export { default as Be_increase } from "./be_increase.svg";
+

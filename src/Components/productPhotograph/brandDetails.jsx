@@ -14,11 +14,13 @@ import {
 } from "@/Assets/SVGs/SVG";
 import React from "react";
 import MyDetailsCard from "../Common/myDetailsCard";
+import Patter from "@/Assets/SVGs/Patter";
+import Patter_color from "@/Assets/SVGs/Patter_color";
 
 const BrandDetails = () => {
   return (
     <div className="container mx-auto">
-      <main className=" grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 lg:justify-items-center  gap-4  mt-12">
+      <main className=" grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 lg:justify-items-center  gap-8  mt-12">
         <MyDetailsCard
           LOGO={OurbrandeImg}
           H1="Reflects Your Brand Image"
@@ -92,10 +94,8 @@ const BrandDetails = () => {
           </p>
         </div>
       </section>
-      <section className="flex justify-between flex-col lg:flex-row mt-28 mx-4">
-        <div className="relative -top-14  lg:top-20">
-          <Pattern />
-        </div>
+      <section className="flex justify-center mt-28 mx-4 relative">
+        <Patter classNAME="absolute left-0 bottom-0 -z-10" />
         <div className="grid justify-items-center">
           <h1 className="text-center clip text-3xl leading-10 italic font-extrabold">
             Don't leave opportunities on the table
@@ -109,9 +109,7 @@ const BrandDetails = () => {
             <ZIcon /> Book a Zoom call
           </button>
         </div>
-        <div className="relative md:ml-[500px] lg:ml-0 sm:-top-20 lg:left-0">
-          <Pattern_colarings />
-        </div>
+        <Patter_color classNAME="absolute -top-28 xl:-top-24 xl:right-0 -right-16 -z-10" />
       </section>
     </div>
   );
