@@ -19,6 +19,9 @@
   .clip {
     @apply bg-clip-text text-transparent bg-gradient-to-r from-[#FC365A] to-[#A00BFB];
   }
+  .clip_secondary {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-[#FC365F] to-[#A00BFB];
+  }
 
   .cliptwo {
     @apply bg-clip-text text-transparent bg-gradient-to-r
@@ -95,4 +98,9 @@
 .blank_modes {
   background-blend-mode: multiply;
   background-color: #A7A7A7 ;
+}
+.absolute_center{
+  position: absolute;
+  left: -20%;
+  top: 45%;
 }

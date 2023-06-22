@@ -38,7 +38,6 @@ export { default as LogoLightEmail } from "./mdi-light_email.svg";
 export { default as LogoPhoneRound } from "./ic_round-phone.svg";
 export { default as LogoProductPaparazzi } from "./logoProductPaparazzi.svg";
 
-
 export { default as OurbrandeImg } from "./ourbrandeImg.svg";
 export { default as OurBuildsTrust } from "./ourBuildsTrust.svg";
 export { default as OurConnect } from "./ourConnect.svg";
@@ -95,7 +94,6 @@ export { default as Info_improved } from "./info_improved.svg";
 export { default as Info_search } from "./info_search.svg";
 export { default as Info_shared } from "./info_shared.svg";
 
-
 export { default as Process_animation_icon } from "./process_animation.svg";
 export { default as Process_design } from "./process_design.svg";
 export { default as Process_integration } from "./process_integration.svg";
@@ -107,3 +105,32 @@ export { default as Be_improved } from "./be_improved.svg";
 export { default as Be_stand } from "./be_stand.svg";
 export { default as Be_increase } from "./be_increase.svg";
 
+export { default as Amazon_accound } from "./amazon_accound.svg";
+export { default as Amazon_acos_roas } from "./amazon_acos_roas.svg";
+export { default as Amazon_automated_sponsored } from "./amazon_automated_sponsored.svg";
+export { default as Amazon_backend_search } from "./amazon_backend_search.svg";
+export { default as Amazon_brand } from "./amazon_brand.svg";
+export { default as Amazon_campaign_setup } from "./amazon_campaign_setup.svg";
+export { default as Amazon_comprehensive } from "./amazon_comprehensive.svg";
+export { default as Amazon_comprehensive_and } from "./amazon_comprehensive_and.svg";
+export { default as Amazon_comprehensive_copywriting } from "./amazon_comprehensive_copywriting.svg";
+export { default as Amazon_comprehensivesvg } from "./amazon_comprehensivesvg.svg";
+export { default as Amazon_cost_effective } from "./amazon_cost_effective.svg";
+export { default as Amazon_cretified_seo } from "./amazon_cretified_seo.svg";
+export { default as Amazon_customised_solutions } from "./amazon_customised_solutions.svg";
+export { default as Amazon_customized } from "./amazon_customized.svg";
+export { default as Amazon_data_driven } from "./amazon_data_driven.svg";
+export { default as Amazon_delivered_in } from "./amazon_delivered_in.svg";
+export { default as Amazon_experienced_certified } from "./amazon_experienced_certified.svg";
+export { default as Amazon_expertise } from "./amazon_expertise.svg";
+export { default as Amazon_five_informativesvg } from "./amazon_five_informativesvg.svg";
+export { default as Amazon_in_depth } from "./amazon_in_depth.svg";
+export { default as Amazon_keyword_research } from "./amazon_keyword_research.svg";
+export { default as Amazon_ongoing_support } from "./amazon_ongoing_support.svg";
+export { default as Amazon_peace_mind } from "./amazon_peace_mind.svg";
+export { default as Amazon_performanch_reporting } from "./amazon_performanch_reporting.svg";
+export { default as Amazon_ppc } from "./amazon_ppc.svg";
+export { default as Amazon_ppc_campaing } from "./amazon_ppc_campaing.svg";
+export { default as Amazon_ranking } from "./amazon_ranking.svg";
+export { default as Amazon_resuld_oriented } from "./amazon_resuld_oriented.svg";
+export { default as Amazon_results_drived } from "./amazon_results_drived.svg";
