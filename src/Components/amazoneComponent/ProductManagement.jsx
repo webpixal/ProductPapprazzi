@@ -26,13 +26,13 @@ const ProductManagement = () => {
             <span className="clip">Product Paparazzi Management</span> Services
             Your Ultimate <span className="clip">Amazon Success Partner</span>
           </h2>
-          <h6 className="italic text-[22px] leading-7 text-center lg:text-start 2xl:text-[32px] font-semibold 2xl:leading-10 tracking-tight mt-3">
+          <h6 className="italic text-[22px] leading-7 text-center lg:text-start 2xl:text-[32px] font-semibold 2xl:leading-10 tracking-tight mt-1 2xl:mt-3">
             Comprehensive{" "}
             <span className="clip">Amazon Account Management</span> to <br />
             Streamline Your{" "}
             <span className="clip">Business and Maximize Profitability</span>
           </h6>
-          <p className="text-base xl:text-xl font-semibold xl:leading-7 text-center lg:text-start text-[#494949] mt-3">
+          <p className="text-base xl:text-xl font-semibold xl:leading-7 text-center lg:text-start text-[#494949] mt-1 2xl:mt-3">
             In the ever-evolving Amazon marketplace, many sellers find
             themselves overwhelmed by the complex rules and processes.
             Maintaining a healthy Seller Account is crucial to scaling your
@@ -41,7 +41,7 @@ const ProductManagement = () => {
             account, allowing you to focus on growing your business while we
             handle every aspect of your Seller Central account.
             <br />
-            <br />
+            <br className="hidden 2xl:block"/>
             At Product Paparazzi, we understand that your time is precious. Our
             team of certified Amazon consultants will manage your Amazon
             account, freeing you to concentrate on planning and monitoring your
@@ -52,7 +52,7 @@ const ProductManagement = () => {
         <div className="">
           <Image
             src={amazonimage1}
-            className="w-[635px] h-[417px] lg:w-[600px] lg:h-[400px] 2xl:w-[735px] 2xl:h-[417px] mx-auto mt-8 xl:mt-0"
+            className="w-[635px] h-[417px] lg:w-[600px] lg:h-[417px] 2xl:w-[735px] 2xl:h-[417px] mx-auto mt-8 xl:mt-0"
           />
         </div>
       </section>
@@ -178,7 +178,7 @@ const ProductManagement = () => {
               P="We tailor our services to your unique needs and goals, providing personalized attention and support throughout the process."
             />
             <MyDetailsCard
-              CLASS="lg:max-w-[301px] grid justify-items-center lg:block"
+              CLASS="lg:max-w-[301px] grid justify-items-center lg:block md:ml-96"
               LOGO={Amazon_peace_mind}
               H1="Peace of Mind"
               P="With Product Paparazzi handling your Amazon account, you can rest easy knowing your business is in capable hands, leaving you free to focus on other aspects of growth."
