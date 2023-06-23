@@ -74,6 +74,10 @@
   }
 }
 
+.shadow_card_praimary {
+  box-shadow: 0px 0px 40px 0px rgba(160, 11, 251, 0.39);
+}
+
 .border_bottom {
   position: relative;
 }
@@ -98,15 +102,30 @@
 }
 .bg-color-blend-mode_3 {
   background-blend-mode: multiply;
-  background-color: #7879F1;
+  background-color: #7879f1;
+}
+.bg-color-blend-mode_linked{
+  background-blend-mode: multiply;
+  background-color: rgba(221, 53, 120, 0.49);
 }
 
 .blank_modes {
   background-blend-mode: multiply;
-  background-color: #A7A7A7;
+  background-color: #a7a7a7;
 }
 .absolute_center {
   position: absolute;
   left: -20%;
   top: 45%;
+}
+
+.cose::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 70px;
+  top: 10px;
+  transform: rotate(10deg);
+  left: 6px;
+  background-color: #fc365a;
 }

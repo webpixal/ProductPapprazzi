@@ -1,6 +1,7 @@
 import WebsiteDesignHero from "@/Components/websiteDesignComponent/websiteDesignHero";
 import React from "react";
 import { Fira_Sans_Extra_Condensed } from "next/font/google";
+import WebDesignBuild from "@/Components/websiteDesignComponent/webDesignBuild";
 
 const OpenSans = Fira_Sans_Extra_Condensed({
   subsets: ["latin"],
@@ -10,6 +11,7 @@ const index = () => {
   return (
     <div className={OpenSans.className}>
       <WebsiteDesignHero />
+      <WebDesignBuild />
     </div>
   );
 };

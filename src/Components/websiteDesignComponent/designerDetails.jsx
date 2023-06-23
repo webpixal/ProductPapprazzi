@@ -1,0 +1,116 @@
+import React from "react";
+import wesiteimg_1 from "../../Assets/img/web_design-1.png";
+import wesiteimg_2 from "../../Assets/img/web_design_2.png";
+import wesiteimg_3 from "../../Assets/img/web_design_3.png";
+import Image from "next/image";
+
+const DesignerDetails = () => {
+  return (
+    <>
+      <section className="lg:flex justify-between lg:gap-8 mx-4 mt-20">
+        <div className="lg:w-[50%]">
+          <h2 className="text-[28px] leading-[30px]  2xl:text-[48px] 2xl:leading-[50px] tracking-tight capitalize font-extrabold text-center lg:text-left italic ">
+            Are you looking for a{" "}
+            <span className="clip">website design and build a solution </span>
+          </h2>
+          <h6 className="italic text-[22px] leading-7 text-center lg:text-start 2xl:text-[32px] font-semibold 2xl:leading-10 tracking-tight mt-3 capitalize">
+            that offers{" "}
+            <span className="clip">
+              simple and complex options at competitive prices?
+            </span>{" "}
+            Look no further than our{" "}
+            <span className="clip">in-house Design & Technology.</span>
+          </h6>
+          <p className="text-base xl:text-xl font-semibold xl:leading-7 text-center lg:text-start mt-3 ">
+            We understand that every business has unique needs regarding website
+            design and development. Therefore, we offer simple website builds at
+            competitive prices and more complex and premium website development
+            options.
+            <br />
+            <br />
+            Our personalised website design and development approach includes
+            the latest technology and design trends to create efficient and
+            scalable web applications. We use a popular web development
+            technology stack that combines MongoDB, Express.js, React, and
+            Node.js, providing developers with the tools they need to create
+            highly efficient and scalable web applications.
+          </p>
+        </div>
+        <div className="max-h-[479px]">
+          <Image
+            src={wesiteimg_1}
+            className="w-[635px] h-[417px] lg:w-[600px] lg:h-[400px] 2xl:w-[775px] 2xl:h-[479px] mx-auto mt-8 xl:mt-0"
+          />
+        </div>
+      </section>
+
+      <section className="flex justify-between flex-col lg:flex-row  lg:gap-14 mx-4 mt-12">
+        <div className="max-h-[479px]">
+          <Image
+            src={wesiteimg_2}
+            className="w-[635px] h-[417px] lg:w-[600px] lg:h-[400px] 2xl:w-[775px] 2xl:h-[479px] mx-auto mt-8 xl:mt-0"
+          />
+        </div>
+        <div className="lg:w-[50%] mt-4 lg:mt-0">
+          <h2 className="text-[28px] leading-[30px]  2xl:text-[48px] 2xl:leading-[50px] tracking-tight capitalize font-extrabold text-center lg:text-left italic ">
+            Our mission is to{" "}
+            <span className="clip">
+              provide innovative and reliable website design and development
+              solutions
+            </span>{" "}
+            that help businesses of all sizes thrive in the digital world.
+          </h2>
+
+          <p className="text-base xl:text-xl font-semibold xl:leading-7 text-center lg:text-start mt-3 ">
+            We We are committed to using the latest technology and design
+            trends, personalised solutions, and flexible approaches to creating
+            efficient and scalable web applications. <br />
+            <br />
+            We aim to help clients achieve their business objectives by creating
+            user-friendly, visually appealing websites and optimised search
+            engines. In addition, we strive to build long-lasting relationships
+            with our clients by delivering exceptional customer service and
+            support and continuously improving our skills and expertise to meet
+            the ever-changing digital landscape demands.
+          </p>
+        </div>
+      </section>
+
+      <section className="flex justify-between flex-col lg:flex-row-reverse items-center 2xl:items-start lg:gap-14 mt-12 mx-4">
+        <div className="w-[600px] relative h-[500px] xl:h-[675px] 2xl:w-[775px] 2xl:h-[475px] ">
+          <Image
+            src={wesiteimg_3}
+            className="w-[635px] h-[417px] lg:w-[600px] lg:h-[400px] 2xl:w-[775px] 2xl:h-[479px] mx-auto mt-8 xl:mt-0"
+          />
+        </div>
+        <div className="lg:w-[50%]">
+          <h2 className="text-[28px] leading-[30px]  2xl:text-[48px] 2xl:leading-[50px] tracking-tight capitalize font-extrabold text-center lg:text-left italic ">
+            We wish to be{" "}
+            <span className="clip">
+              recognised as a leading website design and development company
+            </span>{" "}
+            that delivers{" "}
+            <span className="clip">
+              cutting-edge, innovative, customised solutions
+            </span>{" "}
+            to our clients.
+          </h2>
+          <p className="text-base xl:text-xl font-semibold xl:leading-7 text-center lg:text-start mt-3 ">
+            We aim to create websites that meet our client's needs and exceed
+            their expectations by providing exceptional user experience,
+            functionality, and visual appeal. We strive to be a company known
+            for its outstanding customer service and support and for
+            continuously evolving to meet the ever-changing digital landscape
+            demands. Our aim is to build long-lasting relationships with our
+            clients by delivering exceptional quality and value and being a
+            trusted partner in their business success. We envision a future
+            where our expertise and innovation will help businesses of all sizes
+            thrive in the digital world.
+          </p>
+        </div>
+      </section>
+    </>
+  );
+};
+
+export default DesignerDetails;

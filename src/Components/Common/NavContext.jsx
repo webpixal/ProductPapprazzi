@@ -100,9 +100,11 @@ const NavContext = () => {
             <Product_webbild className="mr-3" /> Website Builds
           </h2>
         </Link>
-        <h2 className="flex items-center text-[22px] font-semibold leading-7 text-black cursor-pointer  ">
-          <Product_linkedin_small className="mr-3" /> Linkedin services.
-        </h2>
+        <Link href={"/linkedinservices"}>
+          <h2 className="flex items-center text-[22px] font-semibold leading-7 text-black cursor-pointer  ">
+            <Product_linkedin_small className="mr-3" /> Linkedin services.
+          </h2>
+        </Link>
         <h2 className="flex items-center text-[22px] font-semibold leading-7 text-black cursor-pointer  ">
           <Product_Cv className="mr-3" /> CV services
         </h2>

@@ -160,3 +160,8 @@ export { default as Graphic_illustration } from "./graphic_illustration.svg";
 export { default as Graphic_packaging_design } from "./graphic_packaging_design.svg";
 export { default as Graphich_social_media } from "./graphich_social_media.svg";
 export { default as Groups_box } from "./Groups_box.svg";
+
+export { default as People_color } from "./people-color.svg";
+export { default as People_white } from "./pepole_white.svg";
+export { default as Check_color } from "./check_color.svg";
+export { default as Check_white } from "./check_white.svg";
