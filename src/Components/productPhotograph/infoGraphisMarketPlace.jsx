@@ -15,7 +15,7 @@ import body_bildre from "../../Assets/img/zim_man.png"
 import Patter_color from "@/Assets/SVGs/Patter_color";
 import Patter from "@/Assets/SVGs/Patter";
 import Image from "next/image";
-import MyDetailsCardTwo from "../Common/DetailsCardTwo";
+import MyDetailsCardTwo from "../Common/detailsCardTwo";
 
 const InfoGraphisMarketPlace = () => {
   return (
@@ -129,7 +129,7 @@ const InfoGraphisMarketPlace = () => {
               <ZIcon /> Book a Zoom call
             </button>
           </div>
-          <Patter_color classNAME="absolute -top-28 xl:-top-24 xl:right-0 -right-16 " />
+          <Patter_color classNAME="absolute hidden xl:block -top-28 xl:-top-24 xl:right-0 -right-16 " />
         </section>
       </div>
     </main>

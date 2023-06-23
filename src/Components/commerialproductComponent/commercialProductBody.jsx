@@ -147,7 +147,7 @@ const CommercialProductBody = () => {
             <Coloring_circle />
           </div>
         </div>
-        <div className="xl:w-[50%] mt-12 lg:mt-4">
+        <div className="xl:w-[50%] mt-80 xl:mt-5">
           <div>
             <h1 className="clip text-2xl xl:text-[48px] xl:leading-[60px] leading-8 italic mt-8 xl:mt-0 text-center xl:text-left clip">
               <span className="cliptwo">Why Choose</span> <br />
@@ -201,7 +201,7 @@ const CommercialProductBody = () => {
           </section>
         </div>
       </section>
-      <section className="flex justify-center relative lg:mt-28 mx-4 pb-56 lg:pb-48 mt-6">
+      <section className="flex justify-center relative  mx-4  mt-6">
         <Patter classNAME="absolute left-0 xl:-left-12 xl:top-20 top-36 " />
         <div className="grid justify-items-center">
           <h1 className="text-center clip text-3xl leading-10 italic font-extrabold clip">
@@ -216,7 +216,7 @@ const CommercialProductBody = () => {
             <ZIcon /> Book a Zoom call
           </button>
         </div>
-        <Patter_color classNAME="absolute -top-28 xl:-top-24 xl:right-0 -right-16 -z-10 md:z-10" />
+        <Patter_color classNAME="absolute -top-28 hidden xl:block xl:-top-24 xl:right-0 -right-16 -z-10 md:z-10" />
       </section>
     </main>
   );

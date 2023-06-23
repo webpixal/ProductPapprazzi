@@ -19,7 +19,7 @@ import {
   Box_dot,
   ZIcon,
 } from "@/Assets/SVGs/SVG";
-import MyDetailsCardTwo from "../Common/DetailsCardTwo";
+import MyDetailsCardTwo from "../Common/detailsCardTwo";
 import Patter from "@/Assets/SVGs/Patter";
 import Patter_color from "@/Assets/SVGs/Patter_color";
 const AmazonServices = () => {
@@ -195,7 +195,7 @@ const AmazonServices = () => {
               <ZIcon /> Book a Zoom call
             </button>
           </div>
-          <Patter_color classNAME="absolute -top-28 xl:-top-24 xl:right-0 -right-16 -z-10 md:z-10" />
+          <Patter_color classNAME="absolute hidden xl:block -top-28 xl:-top-24 xl:right-0 -right-16 -z-10 md:z-10" />
         </section>
       </div>
     </main>

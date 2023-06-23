@@ -14,7 +14,7 @@ import {
 } from "@/Assets/SVGs/SVG";
 import Img_sho from "../../Assets/img/Image 3 1.png";
 import Image from "next/image";
-import MyDetailsCardTwo from "../Common/DetailsCardTwo";
+import MyDetailsCardTwo from "../Common/detailsCardTwo";
 import Patter from "@/Assets/SVGs/Patter";
 import Patter_color from "@/Assets/SVGs/Patter_color";
 const InfoGraphics = () => {
@@ -125,7 +125,7 @@ const InfoGraphics = () => {
               <ZIcon /> Book a Zoom call
             </button>
           </div>
-          <Patter_color classNAME="absolute -top-28 xl:-top-24 xl:right-0 -right-16 " />
+          <Patter_color classNAME="absolute hidden xl:block -top-28 xl:-top-24 xl:right-0 -right-16 " />
         </section>
       </div>
     </main>

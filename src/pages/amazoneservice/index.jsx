@@ -2,7 +2,7 @@ import AmazonHero from '@/Components/amazoneComponent/amazoneHero'
 import React from 'react';
 import ExpertServices from "@/Components/amazoneComponent/expertServices"
 import { Fira_Sans_Extra_Condensed } from "next/font/google";
-import ProductManagement from '@/Components/amazoneComponent/ProductManagement';
+import ProductManagement from '@/Components/amazoneComponent/productManagement';
 import AmazonServices from '@/Components/amazoneComponent/amazonServices';
 const OpenSans = Fira_Sans_Extra_Condensed({
   subsets: ["latin"],

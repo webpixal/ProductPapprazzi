@@ -72,9 +72,6 @@ const ExpertServices = () => {
           <div className="absolute left-[-20%] xl:left-[-10%] top-[45%] 2xl:left-[0%]">
             <PlayIcon />
           </div>
-          {/* <div className="absolute -bottom-8 left-0 lg:-bottom-14 lg:-left-24 ">
-            <box_dot />
-          </div> */}
         </div>
         <div className="xl:w-[50%]">
           <div className="-ml-4 2xl:-ml-4">
@@ -202,7 +199,7 @@ const ExpertServices = () => {
             <ZIcon /> Book a Zoom call
           </button>
         </div>
-        <Patter_color classNAME="absolute -top-28 xl:-top-24 xl:right-0 -right-16 -z-10 md:z-10" />
+        <Patter_color classNAME="absolute hidden xl:block -top-28 xl:-top-24 xl:right-0 -right-16 -z-10 md:z-10" />
       </section>
     </main>
   );

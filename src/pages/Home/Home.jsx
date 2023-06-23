@@ -1,5 +1,5 @@
 import FasterWhay from "@/Components/HomeComponents/fasterWhay";
-import Hero from "@/Components/HomeComponents/Hero";
+import Hero from "@/Components/HomeComponents/hero";
 import OurPortfolio from "@/Components/HomeComponents/ourPortfolio";
 import Service from "@/Components/HomeComponents/service";
 import Steps from "@/Components/HomeComponents/steps";

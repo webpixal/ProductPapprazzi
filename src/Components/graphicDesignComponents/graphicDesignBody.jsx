@@ -2,7 +2,15 @@ import React from "react";
 import graphic_pic1 from "../../Assets/img/graphic_1.png";
 import Image from "next/image";
 import Patter_color from "@/Assets/SVGs/Patter_color";
-import { Graphic_branding_logo, Graphic_illustration, Graphic_marketing_materials, Graphic_packaging_design, Graphic_web_design, Graphich_social_media, ZIcon } from "@/Assets/SVGs/SVG";
+import {
+  Graphic_branding_logo,
+  Graphic_illustration,
+  Graphic_marketing_materials,
+  Graphic_packaging_design,
+  Graphic_web_design,
+  Graphich_social_media,
+  ZIcon,
+} from "@/Assets/SVGs/SVG";
 import Patter from "@/Assets/SVGs/Patter";
 import MyDetailsCard from "../Common/myDetailsCard";
 const GraphicDesignBody = () => {
@@ -73,7 +81,7 @@ const GraphicDesignBody = () => {
           P="Graphic designers create illustrations for books, magazines, websites, and other mediums. They use various techniques such as vector graphics, digital painting, and hand-drawn sketches to create unique and engaging visual content."
         />
       </section>
-      <section className="flex justify-center relative lg:mt-28 mx-4 pb-56 lg:pb-48 mt-6">
+      <section className="flex justify-center relative lg:mt-28 mx-4 mt-6">
         <Patter classNAME="absolute left-0 xl:-left-12 xl:top-20 top-36 " />
         <div className="grid justify-items-center">
           <h1 className="text-center clip text-3xl leading-10 italic font-extrabold clip">
@@ -88,7 +96,7 @@ const GraphicDesignBody = () => {
             <ZIcon /> Book a Zoom call
           </button>
         </div>
-        <Patter_color classNAME="absolute -top-28 xl:-top-24 xl:right-0 hidden lg:block -right-16 -z-10 md:z-10" />
+        <Patter_color classNAME="absolute  xl:block -top-28 xl:-top-24 xl:right-0 hidden  -right-16 -z-10 md:z-10" />
       </section>
     </main>
   );

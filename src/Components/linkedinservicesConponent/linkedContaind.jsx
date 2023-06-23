@@ -39,7 +39,7 @@ const LinkedContains = () => {
         </div>
       </section>
 
-      <section className="flex justify-between flex-col lg:flex-row  lg:gap-14 mx-4 mt-12">
+      <section className="flex justify-between flex-col lg:flex-row  lg:gap-14 mx-4 mt-20">
         <div className="max-h-[479px]">
           <Image
             src={linkedImg2}
@@ -66,7 +66,7 @@ const LinkedContains = () => {
           </p>
         </div>
       </section>
-      <section className="lg:flex justify-between lg:gap-8 mx-4 mt-20">
+      <section className="lg:flex justify-between lg:gap-8 mx-4 mt-20 2xl:mt-28">
         <div className="lg:w-[50%]">
           <h2 className="text-[28px] leading-[30px]  2xl:text-[48px] 2xl:leading-[50px] tracking-tight capitalize font-extrabold text-center lg:text-left italic clip">
           Don't stress, we're here to help.
@@ -96,7 +96,7 @@ const LinkedContains = () => {
         </div>
       </section>
 
-      <section className="flex justify-between flex-col lg:flex-row  lg:gap-14 mx-4 mt-12">
+      <section className="flex justify-between flex-col lg:flex-row  lg:gap-14 mx-4 mt-20">
         <div className="max-h-[479px]">
           <Image
             src={linkedImg4}

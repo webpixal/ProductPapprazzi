@@ -43,24 +43,26 @@ const PersonalBody = () => {
           <ul>
             Personalized infographics and plain white photography offer many
             benefits, including:
-            <li>
-              A unique and memorable way to showcase the people behind your
-              business and differentiate yourself from the competition.
-            </li>
-            <li>
-              A chance to build trust and confidence with your customers by
-              showcasing the real people behind the brand.
-            </li>
-            <li>
-              The ability to tell your brand's story in a visually engaging way,
-              making it easier for customers to understand and connect with your
-              message.
-            </li>
-            <li>
-              Increased engagement on social media and other platforms, as
-              personalized images are more likely to be shared and liked by
-              customers
-            </li>
+            <div className="ml-8 lg:w-[90%]">
+              <li className="list-disc ">
+                A unique and memorable way to showcase the people behind your
+                business and differentiate yourself from the competition.
+              </li>
+              <li className="list-disc">
+                A chance to build trust and confidence with your customers by
+                showcasing the real people behind the brand.
+              </li>
+              <li className="list-disc ">
+                The ability to tell your brand's story in a visually engaging
+                way, making it easier for customers to understand and connect
+                with your message.
+              </li>
+              <li className="list-disc ">
+                Increased engagement on social media and other platforms, as
+                personalized images are more likely to be shared and liked by
+                customers
+              </li>
+            </div>
           </ul>
         </div>
         <div>
@@ -85,9 +87,6 @@ const PersonalBody = () => {
           </div>
           <div className="absolute -bottom-8 left-0 lg:-bottom-14 lg:-left-24 ">
             <Box_dot />
-          </div>
-          <div className="absolute -bottom-8 left-0 lg:-bottom-14 lg:-left-24 ">
-            <box_dot />
           </div>
         </div>
         <div className="xl:w-[50%]">

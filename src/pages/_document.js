@@ -1,4 +1,4 @@
-import Footer from "@/Components/Common/Footer";
+import Footer from "@/Components/Common/footer";
 import Navbar from "@/Components/Common/navbar";
 import { Html, Head, Main, NextScript } from "next/document";
 

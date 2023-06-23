@@ -1,6 +1,6 @@
 import React from "react";
 import { Cart, Login, Logo } from "@/Assets/SVGs/SVG";
-import NavContext from "./NavContext";
+import NavContext from "./navContext";
 import { Fira_Sans_Extra_Condensed } from "next/font/google";
 import Link from "next/link";
 

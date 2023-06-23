@@ -109,7 +109,7 @@ const BrandDetails = () => {
             <ZIcon /> Book a Zoom call
           </button>
         </div>
-        <Patter_color classNAME="absolute -top-28 xl:-top-24 xl:right-0 -right-16 -z-10" />
+        <Patter_color classNAME="absolute hidden xl:block -top-28 xl:-top-24 xl:right-0 -right-16 -z-10" />
       </section>
     </div>
   );
