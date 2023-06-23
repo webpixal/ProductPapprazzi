@@ -134,3 +134,29 @@ export { default as Amazon_ppc_campaing } from "./amazon_ppc_campaing.svg";
 export { default as Amazon_ranking } from "./amazon_ranking.svg";
 export { default as Amazon_resuld_oriented } from "./amazon_resuld_oriented.svg";
 export { default as Amazon_results_drived } from "./amazon_results_drived.svg";
+
+export { default as Coloring_circle } from "./coloring_circle.svg";
+
+export { default as Commercial_competitive_pricing } from "./commercial_competitive_pricing.svg";
+export { default as Commercial_timely_delivey } from "./commercial_timely_delivey.svg";
+export { default as Commercial_customer_centric } from "./commercial_customer_centric.svg";
+export { default as Commercial_cutting_edge } from "./commercial_cutting_edge.svg";
+export { default as Commercial_industry } from "./commercial_industry.svg";
+export { default as Commercial_budget_friendly } from "./commercial_budget_friendly.svg";
+export { default as Commercial_post_production } from "./commercial_post_production.svg";
+export { default as Commercial_distribution } from "./commercial_distribution.svg";
+export { default as Commercial_production } from "./commercial_production.svg";
+export { default as Commercial_pre_product } from "./commercial_pre_product.svg";
+
+export { default as Personal_leverage_customer } from "./personal_leverage_customer.svg";
+export { default as Personal_display_on_website } from "./personal_display_on_website.com.svg";
+export { default as Personal_incorporate_into } from "./persoanl_incorporate_into.svg";
+export { default as Personal_utilise } from "./personal_utilise.svg";
+
+export { default as Graphic_branding_logo } from "./graphic_branding_logo.svg";
+export { default as Graphic_marketing_materials } from "./graphic_marketing_materials.svg";
+export { default as Graphic_web_design } from "./graphic_web_design.svg";
+export { default as Graphic_illustration } from "./graphic_illustration.svg";
+export { default as Graphic_packaging_design } from "./graphic_packaging_design.svg";
+export { default as Graphich_social_media } from "./graphich_social_media.svg";
+export { default as Groups_box } from "./Groups_box.svg";

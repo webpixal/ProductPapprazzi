@@ -33,7 +33,7 @@
         via-[#DD3578] via-[85.68%]
         to-[#81399D] to-[107.63%];
   }
-  
+
   .link {
     @apply relative rounded-full;
   }
@@ -47,9 +47,9 @@
   .video-docker::after {
     @apply content-[""] absolute w-[100%] h-[100%] top-0 left-0 bg-black bg-opacity-50 z-10;
   }
- .blank_mode{
-  @apply bg-blend-multiply bg-[#A7A7A7];
- }
+  .blank_mode {
+    @apply bg-blend-multiply bg-[#A7A7A7];
+  }
   .servicecard {
     @apply h-60 w-60 rounded-[18px] bg-white hover:shadow-xl shadow-gray-700 flex items-center justify-center flex-col;
   }
@@ -69,11 +69,9 @@
     @apply h-[56px] w-[160px] bg-white rounded-[6px];
   }
 
-  .border_right{
+  .border_right {
     @apply rounded-md bg-gradient-to-r from-[#FC365A] to-[#A00BFB] p-1;
   }
-
-
 }
 
 .border_bottom {
@@ -92,14 +90,22 @@
 
 .bg-color-blend-mode {
   background-blend-mode: multiply;
-  background-color: #F8BB54;
+  background-color: #f8bb54;
+}
+.bg-color-blend-mode_2 {
+  background-blend-mode: multiply;
+  background-color: #81399d;
+}
+.bg-color-blend-mode_3 {
+  background-blend-mode: multiply;
+  background-color: #7879F1;
 }
 
 .blank_modes {
   background-blend-mode: multiply;
-  background-color: #A7A7A7 ;
+  background-color: #A7A7A7;
 }
-.absolute_center{
+.absolute_center {
   position: absolute;
   left: -20%;
   top: 45%;

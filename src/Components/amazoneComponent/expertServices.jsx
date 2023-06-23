@@ -11,7 +11,10 @@ import {
   Amazon_customised_solutions,
   Amazon_data_driven,
   Amazon_cost_effective,
-  Amazon_ongoing_support
+  Amazon_ongoing_support,
+  Circle_Dash,
+  Box_dot,
+  Coloring_circle,
 } from "@/Assets/SVGs/SVG";
 import MyDetailsCard from "../Common/myDetailsCard";
 import amazon_img_7 from "../../Assets/img/amazon_7_content_marketing.png";
@@ -24,11 +27,11 @@ const ExpertServices = () => {
     <main className="container mx-auto">
       <section className="lg:flex justify-between lg:gap-8 mx-4 mt-18">
         <div className="lg:w-[50%]">
-          <h2 className="text-[28px] leading-[30px]  2xl:text-[48px] 2xl:leading-[50px] tracking-tight capitalize font-extrabold text-center lg:text-left italic">
+          <h2 className="text-[28px] leading-[30px]  2xl:text-[48px] 2xl:leading-[50px] tracking-tight capitalize font-extrabold text-center lg:text-left italic ">
             Master Your <span className="clip">Amazon PPC Campaigns</span> with
             Our <span className="clip">Expert Services</span>
           </h2>
-          <h6 className="italic text-[22px] leading-7 text-center lg:text-start 2xl:text-[32px] font-semibold 2xl:leading-10 tracking-tight mt-3 ">
+          <h6 className="italic text-[22px] leading-7 text-center lg:text-start 2xl:text-[32px] font-semibold 2xl:leading-10 tracking-tight mt-3 capitalize">
             <span className="clip">Boost Sales</span> and{" "}
             <span className="clip">Maximize Profit Margins</span> through{" "}
             <span className="clip">Effective PPC Management</span>
@@ -60,19 +63,25 @@ const ExpertServices = () => {
             layout="fill"
             className="rounded-3xl object-cover"
           />
+          <div className="absolute top-[-31px] right-0 lg:top-[-45px] lg:right-[-12px]">
+            <Circle_Dash />
+          </div>
+          <div className="absolute -bottom-8 left-0 lg:-bottom-14 lg:-left-24 ">
+            <Box_dot />
+          </div>
           <div className="absolute left-[-20%] xl:left-[-10%] top-[45%] 2xl:left-[0%]">
             <PlayIcon />
           </div>
-          <div className="absolute -bottom-8 left-0 lg:-bottom-14 lg:-left-24 ">
+          {/* <div className="absolute -bottom-8 left-0 lg:-bottom-14 lg:-left-24 ">
             <box_dot />
-          </div>
+          </div> */}
         </div>
         <div className="xl:w-[50%]">
-          <div>
+          <div className="-ml-4 2xl:-ml-4">
             <h1 className="clip text-2xl 2xl:text-[48px] xl:leading-10 2xl:leading-[60px] leading-5 italic mt-8 xl:mt-0 text-center xl:text-left 2xl:ml-4 clip">
               Our Comprehensive Amazon PPC Management Services
             </h1>
-            <p className="text-center lg:text-left">
+            <p className="text-center lg:text-left 2xl:ml-4">
               Our team of Amazon advertising specialists is dedicated to helping
               you harness the full potential of PPC campaigns. We offer a wide
               range of services, including
@@ -114,7 +123,7 @@ const ExpertServices = () => {
       </section>
 
       <section className="flex justify-between flex-col xl:flex-row-reverse items-center lg:gap-14 mt-8 mx-4 ">
-        <div className="w-[600px] h-[500px] xl:h-[675px] 2xl:w-[775px] 2xl:h-[875px] ">
+        <div className="w-[600px] relative h-[500px] xl:h-[675px] 2xl:w-[775px] 2xl:h-[875px] ">
           <Image
             src={amazon_img_9}
             width={742}
@@ -122,11 +131,14 @@ const ExpertServices = () => {
             // layout="fill"
             className="rounded-3xl object-cover"
           />
+          <div className="absolute top-[-31px] right-0 lg:top-[-45px] lg:right-[-12px]">
+            <Coloring_circle />
+          </div>
         </div>
         <div className="xl:w-[50%] mt-12 lg:mt-4">
           <div>
             <h1 className="clip text-2xl xl:text-[48px] xl:leading-[60px] leading-8 italic mt-8 xl:mt-0 text-center xl:text-left clip">
-            Why Choose Our Amazon PPC Services?
+              Why Choose Our Amazon PPC Services?
             </h1>
           </div>
           <section className=" grid grid-cols-1 md:grid-cols-2  justify-items-center  gap-8 mt-12 mx-4 lg:mx-0 text-center lg:text-left">

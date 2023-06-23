@@ -79,19 +79,27 @@ const NavContext = () => {
       </section>
       <div className="h-[1px] w-[552px] bgone relative left-48 -top-4"></div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 px-8">
-        <h2 className="flex items-center text-[22px] font-semibold leading-7 text-black cursor-pointer  tracking-tight">
-          <Product_personalguidance_personal className="mr-3" /> Personal
-          e-Commerce Portraits
-        </h2>
-        <h2 className="flex items-center text-[22px] font-semibold leading-7 text-black cursor-pointer  ">
-          <Product_home className="mr-3" /> Commercial Product videos
-        </h2>
-        <h2 className="flex items-center text-[22px] font-semibold leading-7 text-black cursor-pointer  ">
-          <Product_pan_graphic className="mr-3" /> Graphic Design Services
-        </h2>
-        <h2 className="flex items-center text-[22px] font-semibold leading-7 text-black cursor-pointer  ">
-          <Product_webbild className="mr-3" /> Website Builds
-        </h2>
+        <Link href={"/personalportal"}>
+          <h2 className="flex items-center text-[22px] font-semibold leading-7 text-black cursor-pointer  tracking-tight">
+            <Product_personalguidance_personal className="mr-3" /> Personal
+            e-Commerce Portraits
+          </h2>
+        </Link>
+        <Link href={"/commerialproduct"}>
+          <h2 className="flex items-center text-[22px] font-semibold leading-7 text-black cursor-pointer  ">
+            <Product_home className="mr-3" /> Commercial Product videos
+          </h2>
+        </Link>
+        <Link href={"/graphicdesign"}>
+          <h2 className="flex items-center text-[22px] font-semibold leading-7 text-black cursor-pointer  ">
+            <Product_pan_graphic className="mr-3" /> Graphic Design Services
+          </h2>
+        </Link>
+        <Link href={"/websitedesign"}>
+          <h2 className="flex items-center text-[22px] font-semibold leading-7 text-black cursor-pointer  ">
+            <Product_webbild className="mr-3" /> Website Builds
+          </h2>
+        </Link>
         <h2 className="flex items-center text-[22px] font-semibold leading-7 text-black cursor-pointer  ">
           <Product_linkedin_small className="mr-3" /> Linkedin services.
         </h2>
