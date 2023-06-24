@@ -13,6 +13,7 @@ import Rectangle_11 from "../../Assets/img/Rectangle 40.png";
 import Rectangle_12 from "../../Assets/img/Rectangle 41.png";
 import Image from "next/image";
 import { PlayButtonIcon } from "@/Assets/SVGs/SVG";
+import Link from "next/link";
 const OurPortfolio = () => {
   return (
     <div className="mt-[92px] mb-[92px]">
@@ -22,12 +23,17 @@ const OurPortfolio = () => {
           <h1 className="text-[64px] border_bottom font-semibold leading-[50px]">
             Portfolio
           </h1>
-          <p className="mt-4 text-[24px] text-center">
-            <span className="border_bottom ">All</span> White Background Product
-            Infographic Product Video Rotating Videos
-          </p>
+          <div className="mt-4 flex gap-4 text-[24px] text-center">   
+            <Link href="" className="border_bottom hover:clip">All</Link>
+            <Link href="" className="hover:clip">White Background</Link>
+            <Link href="" className="hover:clip">Product</Link>
+            <Link href="" className="hover:clip">Infographic</Link>
+            <Link href="" className="hover:clip">Product Video</Link>
+            <Link href="" className="hover:clip">Rotating</Link>
+            <Link href="" className="hover:clip">Videos</Link>
+          </div>
         </div>
-        <div className="flex flex-wrap justify-center items-center gap-7">
+        <div className="flex flex-wrap justify-center items-center gap-7 mt-8">
           <div className="servicecard">
             <Image src={Rectangle_1} width={240} height={240} />
           </div>

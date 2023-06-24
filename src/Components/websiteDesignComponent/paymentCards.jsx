@@ -1,13 +1,10 @@
-import React from 'react';
-import {
-  People_color,
-  People_white,
-} from "@/Assets/SVGs/SVG";
-import CommonTextLine from './commonTextLine';
+import React from "react";
+import { People_color, People_white } from "@/Assets/SVGs/SVG";
+import CommonTextLine from "./commonTextLine";
 const PaymentCards = () => {
   return (
     <div>
-          <section className="flex justify-between flex-col text-center w-[80%] xl:w-[60%] mx-auto mt-4">
+      <section className="flex justify-between flex-col text-center w-[80%] xl:w-[60%] mx-auto mt-4">
         <h2 className="text-xl leading-7 font-semibold italic xl:text-[32px] xl:leading-10 tracking-tight">
           We've got you covered Our website design and development services
           offer customized solutions at competitive prices.
@@ -18,7 +15,7 @@ const PaymentCards = () => {
           web applications that cater to your unique needs.
         </p>
       </section>
-      <section className="flex flex-col xl:flex-row justify-around items-center mt-28 gap-8 xl:gap-0">
+      <section className="flex flex-wrap justify-around items-center mt-28 gap-8 xl:gap-0">
         <div className="w-[376px] shadow_card_praimary h-[751px] p-6">
           <h1 className="text-[28px] uppercase font-bold">Etiam sapien</h1>
           <div className="flex items-center gap-1">
@@ -84,98 +81,118 @@ const PaymentCards = () => {
           </button>
         </div>
 
-        <div className="w-[376px] bg-[#6F1DF4] shadow_card_praimary h-[751px] p-6 relative xl:-top-16">
-          <h1 className="text-[28px] uppercase font-bold text-white">
-            Etiam sapien
-          </h1>
-          <div className="flex items-center gap-1">
-            <People_white />
-            <p className="text-base leading-[150%] text-white">5/50</p>
+        <div className="w-[376px] bg-[#6F1DF4] shadow_card_praimary h-[751px] relative xl:-top-16">
+          <div className="pt-6 px-6">
+            <h1 className="text-[28px] uppercase font-bold text-white">
+              Etiam sapien
+            </h1>
+            <div className="flex items-center gap-1">
+              <People_white />
+              <p className="text-base leading-[150%] text-white">5/50</p>
+            </div>
+            <div className="h-[2px] w-full bg-white my-3"></div>
           </div>
-          <div className="h-[2px] w-full bg-white my-3"></div>
-          <CommonTextLine
-            P={"Vemper consectetur non"}
-            textCloser="text-white" icon={false}
-          />
-          <CommonTextLine
-            P={"Blandit duis erat egestas"}
-            CLASS="mt-5"
-            textCloser="text-white"
-            icon={false}
-          />
-          <CommonTextLine
-            P={"Commodo ornare purus tellus"}
-            CLASS="mt-5"
-            textCloser="text-white"
-            icon={false}
-          />
-          <div className="ml-8">
+          <div className="h-6 w-full bg_card_item flex  items-center">
             <CommonTextLine
-              P={"Ante praesent in vel auctor"}
-              CLASS="mt-5"
+              P={"Vemper consectetur non"}
+              textCloser="text-white"
+              icon={false}
+              CLASS="px-6"
+            />
+          </div>
+          <div className="pb-6 px-6">
+            <CommonTextLine
+              P={"Blandit duis erat egestas"}
+              CLASS="mt-3"
               textCloser="text-white"
               icon={false}
             />
+            <div className="h-[1px] w-full bg-[#DD3578] my-[9px]"></div>
             <CommonTextLine
-              P={"Eget ut suscipit ipsum qua"}
-              CLASS="mt-5"
+              P={"Commodo ornare purus tellus"}
+              CLASS=""
+              textCloser="text-white"
+              icon={false}
+            />
+            <div className="h-[1px] w-full bg-[#DD3578] my-[9px]"></div>
+            <div className="ml-8">
+              <CommonTextLine
+                P={"Ante praesent in vel auctor"}
+                CLASS=""
+                textCloser="text-white"
+                icon={false}
+              />
+              <div className="h-[1px] w-full bg-[#DD3578] my-[9px]"></div>
+              <CommonTextLine
+                P={"Eget ut suscipit ipsum qua"}
+                CLASS=""
+                textCloser="text-white line-through"
+                icon={false}
+              />
+              <div className="h-[1px] w-full bg-[#DD3578] my-[9px]"></div>
+              <CommonTextLine
+                P={"Neque pellentesque pellentesque odio nunc condimentum id"}
+                CLASS=""
+                textCloser="line-through text-white"
+                icon={false}
+              />
+              <div className="h-[1px] w-full bg-[#DD3578] my-[9px]"></div>
+            </div>
+            <CommonTextLine
+              P={"Arcu eget tincidunt sit senect"}
+              CLASS=""
+              textCloser="text-white"
+              icon={false}
+            />
+            <div className="h-[1px] w-full bg-[#DD3578] my-[9px]"></div>
+            <CommonTextLine
+              P={"Luctus et at consequat consequat aliquam dolor"}
+              CLASS=""
               textCloser="text-white line-through"
               icon={false}
             />
+            <div className="h-[1px] w-full bg-[#DD3578] my-[9px]"></div>
             <CommonTextLine
-              P={"Neque pellentesque pellentesque odio nunc condimentum id"}
-              CLASS="mt-5"
-              textCloser="line-through text-white"
+              P={" Facilisi eget sollicitudin facilisi blandit in commodo"}
+              CLASS=""
+              textCloser="text-white line-through"
               icon={false}
             />
+            <div className="h-[1px] w-full bg-[#DD3578] my-[9px]"></div>
+            <CommonTextLine
+              P={"Perdiet augue elementum mattis morbi in"}
+              CLASS=""
+              textCloser="text-white line-through"
+              icon={false}
+            />
+            <div className="h-[1px] w-full bg-[#DD3578] my-[9px]"></div>
+            <CommonTextLine
+              P={"Sommodo purus gravida"}
+              CLASS=""
+              textCloser="text-white line-through"
+              icon={false}
+            />
+            <div className="h-[1px] w-full bg-[#DD3578] my-[9px]"></div>
+            <div className="flex items-center justify-between mt-8">
+              <h3 className="text-2xl leading-[120%] font-bold relative cose text-white">
+                234 900 ₽
+              </h3>
+              <h4 className="text-xl font-bold leading-[120%] text-white">
+                24 900 ₽
+              </h4>
+            </div>
+            <div className="h-[2px] w-full bg-white my-3"></div>
+            <div className="flex justify-between items-center">
+              <div className="bg-white h-[6px] w-[6px] rounded-full"></div>
+              <p className="text-white text-base">
+                or from 1800 ₽ installments
+              </p>
+              <div className="bg-white h-[6px] w-[6px] rounded-full"></div>
+            </div>
+            <button className="h-[48px] rounded-lg text-[#6F1DF4] mt-4 w-[328px] bg-white font-bold text-base px-6">
+              Reserved
+            </button>
           </div>
-          <CommonTextLine
-            P={"Arcu eget tincidunt sit senect"}
-            CLASS="mt-5"
-            textCloser="text-white"
-            icon={false}
-          />
-          <CommonTextLine
-            P={"Luctus et at consequat consequat aliquam dolor"}
-            CLASS="mt-5"
-            textCloser="text-white line-through"
-            icon={false}
-          />
-          <CommonTextLine
-            P={" Facilisi eget sollicitudin facilisi blandit in commodo"}
-            CLASS="mt-5"
-            textCloser="text-white line-through"
-            icon={false}
-          />
-          <CommonTextLine
-            P={"Perdiet augue elementum mattis morbi in"}
-            CLASS="mt-5"
-            textCloser="text-white line-through"
-            icon={false}
-          />
-          <CommonTextLine
-            P={"Sommodo purus gravida"}
-            CLASS="mt-5"
-            textCloser="text-white line-through"
-            icon={false}
-          />
-          <div className="flex items-center justify-between mt-8">
-            <h3 className="text-2xl leading-[120%] font-bold relative cose text-white">
-              234 900 ₽
-            </h3>
-            <h4 className="text-xl font-bold leading-[120%] text-white">
-              24 900 ₽
-            </h4>
-          </div>
-          <div className="h-[2px] w-full bg-white my-3"></div>
-          <div className="flex justify-between items-center">
-            <div className="bg-white h-[6px] w-[6px] rounded-full"></div>
-            <p className="text-white text-base">or from 1800 ₽ installments</p>
-            <div className="bg-white h-[6px] w-[6px] rounded-full"></div>
-          </div>
-          <button className="h-[48px] rounded-lg text-[#6F1DF4] mt-4 w-[328px] bg-white font-bold text-base px-6">
-            Reserved
-          </button>
         </div>
 
         <div className="w-[376px] shadow_card_praimary h-[751px] p-6">
@@ -244,7 +261,7 @@ const PaymentCards = () => {
         </div>
       </section>
     </div>
-  )
-}
+  );
+};
 
-export default PaymentCards
+export default PaymentCards;

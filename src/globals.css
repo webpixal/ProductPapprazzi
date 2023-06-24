@@ -33,6 +33,16 @@
         via-[#DD3578] via-[85.68%]
         to-[#81399D] to-[107.63%];
   }
+  .bg_card_item {
+    @apply bg-gradient-to-r
+        from-[#FFBC21] from-[-12.8%] 
+        via-[#FD843A] via-[3.38%] 
+        via-[#FC5554] via-[20.22%] 
+        via-[#FC365F] via-[39%] 
+        via-[#F02E6B] via-[61.01%]
+        via-[#DD3578] via-[85.68%]
+        to-[#81399D] to-[107.63%];
+  }
 
   .link {
     @apply relative rounded-full;

@@ -76,16 +76,11 @@ const DesignerDetails = () => {
         </div>
       </section>
 
-      <section className="flex justify-between flex-col lg:flex-row-reverse items-center 2xl:items-start lg:gap-14 mt-12 mx-4">
-        <div className="w-[600px] relative h-[500px] xl:h-[675px] 2xl:w-[775px] 2xl:h-[475px] ">
-          <Image
-            src={wesiteimg_3}
-            className="w-[635px] h-[417px] lg:w-[600px] lg:h-[400px] 2xl:w-[775px] 2xl:h-[479px] mx-auto mt-8 xl:mt-0"
-          />
-        </div>
+
+      <section className="lg:flex justify-between lg:gap-8 mx-4 mt-20">
         <div className="lg:w-[50%]">
           <h2 className="text-[28px] leading-[30px]  2xl:text-[48px] 2xl:leading-[50px] tracking-tight capitalize font-extrabold text-center lg:text-left italic ">
-            We wish to be{" "}
+          We wish to be{" "}
             <span className="clip">
               recognised as a leading website design and development company
             </span>{" "}
@@ -95,8 +90,9 @@ const DesignerDetails = () => {
             </span>{" "}
             to our clients.
           </h2>
+
           <p className="text-base xl:text-xl font-semibold xl:leading-7 text-center lg:text-start mt-3 ">
-            We aim to create websites that meet our client's needs and exceed
+          We aim to create websites that meet our client's needs and exceed
             their expectations by providing exceptional user experience,
             functionality, and visual appeal. We strive to be a company known
             for its outstanding customer service and support and for
@@ -107,6 +103,12 @@ const DesignerDetails = () => {
             where our expertise and innovation will help businesses of all sizes
             thrive in the digital world.
           </p>
+        </div>
+        <div className="max-h-[479px]">
+          <Image
+            src={wesiteimg_3}
+            className="w-[635px] h-[417px] lg:w-[600px] lg:h-[400px] 2xl:w-[775px] 2xl:h-[479px] mx-auto mt-8 xl:mt-0"
+          />
         </div>
       </section>
     </>

@@ -3,11 +3,16 @@ import PolegoneStape from "../Style/polegoneStape";
 import Photography from "../Style/photography";
 import Returning from "../Style/return";
 import { Circle, Groups_box } from "@/Assets/SVGs/SVG";
-
+import Image from "next/image";
+import stapImg from "../../Assets/img/stap_1.png"
 const Steps = () => {
   return (
-    <div className="mt-96 xl:mt-[92px] mb-[92px]">
-      <div className="2xl:container md:mx-auto">
+    <div className="mt-96 lg:mt-0 xl:mt-[92px] mb-[92px]">
+      <div className="container md:mx-auto">
+      <div className="flex justify-center items-center">
+       <Image src={stapImg} width={600} height={600} className="xl:hidden"/>
+       </div>
+        <div className="hidden xl:block">
         <div className="flex justify-center items-center">
           <div className="bg-left-bottom shadow-[-30px_60px_60px_10px_rgba(0,0,0,0.3)] rounded-full bg-gradient-to-r from-[#EBEAEA] from-[14.64%] to-[#FFFFFF] to-[85.36%] relative z-20 w-[468px] h-[468px] xl:w-[668px] xl:h-[668px]">
             <div className="rounded-full w-[420px] h-[420px] xl:w-[624px] xl:h-[624px] bg-[#F9F9F9] flex items-center relative mt-5 ml-5">
@@ -29,6 +34,7 @@ const Steps = () => {
             <PolegoneStape />
              <Photography />
             <Returning /> 
+          </div>
           </div>
         </div>
       </div>
