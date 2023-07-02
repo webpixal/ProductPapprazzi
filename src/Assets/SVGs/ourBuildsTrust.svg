@@ -3,12 +3,12 @@
 <path fill-rule="evenodd" clip-rule="evenodd" d="M27.7552 11.478L26.6827 10.5566L25.6931 10.642L15.0656 23.1902L11.4459 18.0227L10.4709 17.857L9.34231 18.6638L9.17413 19.6388L13.8273 26.2834L14.3563 26.5759L15.4702 26.6441L16.0406 26.3955L27.8259 12.4652L27.7552 11.478Z" fill="url(#paint1_linear_265_748)"/>
 <defs>
 <linearGradient id="paint0_linear_265_748" x1="-3.36823" y1="-3.19719" x2="41.4741" y2="3.25003" gradientUnits="userSpaceOnUse">
-<stop stop-color="#FC365F"/>
-<stop offset="0.984375" stop-color="#A00BFB"/>
+<stop stopColor="#FC365F"/>
+<stop offset="0.984375" stopColor="#A00BFB"/>
 </linearGradient>
 <linearGradient id="paint1_linear_265_748" x1="7.25707" y1="9.23633" x2="29.8831" y2="13.252" gradientUnits="userSpaceOnUse">
-<stop stop-color="#FC365F"/>
-<stop offset="0.984375" stop-color="#A00BFB"/>
+<stop stopColor="#FC365F"/>
+<stop offset="0.984375" stopColor="#A00BFB"/>
 </linearGradient>
 </defs>
 </svg>

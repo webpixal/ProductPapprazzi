@@ -10,7 +10,7 @@ const Patter_color = ({ classNAME }) => {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_272_553)">
+      <g clipPath="url(#clip0_272_553)">
         <path
           d="M174.855 108.303C176.592 108.303 178 106.895 178 105.158C178 103.421 176.592 102.012 174.855 102.012C173.118 102.012 171.71 103.421 171.71 105.158C171.71 106.895 173.118 108.303 174.855 108.303Z"
           fill="url(#paint0_linear_272_553)"
@@ -161,8 +161,8 @@ const Patter_color = ({ classNAME }) => {
           y2="102.673"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FC365F" />
-          <stop offset="0.984375" stop-color="#A00BFB" />
+          <stop stopColor="#FC365F" />
+          <stop offset="0.984375" stopColor="#A00BFB" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_272_553"
@@ -172,8 +172,8 @@ const Patter_color = ({ classNAME }) => {
           y2="102.673"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FC365F" />
-          <stop offset="0.984375" stop-color="#A00BFB" />
+          <stop stopColor="#FC365F" />
+          <stop offset="0.984375" stopColor="#A00BFB" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_272_553"
@@ -183,8 +183,8 @@ const Patter_color = ({ classNAME }) => {
           y2="102.652"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FC365F" />
-          <stop offset="0.984375" stop-color="#A00BFB" />
+          <stop stopColor="#FC365F" />
+          <stop offset="0.984375" stopColor="#A00BFB" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_272_553"
@@ -194,8 +194,8 @@ const Patter_color = ({ classNAME }) => {
           y2="102.652"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FC365F" />
-          <stop offset="0.984375" stop-color="#A00BFB" />
+          <stop stopColor="#FC365F" />
+          <stop offset="0.984375" stopColor="#A00BFB" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_272_553"
@@ -205,8 +205,8 @@ const Patter_color = ({ classNAME }) => {
           y2="102.673"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FC365F" />
-          <stop offset="0.984375" stop-color="#A00BFB" />
+          <stop stopColor="#FC365F" />
+          <stop offset="0.984375" stopColor="#A00BFB" />
         </linearGradient>
         <linearGradient
           id="paint5_linear_272_553"
@@ -216,8 +216,8 @@ const Patter_color = ({ classNAME }) => {
           y2="101.239"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FC365F" />
-          <stop offset="0.984375" stop-color="#A00BFB" />
+          <stop stopColor="#FC365F" />
+          <stop offset="0.984375" stopColor="#A00BFB" />
         </linearGradient>
         <linearGradient
           id="paint6_linear_272_553"
@@ -227,8 +227,8 @@ const Patter_color = ({ classNAME }) => {
           y2="102.712"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FC365F" />
-          <stop offset="0.984375" stop-color="#A00BFB" />
+          <stop stopColor="#FC365F" />
+          <stop offset="0.984375" stopColor="#A00BFB" />
         </linearGradient>
         <linearGradient
           id="paint7_linear_272_553"
@@ -238,8 +238,8 @@ const Patter_color = ({ classNAME }) => {
           y2="77.1674"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FC365F" />
-          <stop offset="0.984375" stop-color="#A00BFB" />
+          <stop stopColor="#FC365F" />
+          <stop offset="0.984375" stopColor="#A00BFB" />
         </linearGradient>
         <linearGradient
           id="paint8_linear_272_553"
@@ -249,8 +249,8 @@ const Patter_color = ({ classNAME }) => {
           y2="77.1674"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FC365F" />
-          <stop offset="0.984375" stop-color="#A00BFB" />
+          <stop stopColor="#FC365F" />
+          <stop offset="0.984375" stopColor="#A00BFB" />
         </linearGradient>
         <linearGradient
           id="paint9_linear_272_553"
@@ -260,8 +260,8 @@ const Patter_color = ({ classNAME }) => {
           y2="77.1462"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FC365F" />
-          <stop offset="0.984375" stop-color="#A00BFB" />
+          <stop stopColor="#FC365F" />
+          <stop offset="0.984375" stopColor="#A00BFB" />
         </linearGradient>
         <linearGradient
           id="paint10_linear_272_553"
@@ -271,8 +271,8 @@ const Patter_color = ({ classNAME }) => {
           y2="77.1462"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FC365F" />
-          <stop offset="0.984375" stop-color="#A00BFB" />
+          <stop stopColor="#FC365F" />
+          <stop offset="0.984375" stopColor="#A00BFB" />
         </linearGradient>
         <linearGradient
           id="paint11_linear_272_553"
@@ -282,8 +282,8 @@ const Patter_color = ({ classNAME }) => {
           y2="77.1674"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FC365F" />
-          <stop offset="0.984375" stop-color="#A00BFB" />
+          <stop stopColor="#FC365F" />
+          <stop offset="0.984375" stopColor="#A00BFB" />
         </linearGradient>
         <linearGradient
           id="paint12_linear_272_553"
@@ -293,8 +293,8 @@ const Patter_color = ({ classNAME }) => {
           y2="75.7421"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FC365F" />
-          <stop offset="0.984375" stop-color="#A00BFB" />
+          <stop stopColor="#FC365F" />
+          <stop offset="0.984375" stopColor="#A00BFB" />
         </linearGradient>
         <linearGradient
           id="paint13_linear_272_553"
@@ -304,8 +304,8 @@ const Patter_color = ({ classNAME }) => {
           y2="77.1462"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FC365F" />
-          <stop offset="0.984375" stop-color="#A00BFB" />
+          <stop stopColor="#FC365F" />
+          <stop offset="0.984375" stopColor="#A00BFB" />
         </linearGradient>
         <linearGradient
           id="paint14_linear_272_553"
@@ -315,8 +315,8 @@ const Patter_color = ({ classNAME }) => {
           y2="51.6613"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FC365F" />
-          <stop offset="0.984375" stop-color="#A00BFB" />
+          <stop stopColor="#FC365F" />
+          <stop offset="0.984375" stopColor="#A00BFB" />
         </linearGradient>
         <linearGradient
           id="paint15_linear_272_553"
@@ -326,8 +326,8 @@ const Patter_color = ({ classNAME }) => {
           y2="51.6613"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FC365F" />
-          <stop offset="0.984375" stop-color="#A00BFB" />
+          <stop stopColor="#FC365F" />
+          <stop offset="0.984375" stopColor="#A00BFB" />
         </linearGradient>
         <linearGradient
           id="paint16_linear_272_553"
@@ -337,8 +337,8 @@ const Patter_color = ({ classNAME }) => {
           y2="51.6521"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FC365F" />
-          <stop offset="0.984375" stop-color="#A00BFB" />
+          <stop stopColor="#FC365F" />
+          <stop offset="0.984375" stopColor="#A00BFB" />
         </linearGradient>
         <linearGradient
           id="paint17_linear_272_553"
@@ -348,8 +348,8 @@ const Patter_color = ({ classNAME }) => {
           y2="51.6521"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FC365F" />
-          <stop offset="0.984375" stop-color="#A00BFB" />
+          <stop stopColor="#FC365F" />
+          <stop offset="0.984375" stopColor="#A00BFB" />
         </linearGradient>
         <linearGradient
           id="paint18_linear_272_553"
@@ -359,8 +359,8 @@ const Patter_color = ({ classNAME }) => {
           y2="51.6613"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FC365F" />
-          <stop offset="0.984375" stop-color="#A00BFB" />
+          <stop stopColor="#FC365F" />
+          <stop offset="0.984375" stopColor="#A00BFB" />
         </linearGradient>
         <linearGradient
           id="paint19_linear_272_553"
@@ -370,8 +370,8 @@ const Patter_color = ({ classNAME }) => {
           y2="50.246"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FC365F" />
-          <stop offset="0.984375" stop-color="#A00BFB" />
+          <stop stopColor="#FC365F" />
+          <stop offset="0.984375" stopColor="#A00BFB" />
         </linearGradient>
         <linearGradient
           id="paint20_linear_272_553"
@@ -381,8 +381,8 @@ const Patter_color = ({ classNAME }) => {
           y2="51.6521"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FC365F" />
-          <stop offset="0.984375" stop-color="#A00BFB" />
+          <stop stopColor="#FC365F" />
+          <stop offset="0.984375" stopColor="#A00BFB" />
         </linearGradient>
         <linearGradient
           id="paint21_linear_272_553"
@@ -392,8 +392,8 @@ const Patter_color = ({ classNAME }) => {
           y2="26.1671"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FC365F" />
-          <stop offset="0.984375" stop-color="#A00BFB" />
+          <stop stopColor="#FC365F" />
+          <stop offset="0.984375" stopColor="#A00BFB" />
         </linearGradient>
         <linearGradient
           id="paint22_linear_272_553"
@@ -403,8 +403,8 @@ const Patter_color = ({ classNAME }) => {
           y2="26.1671"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FC365F" />
-          <stop offset="0.984375" stop-color="#A00BFB" />
+          <stop stopColor="#FC365F" />
+          <stop offset="0.984375" stopColor="#A00BFB" />
         </linearGradient>
         <linearGradient
           id="paint23_linear_272_553"
@@ -414,8 +414,8 @@ const Patter_color = ({ classNAME }) => {
           y2="26.1101"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FC365F" />
-          <stop offset="0.984375" stop-color="#A00BFB" />
+          <stop stopColor="#FC365F" />
+          <stop offset="0.984375" stopColor="#A00BFB" />
         </linearGradient>
         <linearGradient
           id="paint24_linear_272_553"
@@ -425,8 +425,8 @@ const Patter_color = ({ classNAME }) => {
           y2="26.1101"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FC365F" />
-          <stop offset="0.984375" stop-color="#A00BFB" />
+          <stop stopColor="#FC365F" />
+          <stop offset="0.984375" stopColor="#A00BFB" />
         </linearGradient>
         <linearGradient
           id="paint25_linear_272_553"
@@ -436,8 +436,8 @@ const Patter_color = ({ classNAME }) => {
           y2="26.1671"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FC365F" />
-          <stop offset="0.984375" stop-color="#A00BFB" />
+          <stop stopColor="#FC365F" />
+          <stop offset="0.984375" stopColor="#A00BFB" />
         </linearGradient>
         <linearGradient
           id="paint26_linear_272_553"
@@ -447,8 +447,8 @@ const Patter_color = ({ classNAME }) => {
           y2="24.7489"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FC365F" />
-          <stop offset="0.984375" stop-color="#A00BFB" />
+          <stop stopColor="#FC365F" />
+          <stop offset="0.984375" stopColor="#A00BFB" />
         </linearGradient>
         <linearGradient
           id="paint27_linear_272_553"
@@ -458,8 +458,8 @@ const Patter_color = ({ classNAME }) => {
           y2="26.1101"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FC365F" />
-          <stop offset="0.984375" stop-color="#A00BFB" />
+          <stop stopColor="#FC365F" />
+          <stop offset="0.984375" stopColor="#A00BFB" />
         </linearGradient>
         <linearGradient
           id="paint28_linear_272_553"
@@ -469,8 +469,8 @@ const Patter_color = ({ classNAME }) => {
           y2="0.66104"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FC365F" />
-          <stop offset="0.984375" stop-color="#A00BFB" />
+          <stop stopColor="#FC365F" />
+          <stop offset="0.984375" stopColor="#A00BFB" />
         </linearGradient>
         <linearGradient
           id="paint29_linear_272_553"
@@ -480,8 +480,8 @@ const Patter_color = ({ classNAME }) => {
           y2="0.66104"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FC365F" />
-          <stop offset="0.984375" stop-color="#A00BFB" />
+          <stop stopColor="#FC365F" />
+          <stop offset="0.984375" stopColor="#A00BFB" />
         </linearGradient>
         <linearGradient
           id="paint30_linear_272_553"
@@ -491,8 +491,8 @@ const Patter_color = ({ classNAME }) => {
           y2="0.651604"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FC365F" />
-          <stop offset="0.984375" stop-color="#A00BFB" />
+          <stop stopColor="#FC365F" />
+          <stop offset="0.984375" stopColor="#A00BFB" />
         </linearGradient>
         <linearGradient
           id="paint31_linear_272_553"
@@ -502,8 +502,8 @@ const Patter_color = ({ classNAME }) => {
           y2="0.651562"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FC365F" />
-          <stop offset="0.984375" stop-color="#A00BFB" />
+          <stop stopColor="#FC365F" />
+          <stop offset="0.984375" stopColor="#A00BFB" />
         </linearGradient>
         <linearGradient
           id="paint32_linear_272_553"
@@ -513,8 +513,8 @@ const Patter_color = ({ classNAME }) => {
           y2="0.661042"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FC365F" />
-          <stop offset="0.984375" stop-color="#A00BFB" />
+          <stop stopColor="#FC365F" />
+          <stop offset="0.984375" stopColor="#A00BFB" />
         </linearGradient>
         <linearGradient
           id="paint33_linear_272_553"
@@ -524,8 +524,8 @@ const Patter_color = ({ classNAME }) => {
           y2="-0.759112"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FC365F" />
-          <stop offset="0.984375" stop-color="#A00BFB" />
+          <stop stopColor="#FC365F" />
+          <stop offset="0.984375" stopColor="#A00BFB" />
         </linearGradient>
         <linearGradient
           id="paint34_linear_272_553"
@@ -535,8 +535,8 @@ const Patter_color = ({ classNAME }) => {
           y2="0.651602"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FC365F" />
-          <stop offset="0.984375" stop-color="#A00BFB" />
+          <stop stopColor="#FC365F" />
+          <stop offset="0.984375" stopColor="#A00BFB" />
         </linearGradient>
         <clipPath id="clip0_272_553">
           <rect

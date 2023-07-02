@@ -9,7 +9,7 @@ const Steps = () => {
   return (
     <div className="mt-96 lg:mt-0 xl:mt-[92px] mb-[92px]">
       <div className="container md:mx-auto">
-      <div className="flex justify-center items-center">
+      <div className="flex justify-center items-center select-none">
        <Image src={stapImg} width={600} height={600} className="xl:hidden"/>
        </div>
         <div className="hidden xl:block">
