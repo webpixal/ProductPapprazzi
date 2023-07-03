@@ -1,6 +1,6 @@
 import React from 'react'
 import { Polegone, Return} from '@/Assets/SVGs/SVG'
-const Returning = () => {
+export const Returning = () => {
   return (
     <div className='flex justify-between items-center relative'>
         <div>
@@ -16,5 +16,3 @@ const Returning = () => {
     </div>
   )
 }
-
-export default Returning

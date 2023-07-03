@@ -1,6 +1,6 @@
 import React from "react";
 
-const MyDetailsCardTwo = ({ LOGO, H1, P, CLASS }) => {
+export const MyDetailsCardTwo = ({ LOGO, H1, P, CLASS }) => {
   return (
     <div className={`md:w-[380px] lg:w-[410px] ${CLASS}`}>
       {LOGO ? <LOGO /> : ""}
@@ -11,5 +11,3 @@ const MyDetailsCardTwo = ({ LOGO, H1, P, CLASS }) => {
     </div>
   );
 };
-
-export default MyDetailsCardTwo;

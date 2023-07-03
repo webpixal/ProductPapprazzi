@@ -19,9 +19,9 @@ import {
   Box_dot,
   ZIcon,
 } from "@/Assets/SVGs/SVG";
-import MyDetailsCardTwo from "@/Components/Common/detailsCardTwo";
 import Patter from "@/Assets/SVGs/Patter";
 import Patter_color from "@/Assets/SVGs/Patter_color";
+import { MyDetailsCardTwo } from "../Common/detailsCardTwo";
 const AmazonServices = () => {
   return (
     <main

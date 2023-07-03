@@ -1,6 +1,6 @@
 import React from "react";
 import { Polegone, Photo } from "@/Assets/SVGs/SVG";
-const Photography = () => {
+export const Photography = () => {
   return (
     <div className="flex justify-between items-center relative ml-[76px]">
       <div>
@@ -14,5 +14,3 @@ const Photography = () => {
     </div>
   );
 };
-
-export default Photography;

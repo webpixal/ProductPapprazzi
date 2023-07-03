@@ -1,10 +1,10 @@
 import React from "react";
 import PolegoneStape from "@/Components/Style/PolegoneStape";
-import Photography from "@/Components/Style/photography";
-import Returning from "@/Components/Style/return";
 import { Circle, Groups_box } from "@/Assets/SVGs/SVG";
 import Image from "next/image";
 import stapImg from "../../Assets/img/stap_1.png"
+import { Photography } from "../Style/photography";
+import { Returning } from "../Style/return";
 const Steps = () => {
   return (
     <div className="mt-96 lg:mt-0 xl:mt-[92px] mb-[92px]">

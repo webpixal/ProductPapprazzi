@@ -17,7 +17,7 @@ import {
 import Link from "next/link";
 import React from "react";
 
-const NavContext = () => {
+export const NavContext = () => {
   return (
     <section className="h-[313px] w-[965px] bg-white">
       <section className="py-8 px-8 flex justify-between relative">
@@ -114,5 +114,3 @@ const NavContext = () => {
     </section>
   );
 };
-
-export default NavContext;
