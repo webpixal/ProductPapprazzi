@@ -1,5 +1,5 @@
 import React from "react";
-import PolegoneStape from "../Style/polegoneStape";
+import PolegoneStape from "../Style/PolegoneStape";
 import Photography from "../Style/photography";
 import Returning from "../Style/return";
 import { Circle, Groups_box } from "@/Assets/SVGs/SVG";
