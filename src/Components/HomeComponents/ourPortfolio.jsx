@@ -24,13 +24,13 @@ const OurPortfolio = () => {
             Portfolio
           </h1>
           <div className="mt-4 flex gap-4 text-[24px] text-center">   
-            <Link href="/" className="border_bottom hover:clip">All</Link>
-            <Link href="/" className="hover:clip">White Background</Link>
-            <Link href="/" className="hover:clip">Product</Link>
-            <Link href="/" className="hover:clip">Infographic</Link>
-            <Link href="/" className="hover:clip">Product Video</Link>
-            <Link href="/" className="hover:clip">Rotating</Link>
-            <Link href="/" className="hover:clip">Videos</Link>
+            <Link href="" className="border_bottom hover:clip">All</Link>
+            <Link href="" className="hover:clip">White Background</Link>
+            <Link href="" className="hover:clip">Product</Link>
+            <Link href="" className="hover:clip">Infographic</Link>
+            <Link href="" className="hover:clip">Product Video</Link>
+            <Link href="" className="hover:clip">Rotating</Link>
+            <Link href="" className="hover:clip">Videos</Link>
           </div>
         </div>
         <div className="flex flex-wrap justify-center items-center gap-7 mt-8">
