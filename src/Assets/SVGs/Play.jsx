@@ -2,7 +2,7 @@ import React from "react";
 
 const PlayIcon = ({ classNAME }) => {
   return (
-    <div className="absolute left-80">
+    <div className={classNAME}>
       <svg
         width="64"
         height="64"

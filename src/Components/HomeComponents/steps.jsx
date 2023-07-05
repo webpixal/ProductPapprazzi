@@ -1,15 +1,15 @@
 import React from "react";
-import PolegoneStape from "@/Components/Style/PolegoneStape";
+import PolegoneStape from "@/Components/Style/PolegoneStape"
+import Photography from "@/Components/Style/Photography";
+import Returning from "@/Components/Style/Return";
 import { Circle, Groups_box } from "@/Assets/SVGs/SVG";
 import Image from "next/image";
 import stapImg from "../../Assets/img/stap_1.png"
-import { Photography } from "../Style/photography";
-import { Returning } from "../Style/return";
 const Steps = () => {
   return (
     <div className="mt-96 lg:mt-0 xl:mt-[92px] mb-[92px]">
       <div className="container md:mx-auto">
-      <div className="flex justify-center items-center select-none">
+      <div className="flex justify-center items-center">
        <Image src={stapImg} width={600} height={600} className="xl:hidden"/>
        </div>
         <div className="hidden xl:block">

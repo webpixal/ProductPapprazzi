@@ -5,22 +5,22 @@
 </g>
 <defs>
 <linearGradient id="paint0_linear_280_915" x1="-3.60276" y1="-9.42857" x2="40.055" y2="-4.32743" gradientUnits="userSpaceOnUse">
-<stop stopColor="#FFBC21"/>
-<stop offset="0.1344" stopColor="#FD843A"/>
-<stop offset="0.2742" stopColor="#FC5554"/>
-<stop offset="0.4301" stopColor="#FC365F"/>
-<stop offset="0.6129" stopColor="#F02E6B"/>
-<stop offset="0.817759" stopColor="#DD3578"/>
-<stop offset="1" stopColor="#81399D"/>
+<stop stop-color="#FFBC21"/>
+<stop offset="0.1344" stop-color="#FD843A"/>
+<stop offset="0.2742" stop-color="#FC5554"/>
+<stop offset="0.4301" stop-color="#FC365F"/>
+<stop offset="0.6129" stop-color="#F02E6B"/>
+<stop offset="0.817759" stop-color="#DD3578"/>
+<stop offset="1" stop-color="#81399D"/>
 </linearGradient>
 <linearGradient id="paint1_linear_280_915" x1="3.47184" y1="3.99107" x2="22.0807" y2="5.72712" gradientUnits="userSpaceOnUse">
-<stop stopColor="#FFBC21"/>
-<stop offset="0.1344" stopColor="#FD843A"/>
-<stop offset="0.2742" stopColor="#FC5554"/>
-<stop offset="0.4301" stopColor="#FC365F"/>
-<stop offset="0.6129" stopColor="#F02E6B"/>
-<stop offset="0.817759" stopColor="#DD3578"/>
-<stop offset="1" stopColor="#81399D"/>
+<stop stop-color="#FFBC21"/>
+<stop offset="0.1344" stop-color="#FD843A"/>
+<stop offset="0.2742" stop-color="#FC5554"/>
+<stop offset="0.4301" stop-color="#FC365F"/>
+<stop offset="0.6129" stop-color="#F02E6B"/>
+<stop offset="0.817759" stop-color="#DD3578"/>
+<stop offset="1" stop-color="#81399D"/>
 </linearGradient>
 <clipPath id="clip0_280_915">
 <rect width="33" height="32" fill="white"/>

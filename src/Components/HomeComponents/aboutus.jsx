@@ -35,15 +35,17 @@ const AboutUs = () => {
               competitive e-commerce landscape
             </p>
           </div>
-          <div className="flex items-center overflow-hidden justify-between w-[773px] h-[438px]   lg:w-[773px] lg:h-[438px] relative ">
+          <div className="relative ">
             {/* aboutImage */}
             {/* <div className=" absolute rounded-3xl bg-black opacity-[3%] top-0 w-[773px] h-[438px] left-[-236px]"></div> */}
             <Image
-              className="object-cover overflow-hidden rounded-3xl mt-8 lg:mt-0 w-[778px] h-[438px]"
+              width={500}
+              height={500}
+              className="object-cover overflow-hidden rounded-3xl mt-8 lg:mt-0 w-[500px] xl:w-[778px] h-[438px] mx-auto"
               src="/Images/video.png"
-              layout="fill"
+              // layout="fill"
             />
-            <PlayIcon />
+            <PlayIcon classNAME="absolute top-52 left-52 lg:left-48 xl:left-[300px] 2xl:left-[350px]"/>
           </div>
         </div>
         <div className="flex justify-between items-center h-[110px] mt-16 mx-4 gap-4 lg:mt-[28px]">
