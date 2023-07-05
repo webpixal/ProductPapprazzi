@@ -14,7 +14,7 @@ import {
 } from "@/Assets/SVGs/SVG";
 import Img_sho from "../../Assets/img/Image 3 1.png";
 import Image from "next/image";
-import MyDetailsCardTwo from "../Common/detailsCardTwo";
+import MyDetailsCardTwo from "@/Components/Common/DetailsCardTwo";
 import Patter from "@/Assets/SVGs/Patter";
 import Patter_color from "@/Assets/SVGs/Patter_color";
 const InfoGraphics = () => {

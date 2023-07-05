@@ -1,7 +1,7 @@
 import React from "react";
-import PolegoneStape from "../Style/polegoneStape";
-import Photography from "../Style/photography";
-import Returning from "../Style/return";
+import PolegoneStape from "@/Components/Style/PolegoneStape"
+import Photography from "@/Components/Style/Photography";
+import Returning from "@/Components/Style/Return";
 import { Circle, Groups_box } from "@/Assets/SVGs/SVG";
 import Image from "next/image";
 import stapImg from "../../Assets/img/stap_1.png"

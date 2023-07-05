@@ -6,6 +6,9 @@
   .bgone {
     @apply bg-gradient-to-r from-[#FC365A] from-[-10%] to-[#A00BFB] to-[96.82%];
   }
+  .bgone_calender {
+    @apply bg-gradient-to-r from-[#FC365A] from-[-10%] to-[#A00BFB] to-[96.82%] text-[#fff];
+  }
   .bgtwo {
     @apply bg-gradient-to-r
         from-[#FFBC21] from-[-12.8%] 
@@ -106,6 +109,10 @@
   background-blend-mode: multiply;
   background-color: #f8bb54;
 }
+.bg-color-blend-mode_contact_us {
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.5);
+}
 .bg-color-blend-mode_2 {
   background-blend-mode: multiply;
   background-color: #81399d;
@@ -114,7 +121,7 @@
   background-blend-mode: multiply;
   background-color: #7879f1;
 }
-.bg-color-blend-mode_linked{
+.bg-color-blend-mode_linked {
   background-blend-mode: multiply;
   background-color: rgba(221, 53, 120, 0.49);
 }

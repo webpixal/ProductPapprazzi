@@ -1,6 +1,6 @@
 import React from "react";
 import Btn_Zoom from "../Common/btn_Zoom";
-import LinkedContains from "./LinkedContaind";
+import LinkedContains from "@/Components/linkedinservicesConponent/linkedContaind";
 
 const LinkedBody = () => {
   return (

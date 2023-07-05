@@ -9,7 +9,7 @@ const OpenSans = Fira_Sans_Extra_Condensed({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
 
-const index = () => {
+const Index = () => {
   return (
     <div className={OpenSans.className}>
     <AmazonHero />
@@ -20,4 +20,4 @@ const index = () => {
   )
 }
 
-export default index
+export default Index

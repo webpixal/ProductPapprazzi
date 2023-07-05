@@ -19,7 +19,7 @@ import {
   Box_dot,
   ZIcon,
 } from "@/Assets/SVGs/SVG";
-import MyDetailsCardTwo from "../Common/detailsCardTwo";
+import MyDetailsCardTwo from "@/Components/Common/DetailsCardTwo";
 import Patter from "@/Assets/SVGs/Patter";
 import Patter_color from "@/Assets/SVGs/Patter_color";
 const AmazonServices = () => {

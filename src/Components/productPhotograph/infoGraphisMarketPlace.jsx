@@ -15,7 +15,7 @@ import body_bildre from "../../Assets/img/zim_man.png"
 import Patter_color from "@/Assets/SVGs/Patter_color";
 import Patter from "@/Assets/SVGs/Patter";
 import Image from "next/image";
-import MyDetailsCardTwo from "../Common/detailsCardTwo";
+import MyDetailsCardTwo from "@/Components/Common/DetailsCardTwo";
 
 const InfoGraphisMarketPlace = () => {
   return (

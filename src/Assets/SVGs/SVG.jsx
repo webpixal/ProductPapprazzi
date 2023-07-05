@@ -165,3 +165,14 @@ export { default as People_color } from "./people-color.svg";
 export { default as People_white } from "./pepole_white.svg";
 export { default as Check_color } from "./check_color.svg";
 export { default as Check_white } from "./check_white.svg";
+export { default as Frame } from "./Frame.svg";
+
+export { default as Contact_phone } from "./contact_phone.svg";
+export { default as Contact_location } from "./contact_location.svg";
+export { default as Contact_email } from "./contact_email.svg";
+
+export { default as Meting_logo_1 } from "./meet_logo_1.svg";
+export { default as Meting_logo_2 } from "./meet_logo_2.svg";
+export { default as Meting_ei_clock } from "./metting_ei_clock.svg";
+export { default as Meting_right_arro } from "./metting_right_arros.svg";
+export { default as Meting_what } from "./metting_what.svg";
