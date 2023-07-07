@@ -12,6 +12,7 @@ function Home() {
     <main className={OpenSans.className}>
       <Homes />
     </main>
+    
   );
 }
 export default Home;
