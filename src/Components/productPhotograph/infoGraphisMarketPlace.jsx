@@ -8,14 +8,15 @@ import {
   Info_search,
   Info_shared,
   I,
-  ZIcon
+  ZIcon,
 } from "@/Assets/SVGs/SVG";
-import body_bildre from "../../Assets/img/zim_man.png"
+import body_bildre from "../../Assets/img/zim_man.png";
 
 import Patter_color from "@/Assets/SVGs/Patter_color";
 import Patter from "@/Assets/SVGs/Patter";
 import Image from "next/image";
 import MyDetailsCardTwo from "@/Components/Common/DetailsCardTwo";
+import Btn_Zoom from "../Common/btn_Zoom";
 
 const InfoGraphisMarketPlace = () => {
   return (
@@ -114,23 +115,7 @@ const InfoGraphisMarketPlace = () => {
             </p>
           </div>
         </section>
-        <section className="flex justify-center relative lg:mt-28 mx-4 pb-48 mt-6">
-          <Patter classNAME="absolute left-0 top-36 " />
-          <div className="grid justify-items-center">
-            <h1 className="text-center clip text-3xl leading-10 italic font-extrabold cliptwo">
-              Don't leave opportunities on the table
-            </h1>
-            <p className="text-center italic text-2xl font-semibold leading-8 mt-3 relative z-10 text-white">
-              Book a Zoom call with us today to learn more about our <br />
-              White background Photography and enhance your product images and
-              boost your sales success.
-            </p>
-            <button className="btn_light_primary2 mt-8 flex items-center justify-center  text-white">
-              <ZIcon /> Book a Zoom call
-            </button>
-          </div>
-          <Patter_color classNAME="absolute hidden xl:block -top-28 xl:-top-24 xl:right-0 -right-16 " />
-        </section>
+        <Btn_Zoom colorTrue={true} />
       </div>
     </main>
   );

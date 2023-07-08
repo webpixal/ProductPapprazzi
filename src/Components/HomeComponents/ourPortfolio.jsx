@@ -52,37 +52,37 @@ const OurPortfolio = () => {
           <div className="servicecard">
             <Image src={Rectangle_6} width={240} height={240} />
           </div>
-          <div className="servicecard relative">
+          <div className="servicecard ">
             <Image src={Rectangle_7} width={240} height={240} />
             <div className="absolute top-20 left-20">
               <PlayButtonIcon />
             </div>
           </div>
-          <div className="servicecard relative">
+          <div className="servicecard ">
             <Image src={Rectangle_8} width={240} height={240} />
             <div className="absolute top-20 left-20">
               <PlayButtonIcon />
             </div>
           </div>
-          <div className="servicecard relative">
+          <div className="servicecard ">
             <Image src={Rectangle_9} width={240} height={240} />
             <div className="absolute top-20 left-20">
               <PlayButtonIcon />
             </div>
           </div>
-          <div className="servicecard relative">
+          <div className="servicecard ">
             <Image src={Rectangle_10} width={240} height={240} />
             <div className="absolute top-20 left-20">
               <PlayButtonIcon />
             </div>
           </div>
-          <div className="servicecard relative">
+          <div className="servicecard ">
             <Image src={Rectangle_11} width={240} height={240} />
             <div className="absolute top-20 left-20">
               <PlayButtonIcon />
             </div>
           </div>
-          <div className="servicecard relative">
+          <div className="servicecard ">
             <Image src={Rectangle_12} width={240} height={240} />
             <div className="absolute top-20 left-20">
               <PlayButtonIcon />
