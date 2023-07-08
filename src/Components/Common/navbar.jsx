@@ -1,12 +1,13 @@
 import React from "react";
 import { Cart, Login, Logo } from "@/Assets/SVGs/SVG";
-import { Fira_Sans_Extra_Condensed } from "next/font/google";
 import Link from "next/link";
-// import NavContext from "@/Components/Common/navContext";
-const OpenSans = Fira_Sans_Extra_Condensed({
+
+import { Open_Sans } from "next/font/google";
+const OpenSans = Open_Sans({
   subsets: ["latin"],
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+  weight: [ "300", "400", "500", "600", "700", "800"],
 });
+
 import {
   Line_left,
   ProducImajon,
@@ -28,11 +29,11 @@ const Navbar = () => {
     <div
       className={`bg-black drop-shadow-[0px_25px_13px_rgba(0,0,0,26%)] w-full h-[130px]  ${OpenSans.className}`}
     >
-      <div className="2xl:container md:mx-auto">
-        <div className=" flex justify-between mx-32 items-center h-[131px] ">
+      <div className="md:mx-auto">
+        <div className=" flex justify-between mx-8 lg:mx-32 items-center h-[131px] ">
           <div>
             {/* Logo */}
-            <Logo className="w[170px] h-full" />
+           <Link href="/"> <Logo className="w-[170px] h-full" /></Link>
           </div>
           {/* <div className="flex items-center">
             <p color="text-white ">Call Us : +44 (0) 1234 567890 </p>
@@ -54,7 +55,7 @@ const Navbar = () => {
                 <Link href={"/"}>Home</Link>
               </li>
               <li className="md:ml-8 text-lg text-white font-light hover:cliptwo">
-                <Link href={"/"}>About Us</Link>
+                <Link href={"#about"}>About Us</Link>
               </li>
               <li className="md:ml-8 text-lg text-white font-light hover:cliptwo relative group h-24 -mb-16">
                 <p className="cursor-pointer group-hover:block">Services</p>

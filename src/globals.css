@@ -87,6 +87,9 @@
   }
 }
 
+*{
+  scroll-behavior: smooth;
+}
 .shadow_card_praimary {
   box-shadow: 0px 0px 40px 0px rgba(160, 11, 251, 0.39);
 }

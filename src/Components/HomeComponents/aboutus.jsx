@@ -4,7 +4,7 @@ import Image from "next/image";
 import PlayIcon from "@/Assets/SVGs/Play";
 const AboutUs = () => {
   return (
-    <div className="mt-[92px] mb-[92px]">
+    <div className="mt-[92px] mb-[92px]" id="about">
       <div className="container mx-auto">
         <div className="flex justify-between flex-col lg:flex-row gap-3 items-center mx-4 lg:h-[473px]">
           <div

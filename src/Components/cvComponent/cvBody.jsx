@@ -17,8 +17,7 @@ const CvBody = () => {
           <h2 className="text-[28px] leading-[30px]  2xl:text-[48px] 2xl:leading-[50px] tracking-tight capitalize font-extrabold text-center lg:text-left italic ">
             Are you tired of{" "}
             <span className="clip">your outdated, bland CV getting lost</span>{" "}
-            in the sea of
-            <span className="clip">job applications?</span>
+            in the sea of <span className="clip">job applications?</span>
           </h2>
           <h6 className="italic text-[22px] leading-7 text-center lg:text-start 2xl:text-[32px] font-semibold 2xl:leading-10 tracking-tight mt-3 capitalize">
             Do you want{" "}

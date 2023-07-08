@@ -74,7 +74,7 @@ const Hero = () => {
           impressions, compelling them to explore and engage with your brand
           further.
         </p>
-        <Link href="/deshboard">
+        <Link href="">
           <button className=" bgone link w-[123px] h-[48px] text-white mt-[31px]">
             <span className="z-50 relative">Read More</span>
           </button>
