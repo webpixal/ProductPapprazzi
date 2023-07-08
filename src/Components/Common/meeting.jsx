@@ -10,19 +10,18 @@ import React, { useEffect, useRef, useState } from "react";
 import Calendar from "react-calendar";
 import "react-calendar/dist/Calendar.css";
 const Meeting = ({ handelClose }) => {
-
-  const [dataSelect, setDataSelect] = useState(false)
+  const [dataSelect, setDataSelect] = useState(false);
   const dateRef = useRef(null);
   useEffect(() => {
     dateRef.current.classList.add("bgone_calender");
   }, [dataSelect]);
 
   const handelClickTimerClick = () => {
-    dateRef.current.classList.add("bgone_calender")
-    console.log("first")
+    dateRef.current.classList.add("bgone_calender");
+    console.log("first");
   };
 
-  console.log(dateRef)
+  console.log(dateRef);
 
   const [selectedTime, setSelectedTime] = useState({
     t9000: false,
@@ -53,10 +52,10 @@ const Meeting = ({ handelClose }) => {
   const [value, onChange] = useState(new Date());
 
   return (
-    <main className=" fixed top-[50%] left-[50%]  translate-x-[-50%] translate-y-[-50%] h-[38rem] min-[1400px]:h-[42rem] w-[600px] min-[1250px]:w-[75rem]   rounded-[1.5625rem] bg-[#fff] shadow-md z-50 flex justify-between flex-col min-[1250px]:flex-row p-4 overflow-y-scroll  min-[1250px]:overflow-hidden overflow-x-hidden">
-      <section className="mx-auto">
+    <main className=" fixed top-[50%] left-[50%]  translate-x-[-50%] translate-y-[-50%] h-[38rem] min-[1400px]:h-[42rem] w-[600px] min-[1250px]:w-[75rem]   rounded-[1.5625rem] bg-[#fff] shadow-md z-50 flex justify-between flex-col min-[1250px]:flex-row p-4 overflow-y-scroll  min-[1250px]:overflow-hidden overflow-x-hidden shadow_calender animate-top">
+      <section className="mx-auto ">
         <div className="w-[522px] ">
-        {/* min-[1250px]:w-auto max-h-[580px] overflow-y-scroll min-[1400px]:max-h-[100%] min-[1400px]:overflow-y-hidden */}
+          {/* min-[1250px]:w-auto max-h-[580px] overflow-y-scroll min-[1400px]:max-h-[100%] min-[1400px]:overflow-y-hidden */}
           <div className="flex">
             <div className="relative w-40">
               <Meting_logo_1 />

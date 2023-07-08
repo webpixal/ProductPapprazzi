@@ -78,7 +78,7 @@ const CommercialProductBody = () => {
           <div className="absolute -bottom-8 left-0 lg:-bottom-14 lg:-left-24 ">
             <Box_dot />
           </div>
-          <div className="absolute left-[-20%] xl:left-[-10%] top-[45%] 2xl:left-[0%]">
+          <div className="absolute left-[45%] xl:left-[45%]  top-[45%] ">
             <PlayIcon />
           </div>
         </div>
