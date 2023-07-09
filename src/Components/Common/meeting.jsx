@@ -10,45 +10,72 @@ import React, { useEffect, useRef, useState } from "react";
 import Calendar from "react-calendar";
 import "react-calendar/dist/Calendar.css";
 const Meeting = ({ handelClose }) => {
-  const [dataSelect, setDataSelect] = useState(false);
-  const dateRef = useRef(null);
-  useEffect(() => {
-    dateRef.current.classList.add("bgone_calender");
-  }, [dataSelect]);
+  // const [dataSelect, setDataSelect] = useState(false);
+  // const dateRef = useRef(null);
+  // useEffect(() => {
+  //   dateRef.current.classList.add("bgone_calender");
+  // }, [dataSelect]);
 
-  const handelClickTimerClick = () => {
-    dateRef.current.classList.add("bgone_calender");
-    console.log("first");
+  const [selectedId, setSelectedId] = useState();
+  const handelClickTimerClick = (id) => {
+    setSelectedId(id);
   };
 
-  console.log(dateRef);
+  // console.log(dateRef);
 
-  const [selectedTime, setSelectedTime] = useState({
-    t9000: false,
-    t9015: false,
-    t9030: false,
-    t9045: false,
-    t1000: false,
-    t1015: false,
-    t1030: false,
-    t1045: false,
-    t1100: false,
-    t1115: false,
-    t1130: false,
-    t1145: false,
-    t1200: false,
-    t1215: false,
-    t1230: false,
-    t1245: false,
-    t0100: false,
-    t0115: false,
-    t0130: false,
-    t0145: false,
-    t0200: false,
-    t0215: false,
-    t0230: false,
-    t0245: false,
-  });
+  const btnText = [
+    "09:00 AM",
+    "09:15 AM",
+    "09:30 AM",
+    "09:45 AM",
+    "10:00 AM",
+    "10:15 AM",
+    "10:30 AM",
+    "10:45 AM",
+    "11:00 AM",
+    "11:15 AM",
+    "11:30 AM",
+    "11:45 AM",
+    "12:00 AM",
+    "12:15 AM",
+    "12:30 AM",
+    "12:45 AM",
+    "01:00 AM",
+    "01:15 AM",
+    "01:30 AM",
+    " 01:45 AM",
+    "02:00 AM",
+    "02:15 AM",
+    "02:30 AM",
+    "02:45 AM",
+  ];
+
+  // const [selectedTime, setSelectedTime] = useState({
+  //   t9000: false,
+  //   t9015: false,
+  //   t9030: false,
+  //   t9045: false,
+  //   t1000: false,
+  //   t1015: false,
+  //   t1030: false,
+  //   t1045: false,
+  //   t1100: false,
+  //   t1115: false,
+  //   t1130: false,
+  //   t1145: false,
+  //   t1200: false,
+  //   t1215: false,
+  //   t1230: false,
+  //   t1245: false,
+  //   t0100: false,
+  //   t0115: false,
+  //   t0130: false,
+  //   t0145: false,
+  //   t0200: false,
+  //   t0215: false,
+  //   t0230: false,
+  //   t0245: false,
+  // });
   const [value, onChange] = useState(new Date());
 
   return (
@@ -183,222 +210,18 @@ const Meeting = ({ handelClose }) => {
         <div className="">
           <h6 className="text-2xl font-bold">Pick a time</h6>
           <div className="w-[503px] flex flex-wrap gap-4 mt-3 min-[1400px]:max-h-[200px] min-[1250px]:max-h-[140px] overflow-y-scroll">
-            <button
-              onClick={handelClickTimerClick}
-              ref={dateRef}
-              className={`h-[40px] w-[102px] text-base font-normal bg-[#F3F2F5] rounded-md ${
-                selectedTime.t9000 && "bgone_calender"
-              }`}
-            >
-              9:00 AM
-            </button>
-            <button
-              onClick={handelClickTimerClick}
-              ref={dateRef}
-              className={`h-[40px] w-[102px] text-base font-normal bg-[#F3F2F5] rounded-md ${
-                selectedTime.t9015 && "bgone_calender"
-              }`}
-            >
-              9:15 AM
-            </button>
-            <button
-              onClick={handelClickTimerClick}
-              ref={dateRef}
-              className={`h-[40px] w-[102px] text-base font-normal bg-[#F3F2F5] rounded-md ${
-                selectedTime.t9030 && "bgone_calender"
-              }`}
-            >
-              9:30 AM
-            </button>
-            <button
-              onClick={handelClickTimerClick}
-              ref={dateRef}
-              className={`h-[40px] w-[102px] text-base font-normal bg-[#F3F2F5] rounded-md ${
-                selectedTime.t9045 && "bgone_calender"
-              }`}
-            >
-              9:45 AM
-            </button>
-            <button
-              onClick={handelClickTimerClick}
-              ref={dateRef}
-              className={`h-[40px] w-[102px] text-base font-normal bg-[#F3F2F5] rounded-md ${
-                selectedTime.t1000 && "bgone_calender"
-              }`}
-            >
-              10:00 AM
-            </button>
-            <button
-              onClick={handelClickTimerClick}
-              ref={dateRef}
-              className={`h-[40px] w-[102px] text-base font-normal bg-[#F3F2F5] rounded-md ${
-                selectedTime.t1015 && "bgone_calender"
-              }`}
-            >
-              10:15 AM
-            </button>
-            <button
-              onClick={handelClickTimerClick}
-              ref={dateRef}
-              className={`h-[40px] w-[102px] text-base font-normal bg-[#F3F2F5] rounded-md ${
-                selectedTime.t1030 && "bgone_calender"
-              }`}
-            >
-              10:30 AM
-            </button>
-            <button
-              onClick={handelClickTimerClick}
-              ref={dateRef}
-              className={`h-[40px] w-[102px] text-base font-normal bg-[#F3F2F5] rounded-md ${
-                selectedTime.t1045 && "bgone_calender"
-              }`}
-            >
-              10:45 AM
-            </button>
-            <button
-              onClick={handelClickTimerClick}
-              ref={dateRef}
-              className={`h-[40px] w-[102px] text-base font-normal bg-[#F3F2F5] rounded-md ${
-                selectedTime.t1100 && "bgone_calender"
-              }`}
-            >
-              11:00 AM
-            </button>
-            <button
-              onClick={handelClickTimerClick}
-              ref={dateRef}
-              className={`h-[40px] w-[102px] text-base font-normal bg-[#F3F2F5] rounded-md ${
-                selectedTime.t1115 && "bgone_calender"
-              }`}
-            >
-              11:15 AM
-            </button>
-            <button
-              onClick={handelClickTimerClick}
-              ref={dateRef}
-              className={`h-[40px] w-[102px] text-base font-normal bg-[#F3F2F5] rounded-md ${
-                selectedTime.t1130 && "bgone_calender"
-              }`}
-            >
-              11:30 AM
-            </button>
-            <button
-              onClick={handelClickTimerClick}
-              ref={dateRef}
-              className={`h-[40px] w-[102px] text-base font-normal bg-[#F3F2F5] rounded-md ${
-                selectedTime.t1145 && "bgone_calender"
-              }`}
-            >
-              11:45 AM
-            </button>
-            <button
-              onClick={handelClickTimerClick}
-              ref={dateRef}
-              className={`h-[40px] w-[102px] text-base font-normal bg-[#F3F2F5] rounded-md ${
-                selectedTime.t1200 && "bgone_calender"
-              }`}
-            >
-              12:00 AM
-            </button>
-            <button
-              onClick={handelClickTimerClick}
-              ref={dateRef}
-              className={`h-[40px] w-[102px] text-base font-normal bg-[#F3F2F5] rounded-md ${
-                selectedTime.t1215 && "bgone_calender"
-              }`}
-            >
-              12:15 AM
-            </button>
-            <button
-              onClick={handelClickTimerClick}
-              ref={dateRef}
-              className={`h-[40px] w-[102px] text-base font-normal bg-[#F3F2F5] rounded-md ${
-                selectedTime.t1230 && "bgone_calender"
-              }`}
-            >
-              12:30 AM
-            </button>
-            <button
-              onClick={handelClickTimerClick}
-              ref={dateRef}
-              className={`h-[40px] w-[102px] text-base font-normal bg-[#F3F2F5] rounded-md ${
-                selectedTime.t1245 && "bgone_calender"
-              }`}
-            >
-              12:45 AM
-            </button>
-            <button
-              onClick={handelClickTimerClick}
-              ref={dateRef}
-              className={`h-[40px] w-[102px] text-base font-normal bg-[#F3F2F5] rounded-md ${
-                selectedTime.t0100 && "bgone_calender"
-              }`}
-            >
-              01:00 AM
-            </button>
-            <button
-              onClick={handelClickTimerClick}
-              ref={dateRef}
-              className={`h-[40px] w-[102px] text-base font-normal bg-[#F3F2F5] rounded-md ${
-                selectedTime.t0115 && "bgone_calender"
-              }`}
-            >
-              01:15 AM
-            </button>
-            <button
-              onClick={handelClickTimerClick}
-              ref={dateRef}
-              className={`h-[40px] w-[102px] text-base font-normal bg-[#F3F2F5] rounded-md ${
-                selectedTime.t0130 && "bgone_calender"
-              }`}
-            >
-              01:30 AM
-            </button>
-            <button
-              onClick={handelClickTimerClick}
-              ref={dateRef}
-              className={`h-[40px] w-[102px] text-base font-normal bg-[#F3F2F5] rounded-md ${
-                selectedTime.t0145 && "bgone_calender"
-              }`}
-            >
-              01:45 AM
-            </button>
-            <button
-              onClick={handelClickTimerClick}
-              ref={dateRef}
-              className={`h-[40px] w-[102px] text-base font-normal bg-[#F3F2F5] rounded-md ${
-                selectedTime.t0200 && "bgone_calender"
-              }`}
-            >
-              02:00 AM
-            </button>
-            <button
-              onClick={handelClickTimerClick}
-              ref={dateRef}
-              className={`h-[40px] w-[102px] text-base font-normal bg-[#F3F2F5] rounded-md ${
-                selectedTime.t0215 && "bgone_calender"
-              }`}
-            >
-              02:15 AM
-            </button>
-            <button
-              onClick={handelClickTimerClick}
-              ref={dateRef}
-              className={`h-[40px] w-[102px] text-base font-normal bg-[#F3F2F5] rounded-md ${
-                selectedTime.t0230 && "bgone_calender"
-              }`}
-            >
-              02:30 AM
-            </button>
-            <button
-              onClick={handelClickTimerClick}
-              ref={dateRef}
-              className={`h-[40px] w-[102px] text-base font-normal bg-[#F3F2F5] rounded-md ${
-                selectedTime.t0245 && "bgone_calender"
-              }`}
-            >
-              02:45 AM
-            </button>
+            {btnText.map((btnText, i) => {
+              return (
+                <button
+                  onClick={() => handelClickTimerClick(i)}
+                  className={`h-[40px] w-[102px] text-base font-normal bg-[#F3F2F5] rounded-md ${
+                    selectedId === i ? "bgone_calender" : ""
+                  }`}
+                >
+                  {btnText}
+                </button>
+              );
+            })}
           </div>
           <div className="flex items-center  mt-2">
             <Meting_what />

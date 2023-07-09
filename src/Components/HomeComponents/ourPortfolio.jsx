@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Rectangle_1 from "../../Assets/img/Rectangle 19.png";
 import Rectangle_2 from "../../Assets/img/Rectangle 20.png";
 import Rectangle_3 from "../../Assets/img/Rectangle 21.png";
@@ -13,8 +13,20 @@ import Rectangle_11 from "../../Assets/img/Rectangle 40.png";
 import Rectangle_12 from "../../Assets/img/Rectangle 41.png";
 import Image from "next/image";
 import { PlayButtonIcon } from "@/Assets/SVGs/SVG";
-import Link from "next/link";
+
 const OurPortfolio = () => {
+  const [activeLink, setActiveLink] = useState({});
+  const buttonTExt = [
+    "All",
+    "White Background",
+    "Product",
+    "Infographic",
+    "Product Video",
+    "Rotating",
+    "Videos",
+  ];
+  const [selectedBtn, setSelectedBtn] = useState(0);
+  const handelButtonClick = (id) => setSelectedBtn(id);
   return (
     <div className="mt-[92px] mb-[92px]">
       <div className="2xl:container md:mx-auto">
@@ -23,14 +35,19 @@ const OurPortfolio = () => {
           <h1 className="text-[64px] border_bottom font-semibold leading-[50px]">
             Portfolio
           </h1>
-          <div className="mt-4 flex gap-4 text-[24px] text-center">   
-            <Link href="/" className="border_bottom hover:clip">All</Link>
-            <Link href="/" className="hover:clip">White Background</Link>
-            <Link href="/" className="hover:clip">Product</Link>
-            <Link href="/" className="hover:clip">Infographic</Link>
-            <Link href="/" className="hover:clip">Product Video</Link>
-            <Link href="/" className="hover:clip">Rotating</Link>
-            <Link href="/" className="hover:clip">Videos</Link>
+          <div className="mt-4 flex gap-4 text-[24px] text-center">
+            {buttonTExt.map((btnText, i) => {
+              return (
+                <button
+                  onClick={() => handelButtonClick(i)}
+                  className={`hover:clip ${
+                    selectedBtn === i ? "border_bottom" : ""
+                  }`}
+                >
+                  {btnText}
+                </button>
+              );
+            })}
           </div>
         </div>
         <div className="flex flex-wrap justify-center items-center gap-7 mt-8">
@@ -52,6 +69,7 @@ const OurPortfolio = () => {
           <div className="servicecard">
             <Image src={Rectangle_6} width={240} height={240} />
           </div>
+
           <div className="servicecard relative">
             <Image src={Rectangle_7} width={240} height={240} />
             <div className="absolute top-20 left-20">
