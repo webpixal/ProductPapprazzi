@@ -22,15 +22,15 @@ const ProductManagement = () => {
     <main className="container mx-auto">
       <section className="lg:flex justify-between gap-4 mx-4 mt-16">
         <div className="lg:w-[50%]">
-          <h2 className="text-[28px] leading-[30px]  2xl:text-[48px] 2xl:leading-[50px] tracking-tight clip capitalize font-extrabold text-center lg:text-start text-black">
-            <span className="clip">Product Paparazzi Management</span> Services
+          <h2 className="text-[28px] leading-[30px]  2xl:text-[48px] 2xl:leading-[60px] tracking-tight clip capitalize font-extrabold text-center lg:text-start text-black"> 
+            <span className="clip">Product Paparazzi Management{" "}</span>  Services
             Your Ultimate <span className="clip">Amazon Success Partner</span>
           </h2>
           <h6 className="italic text-[22px] leading-7 text-center lg:text-start 2xl:text-[32px] font-semibold 2xl:leading-10 tracking-tight mt-1 2xl:mt-3">
             Comprehensive{" "}
-            <span className="clip">Amazon Account Management</span> to <br />
-            Streamline Your{" "}
-            <span className="clip">Business and Maximize Profitability</span>
+            <span className="clip">Amazon Account Management {" "}</span> to <br />
+            Streamline Your {" "}
+            <span className="clip inline-block w-[410px]">Business and Maximize Profitability {" "}</span>
           </h6>
           <p className="text-base xl:text-xl font-semibold xl:leading-7 text-center lg:text-start text-[#494949] mt-1 2xl:mt-3">
             In the ever-evolving Amazon marketplace, many sellers find
@@ -66,13 +66,13 @@ const ProductManagement = () => {
             layout="fill"
             className="rounded-3xl object-cover"
           />
-          <div className="absolute left-[-20%] top-[45%] 2xl:left-[0%]">
+          <div className="absolute left-[45%] top-[45%] 2xl:left-[45%]">
             <PlayIcon />
           </div>
           <div className="absolute h-[120px] bg-white w-[120px] top-0 right-0">
             {" "}
           </div>
-          <div className="absolute -bottom-8 left-0 lg:-bottom-14 lg:-left-24 ">
+          <div className="absolute -bottom-8 left-0 lg:-bottom-8 lg:-left-24 ">
             <Box_dot />
           </div>
         </div>

@@ -90,9 +90,9 @@ const Footer = () => {
         </div>
         <div>
           <h5 className="text-[18px] font-bold mt-24">Newsletter</h5>
-          <button className="w-[226px] h-[46px] bg-white text-[#2A3342 border border-[#D5DAE1] text-[16px] rounded-[8px] mt-8">
-            pat@shuffle.dev
-          </button>
+          <div className="w-[226px] h-[46px] bg-white text-[#2A3342 border border-[#D5DAE1] text-[16px] rounded-[8px] mt-8 overflow-hidden">
+            <input type="text" placeholder="pat@shuffle.dev" className="w-[100%] h-[100%] p-4 border-none outline-none"/>
+          </div>
           <h5 className="text-[18px] font-bold mt-14">Product Paparazzi</h5>
           <p className="border-b-[1px] border-[#000000] mt-3 w-32 ml-3"></p>
           <div className="mt-3">
@@ -113,7 +113,9 @@ const Footer = () => {
           <h4 className="text-center font-bold">
             © 2023 Product Paparazzi. All rights reserved.
           </h4>
-          <p className="text-center font-extralight">Powered By Al Jaami Technologies ltd</p>
+          <p className="text-center font-extralight">
+            Powered By Al Jaami Technologies ltd
+          </p>
         </div>
       </div>
     </>

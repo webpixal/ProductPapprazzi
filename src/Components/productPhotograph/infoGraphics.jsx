@@ -29,11 +29,11 @@ const InfoGraphics = () => {
       <div className="container mx-auto">
         <section className="container flex justify-between flex-col xl:flex-row items-center mx-4 pt-24">
           <div className="md:w-[767px]">
-            <h1 className="text-[30px] mt-8 lg:mt-0 leading-[40px]  xl:text-[38px] xxl:48px xxl:leading-[60px] font-extrabold italic font-sans w-full text-cap capitalize text-white">
+            <h1 className="text-[30px] mt-8 lg:mt-0 leading-[40px]  xl:text-[38px] xxl:text-[48px] 2xl:leading-[60px] font-extrabold italic font-sans w-full text-cap capitalize text-white">
               From Stunning Product Shots to <br className="hidden lg:block" />{" "}
               Informative <span className="cliptwo">Graphics</span> Skyrocket{" "}
               <br className="hidden lg:block" />
-              Your Business with the
+              Your Business with the <br />
               <span className="cliptwo"> Power of Infographics</span>
             </h1>
             <p className="text-[20px] font-semibold leading-7 mt-8 text-white">

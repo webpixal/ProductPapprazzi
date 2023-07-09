@@ -17,13 +17,13 @@ const OurProcess = () => {
     <main className="container mx-auto">
       <section className="lg:flex justify-between gap-4 mx-4 mt-16">
         <div className="lg:w-[50%]">
-          <h2 className="text-[28px] leading-[30px]  2xl:text-[48px] 2xl:leading-[50px] tracking-tight clip capitalize font-extrabold text-center lg:text-start text-black">
+          <h2 className="text-[28px] leading-[30px]  2xl:text-[48px] 2xl:leading-[60px] tracking-tight clip capitalize font-extrabold text-center lg:text-start text-black"> 
             Breath-taking <span className="clip">Video Infographics</span>{" "}
             <span className="clip">Revolutionizing</span> E-commerce Imagery
           </h2>
           <h6 className="italic text-[22px] leading-7 text-center lg:text-start 2xl:text-[32px] font-semibold 2xl:leading-10 tracking-tight mt-3">
-            Transform Plain <span className="clip">Product Photos</span> into{" "}
-            <span className="clip">Dynamic Visual Experiences</span>
+            Transform Plain <span className="clip inline-block w-[180px]">Product Photos</span> into{" "}
+            <span className="clip inline-block w-[318px]">Dynamic Visual Experiences</span>
           </h6>
           <p className="text-base xl:text-xl font-semibold xl:leading-7 text-center lg:text-start text-[#494949] mt-3">
             In today's fast-paced digital world, captivating your audience's

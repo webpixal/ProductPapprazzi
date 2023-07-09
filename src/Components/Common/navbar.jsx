@@ -55,7 +55,7 @@ const Navbar = () => {
                 <Link href={"/"}>Home</Link>
               </li>
               <li className="md:ml-8 text-lg text-white font-light hover:cliptwo">
-                <Link href={"#about"}>About Us</Link>
+                <Link href={"/#about"}>About Us</Link>
               </li>
               <li className="md:ml-8 text-lg text-white font-light hover:cliptwo relative group h-24 -mb-16">
                 <p className="cursor-pointer group-hover:block">Services</p>

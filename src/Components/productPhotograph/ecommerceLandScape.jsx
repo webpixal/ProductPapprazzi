@@ -9,8 +9,8 @@ import Image from "next/image";
 const Ecommercelandscape = () => {
   return (
     <main className="container mx-auto mt-28">
-      <div className="flex justify-between flex-col xl:flex-row items-center">
-        <div>
+      <div className="mx-4 flex justify-between flex-col xl:flex-row items-center">
+        <div className="text-center lg:text-left">
           <h1 className="text-[30px] leading-[40px]  xl:text-[48px] max-w-[739px] xl:leading-[60px] font-extrabold italic font-sans w-full xl:w-9/12 text-cap capitalize">
             In today's{" "}
             <span className="text-[#F02E6B]">

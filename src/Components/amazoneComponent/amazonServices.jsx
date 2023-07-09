@@ -33,7 +33,7 @@ const AmazonServices = () => {
     >
       <div className="container mx-auto">
         <section className="lg:flex justify-between gap-4 mx-4 mt-28 xl:mt-48">
-          <div className="lg:w-[50%]">
+          <div className="lg:w-[50%] pt-20 xl:pt-0">
             <h2 className="text-[28px] leading-[30px]  2xl:text-[48px] 2xl:leading-[50px] tracking-tight clip capitalize font-extrabold text-center lg:text-start text-white">
               <span className="cliptwo">Product Paparazzi</span> Optimization
               Services The Key to{" "}
@@ -71,7 +71,7 @@ const AmazonServices = () => {
               layout="fill"
               className="rounded-3xl object-cover"
             />
-            <div className="absolute left-[-10%] top-[45%] 2xl:left-[0%]">
+            <div className="absolute left-[45%] top-[45%] 2xl:left-[45%]">
               <PlayIcon />
             </div>
             <div className="absolute -bottom-8 left-0 lg:-bottom-14 lg:-left-24 ">
@@ -125,7 +125,7 @@ const AmazonServices = () => {
           </div>
         </section>
 
-        <section className="flex justify-between flex-col xl:flex-row-reverse items-center lg:gap-14 mt-8 mx-4 ">
+        <section className="flex justify-between flex-col xl:flex-row-reverse items-center xl:items-start lg:gap-14 mt-8 mx-4 ">
           <div className="w-[600px] h-[500px] xl:h-[675px] 2xl:w-[775px] 2xl:h-[875px] ">
             <Image
               src={amazon_6_imgs}
@@ -181,7 +181,7 @@ const AmazonServices = () => {
             of your Amazon listing.
           </p>
         </section>
-        <Btn_Zoom colorTrue={true} />
+        <Btn_Zoom colorTrue={true} classNAME="pb-52"/>
       </div>
     </main>
   );

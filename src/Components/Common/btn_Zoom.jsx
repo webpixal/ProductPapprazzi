@@ -3,21 +3,23 @@ import { Pattern, ZIcon } from "@/Assets/SVGs/SVG";
 import React, { useState } from "react";
 import Meeting from "./meeting";
 
-const Btn_Zoom = ({ colorTrue = false }) => {
+const Btn_Zoom = ({ colorTrue = false, classNAME }) => {
   const [handelMeting, setHandelMeting] = useState(false);
   const HandelZoom = () => setHandelMeting((pre) => !pre);
   console.log(handelMeting);
   return (
     <>
-      <section className="flex justify-center relative lg:mt-28 mx-4 mt-6">
+      <section
+        className={`flex justify-center relative lg:mt-28 mx-4 mt-6 ${classNAME}`}
+      >
         <Pattern className="absolute left-0 xl:-left-12 xl:top-20 top-36 " />
         <div className="grid justify-items-center">
           <h1
-            className={`text-center text-3xl leading-10 italic font-extrabold  ${
+            className={`text-center text-3xl leading-10 min-w-[610px] italic font-extrabold  ${
               colorTrue ? "cliptwo" : "clip"
             }`}
           >
-            Don't leave opportunities on the table
+            Don't leave opportunities on the span{" "}
           </h1>
           <p
             className={`text-center italic text-2xl font-semibold leading-8 mt-3 relative z-1 ${

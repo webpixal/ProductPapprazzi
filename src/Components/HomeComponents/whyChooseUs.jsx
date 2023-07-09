@@ -30,7 +30,7 @@ const Whychooseus = () => {
             <h1 className="text-5xl font-bold pt-28 pb-16">Why Choose Us</h1>
             <div className="grid xl:gap-12 grid-cols-1 md:grid-cols-2 lg:grid-cols-1 xl:grid-cols-2 lg:mr-8 mr-0">
               <div className=" w-[323px] mb-5 mr-5">
-                <h4 className="clip text-xl xl:text-[48px] xl:leading-10 font-semibold">
+                <h4 className="clip text-xl font-semibold">
                   Our Expertise
                 </h4>
                 <p className="text-base font-extralight leading-6">

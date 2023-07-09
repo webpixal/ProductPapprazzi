@@ -27,7 +27,7 @@ const VideoInfographics = () => {
             layout="fill"
             className="rounded-3xl object-cover "
           />
-          <div className="absolute top-[-4rem] right-0 2xl:top-[-31px] 2xl:right-[-104px]">
+          <div className="absolute top-[-4rem] right-0 2xl:top-[-31px] 2xl:right-0">
             {" "}
             <Circle_Dash />
           </div>
@@ -66,7 +66,7 @@ const VideoInfographics = () => {
           </section>
         </div>
       </section>
-      <section className="flex justify-between flex-col xl:flex-row items-center mt-8">
+      <section className="flex justify-between flex-col xl:flex-row items-center mt-8 mx-4">
         <MyDetailsCard
           LOGO={Be_increase}
           CLASS="lg:w-[50%] mx-auto flex flex-col items-center xl:items-start text-center md:text-left"

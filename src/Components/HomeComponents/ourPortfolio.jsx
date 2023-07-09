@@ -19,11 +19,9 @@ const OurPortfolio = () => {
   const buttonTExt = [
     "All",
     "White Background",
-    "Product",
-    "Infographic",
+    "Product Infographic",
     "Product Video",
-    "Rotating",
-    "Videos",
+    "Rotating Videos",
   ];
   const [selectedBtn, setSelectedBtn] = useState(0);
   const handelButtonClick = (id) => setSelectedBtn(id);
@@ -51,61 +49,196 @@ const OurPortfolio = () => {
           </div>
         </div>
         <div className="flex flex-wrap justify-center items-center gap-7 mt-8">
-          <div className="servicecard">
-            <Image src={Rectangle_1} width={240} height={240} />
-          </div>
-          <div className="servicecard">
-            <Image src={Rectangle_2} width={240} height={240} />
-          </div>
-          <div className="servicecard">
-            <Image src={Rectangle_3} width={240} height={240} />
-          </div>
-          <div className="servicecard">
-            <Image src={Rectangle_4} width={240} height={240} />
-          </div>
-          <div className="servicecard">
-            <Image src={Rectangle_5} width={240} height={240} />
-          </div>
-          <div className="servicecard">
-            <Image src={Rectangle_6} width={240} height={240} />
-          </div>
+          {selectedBtn === 0 ? (
+            <>
+              <div className="servicecard">
+                <Image src={Rectangle_1} width={240} height={240} />
+              </div>
+              <div className="servicecard">
+                <Image src={Rectangle_2} width={240} height={240} />
+              </div>
+              <div className="servicecard">
+                <Image src={Rectangle_3} width={240} height={240} />
+              </div>
+              <div className="servicecard">
+                <Image src={Rectangle_4} width={240} height={240} />
+              </div>
+              <div className="servicecard">
+                <Image src={Rectangle_5} width={240} height={240} />
+              </div>
+              <div className="servicecard">
+                <Image src={Rectangle_6} width={240} height={240} />
+              </div>
 
-          <div className="servicecard relative">
-            <Image src={Rectangle_7} width={240} height={240} />
-            <div className="absolute top-20 left-20">
-              <PlayButtonIcon />
-            </div>
-          </div>
-          <div className="servicecard relative">
-            <Image src={Rectangle_8} width={240} height={240} />
-            <div className="absolute top-20 left-20">
-              <PlayButtonIcon />
-            </div>
-          </div>
-          <div className="servicecard relative">
-            <Image src={Rectangle_9} width={240} height={240} />
-            <div className="absolute top-20 left-20">
-              <PlayButtonIcon />
-            </div>
-          </div>
-          <div className="servicecard relative">
-            <Image src={Rectangle_10} width={240} height={240} />
-            <div className="absolute top-20 left-20">
-              <PlayButtonIcon />
-            </div>
-          </div>
-          <div className="servicecard relative">
-            <Image src={Rectangle_11} width={240} height={240} />
-            <div className="absolute top-20 left-20">
-              <PlayButtonIcon />
-            </div>
-          </div>
-          <div className="servicecard relative">
-            <Image src={Rectangle_12} width={240} height={240} />
-            <div className="absolute top-20 left-20">
-              <PlayButtonIcon />
-            </div>
-          </div>
+              <div className="servicecard relative">
+                <Image src={Rectangle_7} width={240} height={240} />
+                <div className="absolute top-20 left-20">
+                  <PlayButtonIcon />
+                </div>
+              </div>
+              <div className="servicecard relative">
+                <Image src={Rectangle_8} width={240} height={240} />
+                <div className="absolute top-20 left-20">
+                  <PlayButtonIcon />
+                </div>
+              </div>
+              <div className="servicecard relative">
+                <Image src={Rectangle_9} width={240} height={240} />
+                <div className="absolute top-20 left-20">
+                  <PlayButtonIcon />
+                </div>
+              </div>
+              <div className="servicecard relative">
+                <Image src={Rectangle_10} width={240} height={240} />
+                <div className="absolute top-20 left-20">
+                  <PlayButtonIcon />
+                </div>
+              </div>
+              <div className="servicecard relative">
+                <Image src={Rectangle_11} width={240} height={240} />
+                <div className="absolute top-20 left-20">
+                  <PlayButtonIcon />
+                </div>
+              </div>
+              <div className="servicecard relative">
+                <Image src={Rectangle_12} width={240} height={240} />
+                <div className="absolute top-20 left-20">
+                  <PlayButtonIcon />
+                </div>
+              </div>
+            </>
+          ) : (
+            ""
+          )}
+          {selectedBtn === 1 ? (
+            <>
+              <div className="servicecard">
+                <Image src={Rectangle_1} width={240} height={240} />
+              </div>
+              <div className="servicecard">
+                <Image src={Rectangle_2} width={240} height={240} />
+              </div>
+              <div className="servicecard">
+                <Image src={Rectangle_3} width={240} height={240} />
+              </div>
+              <div className="servicecard relative">
+                <Image src={Rectangle_7} width={240} height={240} />
+                <div className="absolute top-20 left-20">
+                  <PlayButtonIcon />
+                </div>
+              </div>
+              <div className="servicecard relative">
+                <Image src={Rectangle_8} width={240} height={240} />
+                <div className="absolute top-20 left-20">
+                  <PlayButtonIcon />
+                </div>
+              </div>
+              <div className="servicecard relative">
+                <Image src={Rectangle_9} width={240} height={240} />
+                <div className="absolute top-20 left-20">
+                  <PlayButtonIcon />
+                </div>
+              </div>
+            </>
+          ) : (
+            ""
+          )}
+
+          {selectedBtn === 2 ? (
+            <>
+              <div className="servicecard">
+                <Image src={Rectangle_4} width={240} height={240} />
+              </div>
+              <div className="servicecard">
+                <Image src={Rectangle_5} width={240} height={240} />
+              </div>
+              <div className="servicecard">
+                <Image src={Rectangle_6} width={240} height={240} />
+              </div>
+              <div className="servicecard relative">
+                <Image src={Rectangle_10} width={240} height={240} />
+                <div className="absolute top-20 left-20">
+                  <PlayButtonIcon />
+                </div>
+              </div>
+              <div className="servicecard relative">
+                <Image src={Rectangle_11} width={240} height={240} />
+                <div className="absolute top-20 left-20">
+                  <PlayButtonIcon />
+                </div>
+              </div>
+              <div className="servicecard relative">
+                <Image src={Rectangle_12} width={240} height={240} />
+                <div className="absolute top-20 left-20">
+                  <PlayButtonIcon />
+                </div>
+              </div>
+            </>
+          ) : (
+            ""
+          )}
+
+          {selectedBtn === 3 ? (
+            <>
+              <div className="servicecard relative">
+                <Image src={Rectangle_7} width={240} height={240} />
+                <div className="absolute top-20 left-20">
+                  <PlayButtonIcon />
+                </div>
+              </div>
+              <div className="servicecard relative">
+                <Image src={Rectangle_8} width={240} height={240} />
+                <div className="absolute top-20 left-20">
+                  <PlayButtonIcon />
+                </div>
+              </div>
+              <div className="servicecard relative">
+                <Image src={Rectangle_9} width={240} height={240} />
+                <div className="absolute top-20 left-20">
+                  <PlayButtonIcon />
+                </div>
+              </div>
+              <div className="servicecard relative">
+                <Image src={Rectangle_10} width={240} height={240} />
+                <div className="absolute top-20 left-20">
+                  <PlayButtonIcon />
+                </div>
+              </div>
+              <div className="servicecard relative">
+                <Image src={Rectangle_11} width={240} height={240} />
+                <div className="absolute top-20 left-20">
+                  <PlayButtonIcon />
+                </div>
+              </div>
+              <div className="servicecard relative">
+                <Image src={Rectangle_12} width={240} height={240} />
+                <div className="absolute top-20 left-20">
+                  <PlayButtonIcon />
+                </div>
+              </div>
+            </>
+          ) : (
+            ""
+          )}
+
+          {selectedBtn === 4 ? (
+            <>
+              <div className="servicecard relative">
+                <Image src={Rectangle_9} width={240} height={240} />
+                <div className="absolute top-20 left-20">
+                  <PlayButtonIcon />
+                </div>
+              </div>
+              <div className="servicecard relative">
+                <Image src={Rectangle_7} width={240} height={240} />
+                <div className="absolute top-20 left-20">
+                  <PlayButtonIcon />
+                </div>
+              </div>
+            </>
+          ) : (
+            ""
+          )}
         </div>
       </div>
     </div>

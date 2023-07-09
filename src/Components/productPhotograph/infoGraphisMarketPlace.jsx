@@ -29,8 +29,8 @@ const InfoGraphisMarketPlace = () => {
       <div className="container mx-auto">
         <section className="container flex justify-between gap-4 flex-col xl:flex-row items-center mx-4 pt-24">
           <div className="md:w-[767px]">
-            <h1 className=" text-[30px] mt-8 lg:mt-0 leading-[40px]  xl:text-[38px] xxl:48px xxl:leading-[60px] font-extrabold italic font-sans w-full text-cap capitalize text-white text-center xl:text-left">
-              Dominate the
+            <h1 className=" text-[30px] mt-8 lg:mt-0 leading-[40px]  xl:text-[38px] xxl:text-[48px] xxl:leading-[60px] font-extrabold italic font-sans w-full text-cap capitalize text-white text-center xl:text-left">
+              Dominate the{" "}
               <span className="cliptwo">Marketplace</span>
             </h1>
             <h6 className="capitalize italic text-xl xl:text-[32px] font-semibold xl:leading-8 left-5 text-white text-center xl:text-left mt-8 ">
