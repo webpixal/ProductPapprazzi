@@ -22,17 +22,16 @@ const AboutUs = () => {
             <h3 className="text-2xl font-light italic capitalize leading-[46px]">
               Bringing Your Products to Life Through Visual Storytelling
             </h3>
-            <p className="text-[16px]  font-extralight leading-[30px]">
+            <p className="text-[18px] text-[#556987]  leading-[30px]">
               Welcome to Product Paparazzi UK Limited, where we blend
-              creativity, technology, and passion for <br />
-              creating stunning visual content that elevates e-commerce
-              businesses to new heights.
+              creativity, technology, and passion for creating stunning visual
+              content that elevates e-commerce businesses to new heights.
               <br />
               <br />
               We are not just any product photography company; we are your
-              partner in carving a unique identity for <br />
-              your brand and products, enabling you to stand out in the highly
-              competitive e-commerce landscape
+              partner in carving a unique identity for your brand and products,
+              enabling you to stand out in the highly competitive e-commerce
+              landscape
             </p>
           </div>
           <div className="relative ">
@@ -45,13 +44,13 @@ const AboutUs = () => {
               src="/Images/video.png"
               // layout="fill"
             />
-            <PlayIcon classNAME="absolute top-52 left-52 lg:left-48 xl:left-[300px] 2xl:left-[350px]"/>
+            <PlayIcon classNAME="absolute top-52 left-52 lg:left-48 xl:left-[300px] 2xl:left-[350px]" />
           </div>
         </div>
         <div className="flex justify-between items-center h-[110px] mt-16 mx-4 gap-4 lg:mt-[28px]">
           <div className="w-[421px]">
             <h4 className="clip text-xl font-semibold">Our Expertise</h4>
-            <p className="text-base font-extralight">
+            <p className="text-base">
               As specialists in product photography, we understand that the
               perfect image is more than just a high-resolution photograph
               against a white background.{" "}
@@ -61,7 +60,7 @@ const AboutUs = () => {
             <h4 className="clip text-xl font-semibold">
               Turning Product Features into Benefits
             </h4>
-            <p className="text-base font-extralight">
+            <p className="text-base">
               Our talented designers transform mundane product photographs into
               compelling visual stories through the power of infographics.
             </p>
@@ -70,7 +69,7 @@ const AboutUs = () => {
             <h4 className="clip text-xl font-semibold">
               Bringing Your Products into the Real World
             </h4>
-            <p className="text-base font-extralight">
+            <p className="text-base">
               Our lifestyle photography service adds a touch of authenticity to
               your product images by placing them in real-life situations.
             </p>
