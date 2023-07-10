@@ -66,7 +66,7 @@ const ProductManagement = () => {
         </div>
       </section>
 
-      <section className="flex justify-between flex-col xl:flex-row  gap-4 mx-4 mt-4">
+      <section className="flex justify-between flex-col xl:flex-row  gap-4 mx-4 mt-4 ">
         <div
           className="relative w-[500px] h-[500px] 2xl:w-[702px] 2xl:h-[701px] mx-auto"
           onClick={() => handelVideoModal("videos/bg1.mp4")}
@@ -93,7 +93,7 @@ const ProductManagement = () => {
         <div className="xl:w-[50%]">
           <div>
             <h1 className="clip text-2xl xl:text-[48px] xl:leading-10 2xl:leading-[60px] leading-8 italic mt-8 xl:mt-0 text-center xl:text-left 2xl:ml-4">
-              Our wide range of <br className="hidden 2xl:block" /> services
+              Our wide range of services
               includes
             </h1>
           </div>

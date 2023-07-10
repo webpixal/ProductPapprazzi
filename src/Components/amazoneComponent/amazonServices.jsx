@@ -90,7 +90,7 @@ const AmazonServices = () => {
           </div>
           <div className="xl:w-[50%]">
             <div>
-              <h1 className="clip text-2xl xl:text-[48px] xl:leading-10 2xl:leading-[60px] leading-8 italic mt-8 xl:mt-0 text-center xl:text-left 2xl:ml-4 cliptwo">
+              <h1 className="clip text-2xl 2xl:text-[48px] xl:leading-10 2xl:leading-[60px] leading-8 italic mt-8 xl:mt-0 text-center xl:text-left 2xl:ml-4 cliptwo">
                 Our Comprehensive Amazon Listing Optimization Process
               </h1>
             </div>

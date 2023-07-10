@@ -12,7 +12,7 @@ import {
   Pattern_colarings,
   ZIcon,
 } from "@/Assets/SVGs/SVG";
-import Img_sho from "../../Assets/img/Image 3 1.png";
+import show9 from "../../Assets/img/show9.png";
 import Image from "next/image";
 import MyDetailsCardTwo from "@/Components/Common/DetailsCardTwo";
 import Patter from "@/Assets/SVGs/Patter";
@@ -47,7 +47,7 @@ const InfoGraphics = () => {
             </p>
           </div>
           <Image
-            src={Img_sho}
+            src={show9}
             className=" w-[486px] h-[486px] md:w-[486px] mt-8 pt-8 md:mr-8 xxl:mr-0 lg:mt-0 lg:pt0 md:h-[486px]  xl:w-[486px] xl:h-[486px] rounded-xl"
           />
         </section>

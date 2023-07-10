@@ -1,9 +1,13 @@
 import React from "react";
-import Show1 from "../../Assets/img/Image 05 1.png";
-import Show2 from "../../Assets/img/Image 2  1.png";
-import Show3 from "../../Assets/img/Image 3 1.png";
-import Show4 from "../../Assets/img/Image 8 1.png";
+// import Show1 from "../../Assets/img/Image 05 1.png";
+// import Show2 from "../../Assets/img/Image 2  1.png";
+// import Show3 from "../../Assets/img/Image 3 1.png";
+// import Show4 from "../../Assets/img/Image 8 1.png";
 import cameraMan from "../../Assets/img/cameraman.png";
+import show1 from "../../Assets/img/img2.png"
+import show2 from "../../Assets/img/img3.png"
+import show3 from "../../Assets/img/img5.png"
+import show4 from "../../Assets/img/img8.png"
 import Image from "next/image";
 
 const Ecommercelandscape = () => {
@@ -28,26 +32,30 @@ const Ecommercelandscape = () => {
           <div className="flex  gap-4 mt-11 w-[537px] lg:w-[800px] mx-auto">
             <div className="bgone w-[122px] h-[122px] lg:w-[172px] lg:h-[172px] relative  mb-28">
               <Image
-                src={Show1}
+                src={show1}
+                width={120} height={120}
                 className="absolute top-[1px] left-[1px] -bottom-20 object-cover w-[120px] h-[120px] lg:w-[170px] lg:h-[170px]"
               />
             </div>
 
             <div className="bgone w-[122px] h-[122px] lg:w-[172px] lg:h-[172px] relative -bottom-28">
               <Image
-                src={Show2}
+                src={show2}
+                width={120} height={120}
                 className="w-[120px] h-[120px] lg:w-[170px] lg:h-[170px] absolute top-[1px] left-[1px]"
               />
             </div>
             <div className="bgone relative w-[122px] h-[122px] lg:w-[172px] lg:h-[172px]">
               <Image
-                src={Show3}
+                src={show3}
+                width={120} height={120}
                 className="absolute top-[1px] left-[1px] w-[120px] h-[120px] lg:w-[170px] lg:h-[170px]"
               />
             </div>
             <div className="bgone relative w-[122px] h-[122px] lg:w-[172px] lg:h-[172px] -bottom-28">
               <Image
-                src={Show4}
+                src={show4}
+                width={120} height={120}
                 className="w-[120px] h-[120px] lg:w-[170px] lg:h-[170px] absolute top-[1px] left-[1px]"
               />
             </div>

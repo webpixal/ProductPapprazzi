@@ -33,7 +33,7 @@ const InfoGraphisMarketPlace = () => {
               Dominate the{" "}
               <span className="cliptwo">Marketplace</span>
             </h1>
-            <h6 className="capitalize italic text-xl xl:text-[32px] font-semibold xl:leading-8 left-5 text-white text-center xl:text-left mt-8 ">
+            <h6 className="italic text-[22px] leading-7 text-center lg:text-start 2xl:text-[32px] font-semibold 2xl:leading-10 tracking-tight mt-8 capitalize">
               Turbocharge Your{" "}
               <span className="cliptwo">eBay and Amazon Listings</span> with
               Exceptional{" "}

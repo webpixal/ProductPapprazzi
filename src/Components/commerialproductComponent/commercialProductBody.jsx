@@ -35,8 +35,8 @@ const CommercialProductBody = () => {
       <section className="lg:flex justify-between lg:gap-8 mx-4 mt-20">
         <div className="lg:w-[50%]">
           <h2 className="text-[28px] leading-[30px]  2xl:text-[48px] 2xl:leading-[60px] tracking-tight capitalize font-extrabold text-center lg:text-left italic">
-            <span className="clip inline-block xl:w-[465px]">Premium Video Production</span> Services
-            Tailored for <span className="clip inline-block xl:w-[465px]">Television & E-commerce</span>{" "}
+            <span className="clip inline-block 2xl:w-[465px]">Premium Video Production</span> Services
+            Tailored for <span className="clip inline-block 2xl:w-[465px]">Television & E-commerce</span>{" "}
             Advertisements
           </h2>
           <h6 className="italic text-[22px] leading-7 text-center lg:text-start 2xl:text-[32px] font-semibold 2xl:leading-10 tracking-tight mt-3 ">
@@ -153,7 +153,7 @@ const CommercialProductBody = () => {
             <Coloring_circle />
           </div>
         </div>
-        <div className="xl:w-[50%] mt-80 xl:mt-5">
+        <div className="xl:w-[50%] mt-80 xl:mt-8">
           <div>
             <h1 className="clip text-2xl xl:text-[48px] xl:leading-[60px] leading-8 italic mt-8 xl:mt-0 text-center xl:text-left clip">
               <span className="cliptwo">Why Choose</span> <br />

@@ -58,14 +58,14 @@ const DesignerDetails = () => {
           />
         </div>
         <div className="lg:w-[50%] mt-4 lg:mt-0">
-          <h2 className="text-xl leading-[30px] xl:leading-[40px] xl:text-[32px] tracking-tight capitalize font-extrabold text-center lg:text-left italic ">
+          <h6 className="italic text-[22px] leading-7 text-center lg:text-start 2xl:text-[32px] font-semibold 2xl:leading-10 tracking-tight mt-3 capitalize">
             Our mission is to {" "}
-            <span className="clip inline-block xl:w-[220px]">provide innovative {"  "} </span>
+            <span className="clip inline-block 2xl:w-[220px]">provide innovative {"  "} </span>
             <span className="clip">
             and reliable website, design and development solutions.
             </span>{" "}
             that help businesses of all sizes thrive in the digital world.
-          </h2>
+          </h6>
  
           <p className="text-base xl:text-xl font-semibold xl:leading-7 text-center lg:text-start mt-3 ">
             We We are committed to using the latest technology and design
@@ -84,7 +84,7 @@ const DesignerDetails = () => {
 
       <section className="lg:flex justify-between items-center lg:gap-8 mx-4 mt-20">
         <div className="lg:w-[50%]">
-          <h2 className="text-xl leading-[30px] xl:leading-[40px] xl:text-[32px] tracking-tight capitalize font-extrabold text-center lg:text-left italic ">
+          <h6 className="italic text-[22px] leading-7 text-center lg:text-start 2xl:text-[32px] font-semibold 2xl:leading-10 tracking-tight mt-3 capitalize">
             We wish to be{" "}
             <span className="clip">
               recognised as a leading, website design and development company
@@ -94,9 +94,9 @@ const DesignerDetails = () => {
               cutting-edge, innovative, customised solutions
             </span>{" "}
             to our clients.
-          </h2>
+          </h6>
 
-          <p className="text-base xl:text-xl font-semibold xl:leading-7 text-center lg:text-start mt-3 ">
+          <p className="text-base xl:text-xl font-semibold xl:leading-7 text-center lg:text-start mt-8 ">
             We aim to create websites that meet our client's needs and exceed
             their expectations by providing exceptional user experience,
             functionality, and visual appeal. We strive to be a company known

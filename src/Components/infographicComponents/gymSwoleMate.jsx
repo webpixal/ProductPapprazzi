@@ -11,10 +11,10 @@ const GymSwoleMate = () => {
             Bey ond the{" "}
             <span className="text-[#F02E6B]">Lens</span>
           </h1>
-          <p className="text-2xl text-center lg:mt-8 lg:text-left lg:text-[32px] font-semibold italic tracking-tight">
+          <p className="italic text-[22px] leading-7 text-center lg:text-start 2xl:text-[32px] font-semibold 2xl:leading-10 tracking-tight mt-3 capitalize">
             <span className="clip">Exploring {" "}</span> the Multifaceted Use of  {" "}
-            <span className="clip inline-block min-w-[280px]">Product Photography  {" "}</span> <br />
-            and <span className="clip inline-block min-w-[145px]">Infographics</span> for <span className="clip inline-block min-w-[280px]">Maximum Impact</span>
+            <span className="clip inline-block 2xl:min-w-[280px]">Product Photography  {" "}</span> <br />
+            and <span className="clip inline-block 2xl:min-w-[145px]">Infographics</span> for <span className="clip inline-block min-w-[280px]">Maximum Impact</span>
           </p>
           <p className="lg:text-[20px] font-semibold lg:mt-4 lg:leading-7 text-center lg:text-left">
             Product photography with supporting infographics can be utilized

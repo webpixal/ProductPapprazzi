@@ -1,7 +1,7 @@
 import React from "react";
-import imageCamera from "../../Assets/img/Rectangle 49.png";
-import imageCamera2 from "../../Assets/img/Rectangle 50.png";
-import imageCamera3 from "../../Assets/img/Rectangle 51.png";
+import imageCamera from "../../Assets/img/rectangle49.png";
+import imageCamera2 from "../../Assets/img/rectangle50.png";
+import imageCamera3 from "../../Assets/img/rectangle51.png";
 import Image from "next/image";
 import { Pattern, Pattern_colarings, ZIcon } from "@/Assets/SVGs/SVG";
 import Patter_color from "@/Assets/SVGs/Patter_color";
@@ -39,7 +39,7 @@ const ImageEditor = () => {
       </section>
       <section className="lg:flex flex-row-reverse justify-between gap-4 mx-4 mt-16 items-center">
         <div className="lg:w-[50%]">
-          <h2 className="italic tracking-tight clip capitalize  text-center lg:text-start text-2xl font-semibold">
+          <h2 className="italic tracking-tight clip capitalize  text-center lg:text-start text-2xl 2xl:text-[32px] font-semibold">
             We deliver images with at least 1000 pixels in length or width.
           </h2>
           <p className=" text-xl text-center lg:text-start  font-semibold mt-4">
@@ -64,7 +64,7 @@ const ImageEditor = () => {
       </section>
       <section className="lg:flex justify-between gap-4 mx-4 mt-16 items-center">
         <div className="lg:w-[50%]">
-          <h2 className="italic tracking-tight clip capitalize  text-center lg:text-start text-2xl font-semibold">
+          <h2 className="italic tracking-tight clip capitalize  text-center lg:text-start 2xl:text-[32px text-2xl font-semibold">
             Not only do we stay up to date with the latest trends in Amazon
             images, but we also adhere to Amazon's guidelines to ensure that
             your images meet all requirements and are ready for upload. This not
@@ -84,7 +84,7 @@ const ImageEditor = () => {
         </div>
       </section>
       <section>
-        <h6 className="text-center italic tracking-tight text-2xl leading-6 lg:text-[32px] lg:leading-10 font-extrabold capitalize mt-14">
+        <h6 className="text-center italic tracking-tight text-2xl leading-6 lg:text-[32px] lg:leading-10 font-semibold capitalize mt-14">
           Don't let <span className="clip">poor imagery</span> hold back your
           sales <span className="clip">potential on Amazon.</span> <br />
           <span className="clip">Trust us</span> to enhance your{" "}

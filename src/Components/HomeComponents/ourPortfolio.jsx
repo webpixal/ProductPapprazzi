@@ -1,16 +1,22 @@
 import React, { useState } from "react";
-import Rectangle_1 from "../../Assets/img/Rectangle 19.png";
-import Rectangle_2 from "../../Assets/img/Rectangle 20.png";
-import Rectangle_3 from "../../Assets/img/Rectangle 21.png";
-import Rectangle_4 from "../../Assets/img/Rectangle 22.png";
-import Rectangle_5 from "../../Assets/img/Rectangle 23.png";
-import Rectangle_6 from "../../Assets/img/Rectangle 24.png";
-import Rectangle_7 from "../../Assets/img/Rectangle 36.png";
-import Rectangle_8 from "../../Assets/img/Rectangle 37.png";
-import Rectangle_9 from "../../Assets/img/Rectangle 38.png";
-import Rectangle_10 from "../../Assets/img/Rectangle 39.png";
-import Rectangle_11 from "../../Assets/img/Rectangle 40.png";
-import Rectangle_12 from "../../Assets/img/Rectangle 41.png";
+// import recept1 from "../../Assets/img/Rectangle 19.png";
+// import recept2 from "../../Assets/img/Rectangle 20.png";
+// import recept3 from "../../Assets/img/Rectangle 21.png";
+// import recept4 from "../../Assets/img/Rectangle 22.png";
+// import recept5 from "../../Assets/img/Rectangle 23.png";
+// import recept6 from "../../Assets/img/Rectangle 24.png";
+// import recept1 from "../../Assets/img/Rectangle 36.png";
+// import recept2 from "../../Assets/img/Rectangle 37.png";
+// import recept3 from "../../Assets/img/Rectangle 38.png";
+// import recept4 from "../../Assets/img/Rectangle 39.png";
+// import recept5 from "../../Assets/img/Rectangle 40.png";
+// import recept6 from "../../Assets/img/Rectangle 41.png";
+import recept1 from "../../Assets/img/recept_1.png"
+import recept2 from "../../Assets/img/recept_2.png"
+import recept3 from "../../Assets/img/recept_3.png"
+import recept4 from "../../Assets/img/recept_4.png"
+import recept5 from "../../Assets/img/recept_5.png"
+import recept6 from "../../Assets/img/recept_6.png"
 import Image from "next/image";
 import { PlayButtonIcon } from "@/Assets/SVGs/SVG";
 import ImgShowModal from "../Common/ImgShowModal";
@@ -66,48 +72,48 @@ const OurPortfolio = () => {
             <>
               <div className="servicecard">
                 <Image
-                  onClick={() => HandelOpenModal(Rectangle_1)}
-                  src={Rectangle_1}
+                  onClick={() => HandelOpenModal(recept1)}
+                  src={recept1}
                   width={240}
                   height={240}
                 />
               </div>
               <div className="servicecard">
                 <Image
-                  onClick={() => HandelOpenModal(Rectangle_2)}
-                  src={Rectangle_2}
+                  onClick={() => HandelOpenModal(recept2)}
+                  src={recept2}
                   width={240}
                   height={240}
                 />
               </div>
               <div className="servicecard">
                 <Image
-                  onClick={() => HandelOpenModal(Rectangle_3)}
-                  src={Rectangle_3}
+                  onClick={() => HandelOpenModal(recept3)}
+                  src={recept3}
                   width={240}
                   height={240}
                 />
               </div>
               <div className="servicecard">
                 <Image
-                  onClick={() => HandelOpenModal(Rectangle_4)}
-                  src={Rectangle_4}
+                  onClick={() => HandelOpenModal(recept4)}
+                  src={recept4}
                   width={240}
                   height={240}
                 />
               </div>
               <div className="servicecard">
                 <Image
-                  onClick={() => HandelOpenModal(Rectangle_5)}
-                  src={Rectangle_5}
+                  onClick={() => HandelOpenModal(recept5)}
+                  src={recept5}
                   width={240}
                   height={240}
                 />
               </div>
               <div className="servicecard">
                 <Image
-                  onClick={() => HandelOpenModal(Rectangle_6)}
-                  src={Rectangle_6}
+                  onClick={() => HandelOpenModal(recept6)}
+                  src={recept6}
                   width={240}
                   height={240}
                 />
@@ -117,7 +123,7 @@ const OurPortfolio = () => {
                 className="servicecard relative"
                 onClick={() => handelVideoModal("videos/photo.webm")}
               >
-                <Image src={Rectangle_7} width={240} height={240} />
+                <Image src={recept1} width={240} height={240} />
                 <div className="absolute top-20 left-20">
                   <PlayButtonIcon />
                 </div>
@@ -126,7 +132,7 @@ const OurPortfolio = () => {
                 className="servicecard relative"
                 onClick={() => handelVideoModal("videos/photo.webm")}
               >
-                <Image src={Rectangle_8} width={240} height={240} />
+                <Image src={recept2} width={240} height={240} />
                 <div className="absolute top-20 left-20">
                   <PlayButtonIcon />
                 </div>
@@ -135,7 +141,7 @@ const OurPortfolio = () => {
                 className="servicecard relative"
                 onClick={() => handelVideoModal("videos/photo.webm")}
               >
-                <Image src={Rectangle_9} width={240} height={240} />
+                <Image src={recept3} width={240} height={240} />
                 <div className="absolute top-20 left-20">
                   <PlayButtonIcon />
                 </div>
@@ -144,7 +150,7 @@ const OurPortfolio = () => {
                 className="servicecard relative"
                 onClick={() => handelVideoModal("videos/photo.webm")}
               >
-                <Image src={Rectangle_10} width={240} height={240} />
+                <Image src={recept4} width={240} height={240} />
                 <div className="absolute top-20 left-20">
                   <PlayButtonIcon />
                 </div>
@@ -153,7 +159,7 @@ const OurPortfolio = () => {
                 className="servicecard relative"
                 onClick={() => handelVideoModal("videos/photo.webm")}
               >
-                <Image src={Rectangle_11} width={240} height={240} />
+                <Image src={recept5} width={240} height={240} />
                 <div className="absolute top-20 left-20">
                   <PlayButtonIcon />
                 </div>
@@ -162,7 +168,7 @@ const OurPortfolio = () => {
                 className="servicecard relative"
                 onClick={() => handelVideoModal("videos/photo.webm")}
               >
-                <Image src={Rectangle_12} width={240} height={240} />
+                <Image src={recept6} width={240} height={240} />
                 <div className="absolute top-20 left-20">
                   <PlayButtonIcon />
                 </div>
@@ -175,55 +181,29 @@ const OurPortfolio = () => {
             <>
               <div className="servicecard">
                 <Image
-                  onClick={() => HandelOpenModal(Rectangle_1)}
-                  src={Rectangle_1}
+                  onClick={() => HandelOpenModal(recept1)}
+                  src={recept1}
                   width={240}
                   height={240}
                 />
               </div>
               <div className="servicecard">
                 <Image
-                  onClick={() => HandelOpenModal(Rectangle_2)}
-                  src={Rectangle_2}
+                  onClick={() => HandelOpenModal(recept2)}
+                  src={recept2}
                   width={240}
                   height={240}
                 />
               </div>
               <div className="servicecard">
                 <Image
-                  onClick={() => HandelOpenModal(Rectangle_3)}
-                  src={Rectangle_3}
+                  onClick={() => HandelOpenModal(recept3)}
+                  src={recept3}
                   width={240}
                   height={240}
                 />
               </div>
-              <div
-                className="servicecard relative"
-                onClick={() => handelVideoModal("videos/photo.webm")}
-              >
-                <Image src={Rectangle_7} width={240} height={240} />
-                <div className="absolute top-20 left-20">
-                  <PlayButtonIcon />
-                </div>
-              </div>
-              <div
-                className="servicecard relative"
-                onClick={() => handelVideoModal("videos/photo.webm")}
-              >
-                <Image src={Rectangle_8} width={240} height={240} />
-                <div className="absolute top-20 left-20">
-                  <PlayButtonIcon />
-                </div>
-              </div>
-              <div
-                className="servicecard relative"
-                onClick={() => handelVideoModal("videos/photo.webm")}
-              >
-                <Image src={Rectangle_9} width={240} height={240} />
-                <div className="absolute top-20 left-20">
-                  <PlayButtonIcon />
-                </div>
-              </div>
+             
             </>
           ) : (
             ""
@@ -233,54 +213,27 @@ const OurPortfolio = () => {
             <>
               <div className="servicecard">
                 <Image
-                  onClick={() => HandelOpenModal(Rectangle_4)}
-                  src={Rectangle_4}
+                  onClick={() => HandelOpenModal(recept4)}
+                  src={recept4}
                   width={240}
                   height={240}
                 />
               </div>
               <div className="servicecard">
                 <Image
-                  onClick={() => HandelOpenModal(Rectangle_5)}
-                  src={Rectangle_5}
+                  onClick={() => HandelOpenModal(recept5)}
+                  src={recept5}
                   width={240}
                   height={240}
                 />
               </div>
               <div className="servicecard">
                 <Image
-                  onClick={() => HandelOpenModal(Rectangle_6)}
-                  src={Rectangle_6}
+                  onClick={() => HandelOpenModal(recept6)}
+                  src={recept6}
                   width={240}
                   height={240}
                 />
-              </div>
-              <div
-                className="servicecard relative"
-                onClick={() => handelVideoModal("videos/photo.webm")}
-              >
-                <Image src={Rectangle_10} width={240} height={240} />
-                <div className="absolute top-20 left-20">
-                  <PlayButtonIcon />
-                </div>
-              </div>
-              <div
-                className="servicecard relative"
-                onClick={() => handelVideoModal("videos/photo.webm")}
-              >
-                <Image src={Rectangle_11} width={240} height={240} />
-                <div className="absolute top-20 left-20">
-                  <PlayButtonIcon />
-                </div>
-              </div>
-              <div
-                className="servicecard relative"
-                onClick={() => handelVideoModal("videos/photo.webm")}
-              >
-                <Image src={Rectangle_12} width={240} height={240} />
-                <div className="absolute top-20 left-20">
-                  <PlayButtonIcon />
-                </div>
               </div>
             </>
           ) : (
@@ -293,7 +246,7 @@ const OurPortfolio = () => {
                 className="servicecard relative"
                 onClick={() => handelVideoModal("videos/photo.webm")}
               >
-                <Image src={Rectangle_7} width={240} height={240} />
+                <Image src={recept1} width={240} height={240} />
                 <div className="absolute top-20 left-20">
                   <PlayButtonIcon />
                 </div>
@@ -302,7 +255,7 @@ const OurPortfolio = () => {
                 className="servicecard relative"
                 onClick={() => handelVideoModal("videos/photo.webm")}
               >
-                <Image src={Rectangle_8} width={240} height={240} />
+                <Image src={recept2} width={240} height={240} />
                 <div className="absolute top-20 left-20">
                   <PlayButtonIcon />
                 </div>
@@ -311,7 +264,7 @@ const OurPortfolio = () => {
                 className="servicecard relative"
                 onClick={() => handelVideoModal("videos/photo.webm")}
               >
-                <Image src={Rectangle_9} width={240} height={240} />
+                <Image src={recept3} width={240} height={240} />
                 <div className="absolute top-20 left-20">
                   <PlayButtonIcon />
                 </div>
@@ -320,7 +273,7 @@ const OurPortfolio = () => {
                 className="servicecard relative"
                 onClick={() => handelVideoModal("videos/photo.webm")}
               >
-                <Image src={Rectangle_10} width={240} height={240} />
+                <Image src={recept4} width={240} height={240} />
                 <div className="absolute top-20 left-20">
                   <PlayButtonIcon />
                 </div>
@@ -329,7 +282,7 @@ const OurPortfolio = () => {
                 className="servicecard relative"
                 onClick={() => handelVideoModal("videos/photo.webm")}
               >
-                <Image src={Rectangle_11} width={240} height={240} />
+                <Image src={recept5} width={240} height={240} />
                 <div className="absolute top-20 left-20">
                   <PlayButtonIcon />
                 </div>
@@ -338,7 +291,7 @@ const OurPortfolio = () => {
                 className="servicecard relative"
                 onClick={() => handelVideoModal("videos/photo.webm")}
               >
-                <Image src={Rectangle_12} width={240} height={240} />
+                <Image src={recept6} width={240} height={240} />
                 <div className="absolute top-20 left-20">
                   <PlayButtonIcon />
                 </div>
@@ -354,7 +307,7 @@ const OurPortfolio = () => {
                 className="servicecard relative"
                 onClick={() => handelVideoModal("videos/photo.webm")}
               >
-                <Image src={Rectangle_9} width={240} height={240} />
+                <Image src={recept3} width={240} height={240} />
                 <div className="absolute top-20 left-20">
                   <PlayButtonIcon />
                 </div>
@@ -363,7 +316,7 @@ const OurPortfolio = () => {
                 className="servicecard relative"
                 onClick={() => handelVideoModal("videos/photo.webm")}
               >
-                <Image src={Rectangle_7} width={240} height={240} />
+                <Image src={recept1} width={240} height={240} />
                 <div className="absolute top-20 left-20">
                   <PlayButtonIcon />
                 </div>

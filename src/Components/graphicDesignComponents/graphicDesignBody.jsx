@@ -20,15 +20,15 @@ const GraphicDesignBody = () => {
       <section className="lg:flex justify-between items-center lg:gap-8 mx-4 mt-20">
         <div className="lg:w-[50%]">
           <h2 className="text-[28px] leading-[30px]  2xl:text-[48px] 2xl:leading-[50px] tracking-tight capitalize font-extrabold text-center lg:text-left italic">
-            <span className="clip xl:inline-block xl:w-[265px]">Graphic design</span> is a broad field that
+            <span className="clip xl:inline-block 2xl:w-[265px]">Graphic design {" "}</span> is a broad field that
             encompasses a range of{" "}
-            <span className="clip_secondary xl:inline-block xl:w-[275px]">services aimed</span>
+            <span className="clip_secondary xl:inline-block 2xl:w-[275px]">services aimed.</span>
           </h2>
           <h6 className="italic text-[22px] leading-7 text-center lg:text-start 2xl:text-[32px] font-semibold 2xl:leading-10 tracking-tight mt-3 capitalize">
-            at <span className="clip xl:inline-block xl:w-[270px]">creating visual content </span> for
+            at <span className="clip xl:inline-block 2xl:w-[270px]">creating visual content </span> for
             different mediums, such as {" "}
             <span className="clip_secondary">print, digital, & </span>{" "}
-            <span className="clip xl:inline-block xl:w-[140px]">multimedia</span>. Some of the most popular
+            <span className="clip xl:inline-block 2xl:w-[140px]">multimedia</span>. Some of the most popular
             graphic design services
           </h6>
           <p className="text-xl xl:text-xl xl:leading-7 text-center lg:text-start mt-3 font-semibold">

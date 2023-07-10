@@ -24,11 +24,11 @@ const PersonalBody = () => {
         <div className="lg:w-[50%]">
           <h2 className="text-[28px] leading-[30px]  2xl:text-[48px] 2xl:leading-[60px] tracking-tight capitalize font-extrabold text-center lg:text-left italic">
             Looking for a way to {" "}
-            <span className="clip inline-block xl:w-[515px]">showcase the people behind</span> your
-            business in a visually <span className="clip inline-block xl:w-[300px]">engaging way?</span>
+            <span className="clip inline-block 2xl:w-[515px]">showcase the people behind</span> your
+            business in a visually <span className="clip inline-block 2xl:w-[300px]">engaging way?</span>
           </h2>
           <h6 className="italic text-[22px] leading-7 text-center lg:text-start 2xl:text-[32px] font-semibold 2xl:leading-10 tracking-tight mt-3">
-            Our <span className="clip inline-block xl:w-[155px]">personalized</span> infographics and
+            Our <span className="clip inline-block 2xl:w-[155px]">personalized</span> infographics and
             plain white photography services{" "}
             <span className="clip ">are the perfect solution.</span>
           </h6>

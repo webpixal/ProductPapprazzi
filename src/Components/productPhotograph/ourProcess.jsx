@@ -22,7 +22,7 @@ const OurProcess = () => {
             <span className="clip">Revolutionizing</span> E-commerce Imagery
           </h2>
           <h6 className="italic text-[22px] leading-7 text-center lg:text-start 2xl:text-[32px] font-semibold 2xl:leading-10 tracking-tight mt-3">
-            Transform Plain <span className="clip inline-block w-[180px]">Product Photos</span> into{" "}
+            Transform Plain <span className="clip inline-block 2xl:w-[180px]">Product Photos</span> into{" "}
             <span className="clip inline-block w-[318px]">Dynamic Visual Experiences</span>
           </h6>
           <p className="text-base xl:text-xl font-semibold xl:leading-7 text-center lg:text-start text-[#494949] mt-3">

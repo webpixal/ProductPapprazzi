@@ -63,6 +63,9 @@
   .blank_mode {
     @apply bg-blend-multiply bg-[#A7A7A7];
   }
+  .blank_mode_2 {
+    @apply bg-blend-multiply bg-[rgba(0,0,0,.1)];
+  }
   .servicecard {
     @apply h-60 w-60 rounded-[18px] bg-white hover:shadow-xl shadow-gray-700 flex items-center justify-center flex-col;
   }
