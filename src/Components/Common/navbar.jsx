@@ -62,13 +62,16 @@ const Navbar = () => {
               <li className="md:ml-8 lg:text-lg text-xs text-white font-semibold hover:font-semibold hover:cliptwo">
                 <Link href={"/#about"}>About Us</Link>
               </li>
-              <li className="md:ml-8 lg:text-lg text-xs text-white font-semibold hover:font-semibold hover:cliptwo relative group h-24 -mb-20 lg:-mb-16">
+              <li className="md:ml-8 lg:text-lg text-xs text-white font-semibold hover:font-semibold hover:cliptwo relative group h-24 -mb-20 lg:-mb-16 z-50">
                 <p className="cursor-pointer group-hover:block">Services</p>
-                <div className="absolute z-50 top-20 right-0 text-black hidden group-hover:block transition duration-500 ease-in-out">
+                <div
+                  className="absolute z-50 top-20 right-0 text-black hidden group-hover:block transition duration-500 ease-in-out"
+                  style={{ zIndex: 999 }}
+                >
                   {/* <NavContext /> */}
                   <>
                     <section className="h-[313px] w-[965px] max-[1320px]:w-[600px] max-[1320px]:h-[100%] bg-white">
-                      <section className="py-8 px-8 flex flex-wrap justify-between relative">
+                      <section className="py-8 px-8 flex flex-wrap justify-between relative z-50">
                         <div>
                           <Link href={"/ProductPhotography"}>
                             <h1 className="flex items-center text-[22px] font-semibold leading-7 text-black cursor-pointer  tracking-tight">

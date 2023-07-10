@@ -50,10 +50,10 @@ const Hero = () => {
     // </div>
 
     <section
-      className="h-[424px] xl:h-[648px] 2xl:h-[848px] w-full bg-cover bg-center flex flex-col justify-center blank_modes"
-      style={{
-        backgroundImage: `url("home.png")`,
-      }}
+      className="h-[424px] xl:h-[648px] min-[1800px]:h-[848px] w-full bg-cover bg-center flex flex-col justify-center overflow-hidden"
+      // style={{
+      //   backgroundImage: `url("home.png")`,
+      // }}
     >
       {/* <div className="ml-10 xl:ml-40">
       <h1 className="text-white text-[30px] xl:text-[96px] font-semibold leading-10 xl:leading-[131px]">
@@ -63,7 +63,15 @@ const Hero = () => {
         Home :: Amazon services
       </p>
     </div> */}
-      <div className="ml-10 xl:ml-40 text-white">
+      <video
+        autoPlay
+        loop
+        muted
+        className="absolute inset-0 object-cover  h-[100vh] xl:h-[648px] min-[1800px]:h-[848px] w-full z-[-1] "
+      >
+        <source src="Videos/bg1.mp4" type="video/mp4" />
+      </video>
+      <div className="ml-10 xl:ml-40 text-white -mt-52">
         <h3 className="font-light tracking-[.35em]">Captivate</h3>
         <h2 className="text-5xl font-bold mt-[7px]">
           Your Audience at First Glance
@@ -79,6 +87,19 @@ const Hero = () => {
             <span className="z-50 relative">Read More</span>
           </button>
         </Link>
+      </div>
+      <div className="absolute mx-auto right-16 z-40">
+        <span>
+          <Line className="mb-[49px] ml-3 h-[85px] min-[1800px]:h-[100%]" />
+        </span>
+        <span>
+          <Facebook className="mb-[49px] hover:bgone" />
+          <Linkdin className="mb-[49px] " />
+          <Twitter className="mb-[49px] " />
+        </span>
+        <span>
+          <Line className="mb-[49px] ml-3" />
+        </span>
       </div>
     </section>
   );
