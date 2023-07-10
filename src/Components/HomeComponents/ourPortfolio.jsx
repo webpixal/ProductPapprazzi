@@ -13,6 +13,7 @@ import Rectangle_11 from "../../Assets/img/Rectangle 40.png";
 import Rectangle_12 from "../../Assets/img/Rectangle 41.png";
 import Image from "next/image";
 import { PlayButtonIcon } from "@/Assets/SVGs/SVG";
+import ImgShowModal from "../Common/ImgShowModal";
 
 const OurPortfolio = () => {
   const [activeLink, setActiveLink] = useState({});
@@ -24,7 +25,11 @@ const OurPortfolio = () => {
     "Rotating Videos",
   ];
   const [selectedBtn, setSelectedBtn] = useState(0);
+  const [selectedImg, setSelectedImg] = useState("");
   const handelButtonClick = (id) => setSelectedBtn(id);
+  const HandelOpenModal = (data) => {
+    setSelectedImg(data);
+  };
   return (
     <div className="mt-[92px] mb-[92px]">
       <div className="2xl:container md:mx-auto">
@@ -52,22 +57,52 @@ const OurPortfolio = () => {
           {selectedBtn === 0 ? (
             <>
               <div className="servicecard">
-                <Image src={Rectangle_1} width={240} height={240} />
+                <Image
+                  onClick={() => HandelOpenModal(Rectangle_1)}
+                  src={Rectangle_1}
+                  width={240}
+                  height={240}
+                />
               </div>
               <div className="servicecard">
-                <Image src={Rectangle_2} width={240} height={240} />
+                <Image
+                  onClick={() => HandelOpenModal(Rectangle_2)}
+                  src={Rectangle_2}
+                  width={240}
+                  height={240}
+                />
               </div>
               <div className="servicecard">
-                <Image src={Rectangle_3} width={240} height={240} />
+                <Image
+                  onClick={() => HandelOpenModal(Rectangle_3)}
+                  src={Rectangle_3}
+                  width={240}
+                  height={240}
+                />
               </div>
               <div className="servicecard">
-                <Image src={Rectangle_4} width={240} height={240} />
+                <Image
+                  onClick={() => HandelOpenModal(Rectangle_4)}
+                  src={Rectangle_4}
+                  width={240}
+                  height={240}
+                />
               </div>
               <div className="servicecard">
-                <Image src={Rectangle_5} width={240} height={240} />
+                <Image
+                  onClick={() => HandelOpenModal(Rectangle_5)}
+                  src={Rectangle_5}
+                  width={240}
+                  height={240}
+                />
               </div>
               <div className="servicecard">
-                <Image src={Rectangle_6} width={240} height={240} />
+                <Image
+                  onClick={() => HandelOpenModal(Rectangle_6)}
+                  src={Rectangle_6}
+                  width={240}
+                  height={240}
+                />
               </div>
 
               <div className="servicecard relative">
@@ -113,13 +148,28 @@ const OurPortfolio = () => {
           {selectedBtn === 1 ? (
             <>
               <div className="servicecard">
-                <Image src={Rectangle_1} width={240} height={240} />
+                <Image
+                  onClick={() => HandelOpenModal(Rectangle_1)}
+                  src={Rectangle_1}
+                  width={240}
+                  height={240}
+                />
               </div>
               <div className="servicecard">
-                <Image src={Rectangle_2} width={240} height={240} />
+                <Image
+                  onClick={() => HandelOpenModal(Rectangle_2)}
+                  src={Rectangle_2}
+                  width={240}
+                  height={240}
+                />
               </div>
               <div className="servicecard">
-                <Image src={Rectangle_3} width={240} height={240} />
+                <Image
+                  onClick={() => HandelOpenModal(Rectangle_3)}
+                  src={Rectangle_3}
+                  width={240}
+                  height={240}
+                />
               </div>
               <div className="servicecard relative">
                 <Image src={Rectangle_7} width={240} height={240} />
@@ -147,13 +197,28 @@ const OurPortfolio = () => {
           {selectedBtn === 2 ? (
             <>
               <div className="servicecard">
-                <Image src={Rectangle_4} width={240} height={240} />
+                <Image
+                  onClick={() => HandelOpenModal(Rectangle_4)}
+                  src={Rectangle_4}
+                  width={240}
+                  height={240}
+                />
               </div>
               <div className="servicecard">
-                <Image src={Rectangle_5} width={240} height={240} />
+                <Image
+                  onClick={() => HandelOpenModal(Rectangle_5)}
+                  src={Rectangle_5}
+                  width={240}
+                  height={240}
+                />
               </div>
               <div className="servicecard">
-                <Image src={Rectangle_6} width={240} height={240} />
+                <Image
+                  onClick={() => HandelOpenModal(Rectangle_6)}
+                  src={Rectangle_6}
+                  width={240}
+                  height={240}
+                />
               </div>
               <div className="servicecard relative">
                 <Image src={Rectangle_10} width={240} height={240} />
@@ -181,37 +246,67 @@ const OurPortfolio = () => {
           {selectedBtn === 3 ? (
             <>
               <div className="servicecard relative">
-                <Image src={Rectangle_7} width={240} height={240} />
+                <Image
+                  onClick={() => HandelOpenModal()}
+                  src={Rectangle_7}
+                  width={240}
+                  height={240}
+                />
                 <div className="absolute top-20 left-20">
                   <PlayButtonIcon />
                 </div>
               </div>
               <div className="servicecard relative">
-                <Image src={Rectangle_8} width={240} height={240} />
+                <Image
+                  onClick={() => HandelOpenModal()}
+                  src={Rectangle_8}
+                  width={240}
+                  height={240}
+                />
                 <div className="absolute top-20 left-20">
                   <PlayButtonIcon />
                 </div>
               </div>
               <div className="servicecard relative">
-                <Image src={Rectangle_9} width={240} height={240} />
+                <Image
+                  onClick={() => HandelOpenModal()}
+                  src={Rectangle_9}
+                  width={240}
+                  height={240}
+                />
                 <div className="absolute top-20 left-20">
                   <PlayButtonIcon />
                 </div>
               </div>
               <div className="servicecard relative">
-                <Image src={Rectangle_10} width={240} height={240} />
+                <Image
+                  onClick={() => HandelOpenModal()}
+                  src={Rectangle_10}
+                  width={240}
+                  height={240}
+                />
                 <div className="absolute top-20 left-20">
                   <PlayButtonIcon />
                 </div>
               </div>
               <div className="servicecard relative">
-                <Image src={Rectangle_11} width={240} height={240} />
+                <Image
+                  onClick={() => HandelOpenModal()}
+                  src={Rectangle_11}
+                  width={240}
+                  height={240}
+                />
                 <div className="absolute top-20 left-20">
                   <PlayButtonIcon />
                 </div>
               </div>
               <div className="servicecard relative">
-                <Image src={Rectangle_12} width={240} height={240} />
+                <Image
+                  onClick={() => HandelOpenModal()}
+                  src={Rectangle_12}
+                  width={240}
+                  height={240}
+                />
                 <div className="absolute top-20 left-20">
                   <PlayButtonIcon />
                 </div>
@@ -224,13 +319,23 @@ const OurPortfolio = () => {
           {selectedBtn === 4 ? (
             <>
               <div className="servicecard relative">
-                <Image src={Rectangle_9} width={240} height={240} />
+                <Image
+                  onClick={() => HandelOpenModal()}
+                  src={Rectangle_9}
+                  width={240}
+                  height={240}
+                />
                 <div className="absolute top-20 left-20">
                   <PlayButtonIcon />
                 </div>
               </div>
               <div className="servicecard relative">
-                <Image src={Rectangle_7} width={240} height={240} />
+                <Image
+                  onClick={() => HandelOpenModal()}
+                  src={Rectangle_7}
+                  width={240}
+                  height={240}
+                />
                 <div className="absolute top-20 left-20">
                   <PlayButtonIcon />
                 </div>
@@ -241,6 +346,14 @@ const OurPortfolio = () => {
           )}
         </div>
       </div>
+      <>
+        {selectedImg && (
+          <ImgShowModal
+            data={selectedImg}
+            handelCloseModal={() => setSelectedImg("")}
+          />
+        )}
+      </>
     </div>
   );
 };
