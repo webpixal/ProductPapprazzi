@@ -76,7 +76,7 @@ const PaymentCards = () => {
             </p>
             <div className="bg-[#6F1DF4] h-[6px] w-[6px] rounded-full"></div>
           </div>
-          <button className="h-[48px] rounded-lg text-white mt-4 w-[328px] bg-[#6F1DF4] font-bold text-base px-6">
+          <button className="h-[48px] rounded-lg text-white mt-4 w-[328px] bg-[#6F1DF4] font-bold text-base px-6 hover:bg-white hover:text-[#6F1DF4] hover:outline outline-[#6F1DF4]">
             Reserved
           </button>
         </div>
@@ -189,7 +189,7 @@ const PaymentCards = () => {
               </p>
               <div className="bg-white h-[6px] w-[6px] rounded-full"></div>
             </div>
-            <button className="h-[48px] rounded-lg text-[#6F1DF4] mt-4 w-[328px] bg-white font-bold text-base px-6">
+            <button className="h-[48px] rounded-lg text-[#6F1DF4] mt-4 w-[328px] bg-white font-bold text-base px-6 hover:bg-[#6f1df4] hover:text-white hover:outline outline-white">
               Reserved
             </button>
           </div>
@@ -255,7 +255,7 @@ const PaymentCards = () => {
             </p>
             <div className="bg-[#6F1DF4] h-[6px] w-[6px] rounded-full"></div>
           </div>
-          <button className="h-[48px] rounded-lg text-white mt-4 w-[328px] bg-[#6F1DF4] font-bold text-base px-6">
+          <button className="h-[48px] rounded-lg text-white mt-4 w-[328px] bg-[#6F1DF4] font-bold text-base px-6 hover:bg-white hover:text-[#6F1DF4] hover:outline outline-[#6F1DF4]">
             Reserved
           </button>
         </div>

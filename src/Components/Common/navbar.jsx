@@ -5,7 +5,7 @@ import Link from "next/link";
 import { Open_Sans } from "next/font/google";
 const OpenSans = Open_Sans({
   subsets: ["latin"],
-  weight: [ "300", "400", "500", "600", "700", "800"],
+  weight: ["300", "400", "500", "600", "700", "800"],
 });
 
 import {
@@ -24,6 +24,8 @@ import {
   Product_seo,
   Product_webbild,
 } from "@/Assets/SVGs/SVG";
+import NavIcon from "@/Assets/SVGs/NavIcon";
+
 const Navbar = () => {
   return (
     <div
@@ -33,7 +35,10 @@ const Navbar = () => {
         <div className=" flex justify-between mx-8 lg:mx-32 items-center h-[131px] ">
           <div>
             {/* Logo */}
-           <Link href="/"> <Logo className="w-[170px] h-full" /></Link>
+            {/* <Link href="/"> <Logo className="w-[170px] h-full" /></Link> */}
+            <Link href="/">
+              <NavIcon />
+            </Link>
           </div>
           {/* <div className="flex items-center">
             <p color="text-white ">Call Us : +44 (0) 1234 567890 </p>
@@ -46,24 +51,24 @@ const Navbar = () => {
               {/* {Links.map((link) => (
                 <li
                   key={link.name}
-                  className="md:ml-8 text-lg text-white font-light hover:cliptwo"
+                  className="md:ml-8 lg:text-lg text-xs text-white font-semibold hover:font-semibold hover:cliptwo"
                 >
                   <a href={link.link}>{link.name}</a>
                 </li>
               ))} */}
-              <li className="md:ml-8 text-lg text-white font-light hover:cliptwo">
+              <li className="md:ml-8 lg:text-lg text-xs text-white font-semibold hover:font-semibold hover:cliptwo">
                 <Link href={"/"}>Home</Link>
               </li>
-              <li className="md:ml-8 text-lg text-white font-light hover:cliptwo">
+              <li className="md:ml-8 lg:text-lg text-xs text-white font-semibold hover:font-semibold hover:cliptwo">
                 <Link href={"/#about"}>About Us</Link>
               </li>
-              <li className="md:ml-8 text-lg text-white font-light hover:cliptwo relative group h-24 -mb-16">
+              <li className="md:ml-8 lg:text-lg text-xs text-white font-semibold hover:font-semibold hover:cliptwo relative group h-24 -mb-20 lg:-mb-16">
                 <p className="cursor-pointer group-hover:block">Services</p>
                 <div className="absolute z-50 top-20 right-0 text-black hidden group-hover:block transition duration-500 ease-in-out">
                   {/* <NavContext /> */}
                   <>
-                    <section className="h-[313px] w-[965px] bg-white">
-                      <section className="py-8 px-8 flex justify-between relative">
+                    <section className="h-[313px] w-[965px] max-[1320px]:w-[600px] max-[1320px]:h-[100%] bg-white">
+                      <section className="py-8 px-8 flex flex-wrap justify-between relative">
                         <div>
                           <Link href={"/ProductPhotography"}>
                             <h1 className="flex items-center text-[22px] font-semibold leading-7 text-black cursor-pointer  tracking-tight">
@@ -84,7 +89,7 @@ const Navbar = () => {
                               <Product_no_img className="mr-3" /> Product
                               Rotating Videos
                             </p>
-                            <div className="absolute top-11 left-[22rem]">
+                            <div className="absolute min-[1320px]:top-11 left-[18rem] min-[1320px]:left-[23.5rem]">
                               <Line_left />
                             </div>
                           </div>
@@ -105,7 +110,7 @@ const Navbar = () => {
                               <Product_Chart className="mr-3" /> Video
                               Infographics
                             </p>
-                            <div className="absolute top-11 left-[41rem]">
+                            <div className="absolute top-11 left-[40.5rem] max-[1320px]:hidden">
                               <Line_left />
                             </div>
                           </div>
@@ -129,8 +134,8 @@ const Navbar = () => {
                           </div>
                         </div>
                       </section>
-                      <div className="h-[1px] w-[552px] bgone relative left-48 -top-4"></div>
-                      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 px-8">
+                      <div className="h-[1px] w-[552px] bgone relative left-4 min-[1320px]:left-48 -top-4"></div>
+                      <div className="grid pb-4 xl:pb-0 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 px-8">
                         <Link href="/personalportal">
                           <h2 className="flex items-center text-[22px] font-semibold leading-7 text-black cursor-pointer  tracking-tight">
                             <Product_personalguidance_personal className="mr-3" />{" "}
@@ -170,13 +175,13 @@ const Navbar = () => {
                   </>
                 </div>
               </li>
-              <li className="md:ml-8 text-lg text-white font-light hover:cliptwo">
+              <li className="md:ml-8 lg:text-lg text-xs text-white font-semibold hover:font-semibold hover:cliptwo">
                 <Link href={"/contactus"}>Contuct Us</Link>
               </li>
-              <li className="md:ml-8 text-lg font-semibold">
+              <li className="md:ml-8 lg:text-lg text-xs font-semibold">
                 <Cart />
               </li>
-              <li className="md:ml-8 text-lg font-semibold">
+              <li className="md:ml-8 lg:text-lg text-xs font-semibold">
                 <Login />
               </li>
             </ul>

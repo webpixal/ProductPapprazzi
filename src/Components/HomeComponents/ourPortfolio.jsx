@@ -14,9 +14,12 @@ import Rectangle_12 from "../../Assets/img/Rectangle 41.png";
 import Image from "next/image";
 import { PlayButtonIcon } from "@/Assets/SVGs/SVG";
 import ImgShowModal from "../Common/ImgShowModal";
+import VideoPlayerModal from "../Common/VideoPlayerModal";
 
 const OurPortfolio = () => {
   const [activeLink, setActiveLink] = useState({});
+  const [openVideoModal, setOpenVideoModal] = useState(false);
+  const [videoData, setVideoData] = useState("");
   const buttonTExt = [
     "All",
     "White Background",
@@ -30,6 +33,11 @@ const OurPortfolio = () => {
   const HandelOpenModal = (data) => {
     setSelectedImg(data);
   };
+  const handelVideoModal = (video) => {
+    setOpenVideoModal(true);
+    setVideoData(video);
+  };
+
   return (
     <div className="mt-[92px] mb-[92px]">
       <div className="2xl:container md:mx-auto">
@@ -105,37 +113,55 @@ const OurPortfolio = () => {
                 />
               </div>
 
-              <div className="servicecard relative">
+              <div
+                className="servicecard relative"
+                onClick={() => handelVideoModal("videos/photo.webm")}
+              >
                 <Image src={Rectangle_7} width={240} height={240} />
                 <div className="absolute top-20 left-20">
                   <PlayButtonIcon />
                 </div>
               </div>
-              <div className="servicecard relative">
+              <div
+                className="servicecard relative"
+                onClick={() => handelVideoModal("videos/photo.webm")}
+              >
                 <Image src={Rectangle_8} width={240} height={240} />
                 <div className="absolute top-20 left-20">
                   <PlayButtonIcon />
                 </div>
               </div>
-              <div className="servicecard relative">
+              <div
+                className="servicecard relative"
+                onClick={() => handelVideoModal("videos/photo.webm")}
+              >
                 <Image src={Rectangle_9} width={240} height={240} />
                 <div className="absolute top-20 left-20">
                   <PlayButtonIcon />
                 </div>
               </div>
-              <div className="servicecard relative">
+              <div
+                className="servicecard relative"
+                onClick={() => handelVideoModal("videos/photo.webm")}
+              >
                 <Image src={Rectangle_10} width={240} height={240} />
                 <div className="absolute top-20 left-20">
                   <PlayButtonIcon />
                 </div>
               </div>
-              <div className="servicecard relative">
+              <div
+                className="servicecard relative"
+                onClick={() => handelVideoModal("videos/photo.webm")}
+              >
                 <Image src={Rectangle_11} width={240} height={240} />
                 <div className="absolute top-20 left-20">
                   <PlayButtonIcon />
                 </div>
               </div>
-              <div className="servicecard relative">
+              <div
+                className="servicecard relative"
+                onClick={() => handelVideoModal("videos/photo.webm")}
+              >
                 <Image src={Rectangle_12} width={240} height={240} />
                 <div className="absolute top-20 left-20">
                   <PlayButtonIcon />
@@ -171,19 +197,28 @@ const OurPortfolio = () => {
                   height={240}
                 />
               </div>
-              <div className="servicecard relative">
+              <div
+                className="servicecard relative"
+                onClick={() => handelVideoModal("videos/photo.webm")}
+              >
                 <Image src={Rectangle_7} width={240} height={240} />
                 <div className="absolute top-20 left-20">
                   <PlayButtonIcon />
                 </div>
               </div>
-              <div className="servicecard relative">
+              <div
+                className="servicecard relative"
+                onClick={() => handelVideoModal("videos/photo.webm")}
+              >
                 <Image src={Rectangle_8} width={240} height={240} />
                 <div className="absolute top-20 left-20">
                   <PlayButtonIcon />
                 </div>
               </div>
-              <div className="servicecard relative">
+              <div
+                className="servicecard relative"
+                onClick={() => handelVideoModal("videos/photo.webm")}
+              >
                 <Image src={Rectangle_9} width={240} height={240} />
                 <div className="absolute top-20 left-20">
                   <PlayButtonIcon />
@@ -220,19 +255,28 @@ const OurPortfolio = () => {
                   height={240}
                 />
               </div>
-              <div className="servicecard relative">
+              <div
+                className="servicecard relative"
+                onClick={() => handelVideoModal("videos/photo.webm")}
+              >
                 <Image src={Rectangle_10} width={240} height={240} />
                 <div className="absolute top-20 left-20">
                   <PlayButtonIcon />
                 </div>
               </div>
-              <div className="servicecard relative">
+              <div
+                className="servicecard relative"
+                onClick={() => handelVideoModal("videos/photo.webm")}
+              >
                 <Image src={Rectangle_11} width={240} height={240} />
                 <div className="absolute top-20 left-20">
                   <PlayButtonIcon />
                 </div>
               </div>
-              <div className="servicecard relative">
+              <div
+                className="servicecard relative"
+                onClick={() => handelVideoModal("videos/photo.webm")}
+              >
                 <Image src={Rectangle_12} width={240} height={240} />
                 <div className="absolute top-20 left-20">
                   <PlayButtonIcon />
@@ -245,68 +289,56 @@ const OurPortfolio = () => {
 
           {selectedBtn === 3 ? (
             <>
-              <div className="servicecard relative">
-                <Image
-                  onClick={() => HandelOpenModal()}
-                  src={Rectangle_7}
-                  width={240}
-                  height={240}
-                />
+              <div
+                className="servicecard relative"
+                onClick={() => handelVideoModal("videos/photo.webm")}
+              >
+                <Image src={Rectangle_7} width={240} height={240} />
                 <div className="absolute top-20 left-20">
                   <PlayButtonIcon />
                 </div>
               </div>
-              <div className="servicecard relative">
-                <Image
-                  onClick={() => HandelOpenModal()}
-                  src={Rectangle_8}
-                  width={240}
-                  height={240}
-                />
+              <div
+                className="servicecard relative"
+                onClick={() => handelVideoModal("videos/photo.webm")}
+              >
+                <Image src={Rectangle_8} width={240} height={240} />
                 <div className="absolute top-20 left-20">
                   <PlayButtonIcon />
                 </div>
               </div>
-              <div className="servicecard relative">
-                <Image
-                  onClick={() => HandelOpenModal()}
-                  src={Rectangle_9}
-                  width={240}
-                  height={240}
-                />
+              <div
+                className="servicecard relative"
+                onClick={() => handelVideoModal("videos/photo.webm")}
+              >
+                <Image src={Rectangle_9} width={240} height={240} />
                 <div className="absolute top-20 left-20">
                   <PlayButtonIcon />
                 </div>
               </div>
-              <div className="servicecard relative">
-                <Image
-                  onClick={() => HandelOpenModal()}
-                  src={Rectangle_10}
-                  width={240}
-                  height={240}
-                />
+              <div
+                className="servicecard relative"
+                onClick={() => handelVideoModal("videos/photo.webm")}
+              >
+                <Image src={Rectangle_10} width={240} height={240} />
                 <div className="absolute top-20 left-20">
                   <PlayButtonIcon />
                 </div>
               </div>
-              <div className="servicecard relative">
-                <Image
-                  onClick={() => HandelOpenModal()}
-                  src={Rectangle_11}
-                  width={240}
-                  height={240}
-                />
+              <div
+                className="servicecard relative"
+                onClick={() => handelVideoModal("videos/photo.webm")}
+              >
+                <Image src={Rectangle_11} width={240} height={240} />
                 <div className="absolute top-20 left-20">
                   <PlayButtonIcon />
                 </div>
               </div>
-              <div className="servicecard relative">
-                <Image
-                  onClick={() => HandelOpenModal()}
-                  src={Rectangle_12}
-                  width={240}
-                  height={240}
-                />
+              <div
+                className="servicecard relative"
+                onClick={() => handelVideoModal("videos/photo.webm")}
+              >
+                <Image src={Rectangle_12} width={240} height={240} />
                 <div className="absolute top-20 left-20">
                   <PlayButtonIcon />
                 </div>
@@ -318,24 +350,20 @@ const OurPortfolio = () => {
 
           {selectedBtn === 4 ? (
             <>
-              <div className="servicecard relative">
-                <Image
-                  onClick={() => HandelOpenModal()}
-                  src={Rectangle_9}
-                  width={240}
-                  height={240}
-                />
+              <div
+                className="servicecard relative"
+                onClick={() => handelVideoModal("videos/photo.webm")}
+              >
+                <Image src={Rectangle_9} width={240} height={240} />
                 <div className="absolute top-20 left-20">
                   <PlayButtonIcon />
                 </div>
               </div>
-              <div className="servicecard relative">
-                <Image
-                  onClick={() => HandelOpenModal()}
-                  src={Rectangle_7}
-                  width={240}
-                  height={240}
-                />
+              <div
+                className="servicecard relative"
+                onClick={() => handelVideoModal("videos/photo.webm")}
+              >
+                <Image src={Rectangle_7} width={240} height={240} />
                 <div className="absolute top-20 left-20">
                   <PlayButtonIcon />
                 </div>
@@ -351,6 +379,13 @@ const OurPortfolio = () => {
           <ImgShowModal
             data={selectedImg}
             handelCloseModal={() => setSelectedImg("")}
+          />
+        )}
+
+        {openVideoModal && (
+          <VideoPlayerModal
+            handelCloseModal={() => setOpenVideoModal(false)}
+            video={videoData}
           />
         )}
       </>

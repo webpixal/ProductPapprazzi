@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import amazonimage1 from "../../Assets/img/amazon.png";
 import amazonimage2 from "../../Assets/img/amazon_2.png";
 import amazonimage3 from "../../Assets/img/amazone_3.png";
@@ -17,20 +17,29 @@ import {
 } from "@/Assets/SVGs/SVG";
 import MyDetailsCard from "../Common/myDetailsCard";
 import PlayIcon from "@/Assets/SVGs/Play";
+import VideoPlayerModal from "../Common/VideoPlayerModal";
 const ProductManagement = () => {
+  const [openVideoModal, setOpenVideoModal] = useState(false);
+  const [videoData, setVideoData] = useState("");
+  const handelVideoModal = (video) => {
+    setOpenVideoModal(true);
+    setVideoData(video);
+  };
   return (
     <main className="container mx-auto">
       <section className="lg:flex justify-between gap-4 mx-4 mt-16">
         <div className="lg:w-[50%]">
-          <h2 className="text-[28px] leading-[30px]  2xl:text-[48px] 2xl:leading-[60px] tracking-tight clip capitalize font-extrabold text-center lg:text-start text-black"> 
-            <span className="clip">Product Paparazzi Management{" "}</span>  Services
+          <h2 className="text-[28px] leading-[30px]  2xl:text-[48px] 2xl:leading-[60px] tracking-tight clip capitalize font-extrabold text-center lg:text-start text-black">
+            <span className="clip">Product Paparazzi Management </span> Services
             Your Ultimate <span className="clip">Amazon Success Partner</span>
           </h2>
           <h6 className="italic text-[22px] leading-7 text-center lg:text-start 2xl:text-[32px] font-semibold 2xl:leading-10 tracking-tight mt-1 2xl:mt-3">
             Comprehensive{" "}
-            <span className="clip">Amazon Account Management {" "}</span> to <br />
-            Streamline Your {" "}
-            <span className="clip inline-block w-[410px]">Business and Maximize Profitability {" "}</span>
+            <span className="clip">Amazon Account Management </span> to <br />
+            Streamline Your{" "}
+            <span className="clip inline-block w-[410px]">
+              Business and Maximize Profitability{" "}
+            </span>
           </h6>
           <p className="text-base xl:text-xl font-semibold xl:leading-7 text-center lg:text-start text-[#494949] mt-1 2xl:mt-3">
             In the ever-evolving Amazon marketplace, many sellers find
@@ -41,7 +50,7 @@ const ProductManagement = () => {
             account, allowing you to focus on growing your business while we
             handle every aspect of your Seller Central account.
             <br />
-            <br className="hidden 2xl:block"/>
+            <br className="hidden 2xl:block" />
             At Product Paparazzi, we understand that your time is precious. Our
             team of certified Amazon consultants will manage your Amazon
             account, freeing you to concentrate on planning and monitoring your
@@ -58,7 +67,11 @@ const ProductManagement = () => {
       </section>
 
       <section className="flex justify-between flex-col xl:flex-row  gap-4 mx-4 mt-4">
-        <div className="relative w-[500px] h-[500px] 2xl:w-[702px] 2xl:h-[701px] mx-auto">
+        <div
+          className="relative w-[500px] h-[500px] 2xl:w-[702px] 2xl:h-[701px] mx-auto"
+          onClick={() => handelVideoModal("videos/bg1.mp4")}
+        >
+
           <Image
             src={amazonimage2}
             // width={675}
@@ -69,6 +82,7 @@ const ProductManagement = () => {
           <div className="absolute left-[45%] top-[45%] 2xl:left-[45%]">
             <PlayIcon />
           </div>
+
           <div className="absolute h-[120px] bg-white w-[120px] top-0 right-0">
             {" "}
           </div>
@@ -186,6 +200,14 @@ const ProductManagement = () => {
           </section>
         </div>
       </section>
+      <>
+        {openVideoModal && (
+          <VideoPlayerModal
+            handelCloseModal={() => setOpenVideoModal(false)}
+            video={videoData}
+          />
+        )}
+      </>
     </main>
   );
 };

@@ -22,15 +22,15 @@ const PersonalBody = () => {
     <main className="container mx-auto">
       <section className="lg:flex justify-between lg:gap-8 mx-4 mt-28">
         <div className="lg:w-[50%]">
-          <h2 className="text-[28px] leading-[30px]  2xl:text-[48px] 2xl:leading-[50px] tracking-tight capitalize font-extrabold text-center lg:text-left italic">
-            Looking for a way to{" "}
-            <span className="clip">showcase the people behind</span> your
-            business in a visually <span className="clip">engaging way?</span>
+          <h2 className="text-[28px] leading-[30px]  2xl:text-[48px] 2xl:leading-[60px] tracking-tight capitalize font-extrabold text-center lg:text-left italic">
+            Looking for a way to {" "}
+            <span className="clip inline-block xl:w-[515px]">showcase the people behind</span> your
+            business in a visually <span className="clip inline-block xl:w-[300px]">engaging way?</span>
           </h2>
           <h6 className="italic text-[22px] leading-7 text-center lg:text-start 2xl:text-[32px] font-semibold 2xl:leading-10 tracking-tight mt-3">
-            Our <span className="clip">personalized</span> infographics and
+            Our <span className="clip inline-block xl:w-[155px]">personalized</span> infographics and
             plain white photography services{" "}
-            <span className="clip">are the perfect solution.</span>
+            <span className="clip ">are the perfect solution.</span>
           </h6>
           <p className="text-base xl:text-xl font-semibold xl:leading-7 text-center lg:text-start mt-3 ">
             Our expert designers will work with you to create customized
@@ -83,7 +83,7 @@ const PersonalBody = () => {
             layout="fill"
             className="rounded-3xl object-cover"
           />
-          <div className="absolute top-[-31px] right-0 lg:top-[-45px] lg:right-[-12px]">
+          <div className="absolute top-[-31px] right-0 lg:top-[-45px] lg:right-[-12px] xl:-right-16">
             <Circle_Dash />
           </div>
           <div className="absolute -bottom-8 left-0 lg:-bottom-14 lg:-left-24 ">
@@ -93,8 +93,8 @@ const PersonalBody = () => {
         <div className="xl:w-[50%]">
           <div className="-ml-4 2xl:-ml-4">
             <h1 className="text-2xl 2xl:text-[48px] xl:leading-10 2xl:leading-[60px] leading-5 italic mt-8 xl:mt-0 text-center xl:text-left  2xl:ml-4">
-              The versatility of{" "}
-              <span className="clip">plain white photography</span>
+              The versatility of {" "}
+              <span className="clip">plain white photography {" "}</span> 
             </h1>
             <p className="text-center lg:text-left 2xl:ml-4">
               Which can be used in a variety of ways to showcase your team

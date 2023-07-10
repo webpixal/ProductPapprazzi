@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import imageProductListin from "../../Assets/img/amazon_4_prodduct_listing.png";
 import amazon_5_video from "../../Assets/img/amazon_5_video.png";
@@ -23,7 +23,14 @@ import MyDetailsCardTwo from "@/Components/Common/DetailsCardTwo";
 import Patter from "@/Assets/SVGs/Patter";
 import Patter_color from "@/Assets/SVGs/Patter_color";
 import Btn_Zoom from "../Common/btn_Zoom";
+import VideoPlayerModal from "../Common/VideoPlayerModal";
 const AmazonServices = () => {
+  const [openVideoModal, setOpenVideoModal] = useState(false);
+  const [videoData, setVideoData] = useState("");
+  const handelVideoModal = (video) => {
+    setOpenVideoModal(true);
+    setVideoData(video);
+  };
   return (
     <main
       className="min-h-[2768px] bg-cover mx-auto overflow-hidden mt-28"
@@ -63,7 +70,10 @@ const AmazonServices = () => {
         </section>
 
         <section className="flex justify-between flex-col xl:flex-row  lg:gap-14 mx-4 mt-8">
-          <div className="relative w-[600px] h-[600px] lg:h-[700px] 2xl:w-[795px] 2xl:h-[903px] mx-auto">
+          <div
+            className="relative w-[600px] h-[600px] lg:h-[700px] 2xl:w-[795px] 2xl:h-[903px] mx-auto"
+            onClick={() => handelVideoModal("videos/bg1.mp4")}
+          >
             <Image
               src={amazon_5_video}
               // width={675}
@@ -181,8 +191,16 @@ const AmazonServices = () => {
             of your Amazon listing.
           </p>
         </section>
-        <Btn_Zoom colorTrue={true} classNAME="pb-52"/>
+        <Btn_Zoom colorTrue={true} classNAME="pb-52" />
       </div>
+      <>
+        {openVideoModal && (
+          <VideoPlayerModal
+            handelCloseModal={() => setOpenVideoModal(false)}
+            video={videoData}
+          />
+        )}
+      </>
     </main>
   );
 };

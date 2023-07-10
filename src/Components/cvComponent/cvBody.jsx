@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import cvImg1 from "../../Assets/img/cv_img_1.png";
 import cvImg2 from "../../Assets/img/cv_img_2.png";
 import cvImg3 from "../../Assets/img/cv_img_3.png";
@@ -9,12 +9,17 @@ import resume_4 from "../../Assets/img/cv_resumes_4.png";
 import Image from "next/image";
 import { Frame } from "@/Assets/SVGs/SVG";
 import Btn_Zoom from "../Common/btn_Zoom";
+import ImgShowModal from "../Common/ImgShowModal";
 const CvBody = () => {
+  const [selectedImg, setSelectedImg] = useState("");
+  const HandelOpenModal = (data) => {
+    setSelectedImg(data);
+  };
   return (
-    <div>
+    <div className="container mx-auto">
       <section className="lg:flex justify-between lg:gap-8 mx-4 mt-20">
         <div className="lg:w-[50%]">
-          <h2 className="text-[28px] leading-[30px]  2xl:text-[48px] 2xl:leading-[50px] tracking-tight capitalize font-extrabold text-center lg:text-left italic ">
+          <h2 className="text-[28px] leading-[30px]  2xl:text-[48px] 2xl:leading-[60px] tracking-tight capitalize font-extrabold text-center lg:text-left ">
             Are you tired of{" "}
             <span className="clip">your outdated, bland CV getting lost</span>{" "}
             in the sea of <span className="clip">job applications?</span>
@@ -65,7 +70,7 @@ const CvBody = () => {
           </div>
         </div>
         <div className="lg:w-[50%] mt-4 lg:mt-0">
-          <h2 className="text-[28px] leading-[30px]  2xl:text-[48px] 2xl:leading-[50px] tracking-tight capitalize font-extrabold text-center lg:text-left italic clip">
+          <h2 className="text-[28px] leading-[30px]  2xl:text-[48px] 2xl:leading-[60px] tracking-tight capitalize font-semibold text-center lg:text-left italic clip">
             Our infographic CVs offer many benefits and opportunities. They
           </h2>
 
@@ -121,7 +126,7 @@ const CvBody = () => {
 
       <section className="lg:flex justify-between lg:gap-8 mx-4 mt-0">
         <div className="lg:w-[50%]">
-          <h2 className="text-[28px] leading-[30px]  2xl:text-[48px] clip 2xl:leading-[50px] tracking-tight capitalize font-extrabold text-center lg:text-left italic mt-36">
+          <h2 className="text-[28px] leading-[30px]  2xl:text-[48px] clip 2xl:leading-[60px] tracking-tight capitalize font-semibold text-center lg:text-left italic mt-36">
             There are several websites that offer services for creating
             infographic resumes or CVs. Here are some of the best oness
           </h2>
@@ -131,24 +136,28 @@ const CvBody = () => {
               width={350}
               height={219}
               className="h-[119px] w-[250px] 2xl:h-[219px] 2xl:w-[350px] grid-rows-1"
+              onClick={() => HandelOpenModal(resume_1)}
             />
             <Image
               src={resume_2}
               width={350}
               height={500}
               className="h-[370px] w-[250px] 2xl:h-[470px] 2xl:w-[350px]"
+              onClick={() => HandelOpenModal(resume_2)}
             />
             <Image
               src={resume_3}
               width={350}
               height={473}
               className="h-[373px] w-[250px] 2xl:h-[473px] 2xl:w-[350px] relative top-[-255px]"
+              onClick={() => HandelOpenModal(resume_3)}
             />
             <Image
               src={resume_4}
               width={350}
               height={219}
               className="h-[119px] w-[250px] 2xl:h-[219px] 2xl:w-[350px]"
+              onClick={() => HandelOpenModal(resume_4)}
             />
           </div>
         </div>
@@ -168,8 +177,14 @@ const CvBody = () => {
         </div>
       </section>
       <div className="lg:-mt-44">
-      <Btn_Zoom />
+        <Btn_Zoom />
       </div>
+      {selectedImg && (
+        <ImgShowModal
+          data={selectedImg}
+          handelCloseModal={() => setSelectedImg("")}
+        />
+      )}
     </div>
   );
 };

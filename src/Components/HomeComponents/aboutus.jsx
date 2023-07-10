@@ -1,8 +1,15 @@
 import { Badge } from "@/Assets/SVGs/SVG";
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import PlayIcon from "@/Assets/SVGs/Play";
+import VideoPlayerModal from "../Common/VideoPlayerModal";
 const AboutUs = () => {
+  const [openVideoModal, setOpenVideoModal] = useState(false);
+  const [videoData, setVideoData] = useState("");
+  const handelVideoModal = (video) => {
+    setOpenVideoModal(true);
+    setVideoData(video);
+  };
   return (
     <div className="mt-[92px] mb-[92px]" id="about">
       <div className="container mx-auto">
@@ -34,7 +41,10 @@ const AboutUs = () => {
               landscape
             </p>
           </div>
-          <div className="relative ">
+          <div
+            className="relative"
+            onClick={() => handelVideoModal("videos/photo.webm")}
+          >
             {/* aboutImage */}
             {/* <div className=" absolute rounded-3xl bg-black opacity-[3%] top-0 w-[773px] h-[438px] left-[-236px]"></div> */}
             <Image
@@ -76,6 +86,12 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
+      {openVideoModal && (
+        <VideoPlayerModal
+          handelCloseModal={() => setOpenVideoModal(false)}
+          video={videoData}
+        />
+      )}
     </div>
   );
 };

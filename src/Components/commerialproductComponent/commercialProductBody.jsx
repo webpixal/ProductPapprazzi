@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import MyDetailsCard from "../Common/myDetailsCard";
 import Image from "next/image";
 import commerImg1 from "../../Assets/img/comercial1.png";
@@ -21,17 +21,22 @@ import {
   ZIcon,
 } from "@/Assets/SVGs/SVG";
 import PlayIcon from "@/Assets/SVGs/Play";
-import Patter from "@/Assets/SVGs/Patter";
-import Patter_color from "@/Assets/SVGs/Patter_color";
 import Btn_Zoom from "../Common/btn_Zoom";
+import VideoPlayerModal from "../Common/VideoPlayerModal";
 const CommercialProductBody = () => {
+  const [openVideoModal, setOpenVideoModal] = useState(false);
+  const [videoData, setVideoData] = useState("");
+  const handelVideoModal = (video) => {
+    setOpenVideoModal(true);
+    setVideoData(video);
+  };
   return (
     <main className="container mx-auto">
       <section className="lg:flex justify-between lg:gap-8 mx-4 mt-20">
         <div className="lg:w-[50%]">
-          <h2 className="text-[28px] leading-[30px]  2xl:text-[48px] 2xl:leading-[50px] tracking-tight capitalize font-extrabold text-center lg:text-left italic">
-            <span className="clip">Premium Video Production</span> Services
-            Tailored for <span className="clip">Television & E-commerce</span>{" "}
+          <h2 className="text-[28px] leading-[30px]  2xl:text-[48px] 2xl:leading-[60px] tracking-tight capitalize font-extrabold text-center lg:text-left italic">
+            <span className="clip inline-block xl:w-[465px]">Premium Video Production</span> Services
+            Tailored for <span className="clip inline-block xl:w-[465px]">Television & E-commerce</span>{" "}
             Advertisements
           </h2>
           <h6 className="italic text-[22px] leading-7 text-center lg:text-start 2xl:text-[32px] font-semibold 2xl:leading-10 tracking-tight mt-3 ">
@@ -64,7 +69,7 @@ const CommercialProductBody = () => {
       </section>
 
       <section className="flex justify-between flex-col xl:flex-row  lg:gap-14 mx-4 mt-12">
-        <div className="relative w-[500px] h-[500px] xl:w-[702px] xl:h-[701px] mx-auto">
+        <div className="relative w-[500px] h-[500px] xl:w-[702px] xl:h-[701px] mx-auto" onClick={() => handelVideoModal("videos/photo.webm")}>
           <Image
             src={commerImg2}
             // width={675}
@@ -203,6 +208,14 @@ const CommercialProductBody = () => {
         </div>
       </section>
       <Btn_Zoom />
+      <>
+        {openVideoModal && (
+          <VideoPlayerModal
+            handelCloseModal={() => setOpenVideoModal(false)}
+            video={videoData}
+          />
+        )}
+      </>
     </main>
   );
 };

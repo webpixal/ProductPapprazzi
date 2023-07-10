@@ -23,7 +23,15 @@ import amazon_img_9 from "../../Assets/img/amazon_9_why_chose_3.png";
 import Image from "next/image";
 import PlayIcon from "@/Assets/SVGs/Play";
 import Btn_Zoom from "../Common/btn_Zoom";
+import VideoPlayerModal from "../Common/VideoPlayerModal";
+import { useState } from "react";
 const ExpertServices = () => {
+  const [openVideoModal, setOpenVideoModal] = useState(false);
+  const [videoData, setVideoData] = useState("");
+  const handelVideoModal = (video) => {
+    setOpenVideoModal(true);
+    setVideoData(video);
+  };
   return (
     <main className="container mx-auto">
       <section className="lg:flex justify-between lg:gap-8 mx-4 mt-18">
@@ -56,7 +64,10 @@ const ExpertServices = () => {
       </section>
 
       <section className="flex justify-between flex-col xl:flex-row  lg:gap-14 mx-4 mt-8">
-        <div className="relative w-[500px] h-[500px] xl:w-[702px] xl:h-[701px] mx-auto">
+        <div
+          className="relative w-[500px] h-[500px] xl:w-[702px] xl:h-[701px] mx-auto"
+          onClick={() => handelVideoModal("videos/photo.webm")}
+        >
           <Image
             src={amazon_img_8}
             // width={675}
@@ -70,7 +81,7 @@ const ExpertServices = () => {
           <div className="absolute -bottom-8 left-0 lg:-bottom-14 lg:-left-24 ">
             <Box_dot />
           </div>
-          <div className="absolute left-[-20%] xl:left-[-10%] top-[45%] 2xl:left-[0%]">
+          <div className="absolute left-[-20%] xl:left-[45%] top-[45%] 2xl:left-[45%]">
             <PlayIcon />
           </div>
         </div>
@@ -186,6 +197,14 @@ const ExpertServices = () => {
         </p>
       </section>
       <Btn_Zoom />
+      <>
+        {openVideoModal && (
+          <VideoPlayerModal
+            handelCloseModal={() => setOpenVideoModal(false)}
+            video={videoData}
+          />
+        )}
+      </>
     </main>
   );
 };

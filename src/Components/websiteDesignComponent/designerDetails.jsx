@@ -9,15 +9,21 @@ const DesignerDetails = () => {
     <>
       <section className="lg:flex justify-between lg:gap-8 mx-4 mt-20">
         <div className="lg:w-[50%]">
-          <h2 className="text-[28px] leading-[30px]  2xl:text-[48px] 2xl:leading-[50px] tracking-tight capitalize font-extrabold text-center lg:text-left italic ">
+          <h2 className="text-[28px] leading-[30px]  2xl:text-[48px] 2xl:leading-[60px] tracking-tight capitalize font-extrabold text-center lg:text-left italic ">
             Are you looking for a{" "}
-            <span className="clip">website design and build a solution </span>
+            <span className="clip xl:inline-block xl:w-[300px] ">
+              website design{" "}
+            </span>
+            <span className="clip xl:inline-block xl:w-[400px]">
+              {" "}
+              and build a solution{" "}
+            </span>
           </h2>
           <h6 className="italic text-[22px] leading-7 text-center lg:text-start 2xl:text-[32px] font-semibold 2xl:leading-10 tracking-tight mt-3 capitalize">
             that offers{" "}
             <span className="clip">
-              simple and complex options at competitive prices?
-            </span>{" "}
+              simple and complex options at competitive prices?{" "}
+            </span>
             Look no further than our{" "}
             <span className="clip">in-house Design & Technology.</span>
           </h6>
@@ -44,7 +50,7 @@ const DesignerDetails = () => {
         </div>
       </section>
 
-      <section className="flex justify-between flex-col lg:flex-row  lg:gap-14 mx-4 mt-12">
+      <section className="flex justify-between items-center flex-col lg:flex-row  lg:gap-14 mx-4 mt-12">
         <div className="max-h-[479px]">
           <Image
             src={wesiteimg_2}
@@ -52,15 +58,15 @@ const DesignerDetails = () => {
           />
         </div>
         <div className="lg:w-[50%] mt-4 lg:mt-0">
-          <h2 className="text-[28px] leading-[30px]  2xl:text-[48px] 2xl:leading-[50px] tracking-tight capitalize font-extrabold text-center lg:text-left italic ">
-            Our mission is to{" "}
+          <h2 className="text-xl leading-[30px] xl:leading-[40px] xl:text-[32px] tracking-tight capitalize font-extrabold text-center lg:text-left italic ">
+            Our mission is to {" "}
+            <span className="clip inline-block xl:w-[220px]">provide innovative {"  "} </span>
             <span className="clip">
-              provide innovative and reliable website design and development
-              solutions
+            and reliable website, design and development solutions.
             </span>{" "}
             that help businesses of all sizes thrive in the digital world.
           </h2>
-
+ 
           <p className="text-base xl:text-xl font-semibold xl:leading-7 text-center lg:text-start mt-3 ">
             We We are committed to using the latest technology and design
             trends, personalised solutions, and flexible approaches to creating
@@ -76,13 +82,12 @@ const DesignerDetails = () => {
         </div>
       </section>
 
-
-      <section className="lg:flex justify-between lg:gap-8 mx-4 mt-20">
+      <section className="lg:flex justify-between items-center lg:gap-8 mx-4 mt-20">
         <div className="lg:w-[50%]">
-          <h2 className="text-[28px] leading-[30px]  2xl:text-[48px] 2xl:leading-[50px] tracking-tight capitalize font-extrabold text-center lg:text-left italic ">
-          We wish to be{" "}
+          <h2 className="text-xl leading-[30px] xl:leading-[40px] xl:text-[32px] tracking-tight capitalize font-extrabold text-center lg:text-left italic ">
+            We wish to be{" "}
             <span className="clip">
-              recognised as a leading website design and development company
+              recognised as a leading, website design and development company
             </span>{" "}
             that delivers{" "}
             <span className="clip">
@@ -92,7 +97,7 @@ const DesignerDetails = () => {
           </h2>
 
           <p className="text-base xl:text-xl font-semibold xl:leading-7 text-center lg:text-start mt-3 ">
-          We aim to create websites that meet our client's needs and exceed
+            We aim to create websites that meet our client's needs and exceed
             their expectations by providing exceptional user experience,
             functionality, and visual appeal. We strive to be a company known
             for its outstanding customer service and support and for

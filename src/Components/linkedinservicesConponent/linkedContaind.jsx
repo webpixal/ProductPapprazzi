@@ -7,9 +7,9 @@ import Image from "next/image";
 const LinkedContains = () => {
   return (
     <div>
-      <section className="lg:flex justify-between lg:gap-8 mx-4 mt-20">
+      <section className="lg:flex justify-between items-center lg:gap-8 mx-4 mt-20">
         <div className="lg:w-[50%]">
-          <h2 className="text-[28px] leading-[30px]  2xl:text-[48px] 2xl:leading-[50px] tracking-tight capitalize font-extrabold text-center lg:text-left italic ">
+          <h2 className="text-[28px] leading-[30px]  2xl:text-[48px] 2xl:leading-[60px] tracking-tight capitalize font-extrabold text-center lg:text-left italic ">
             Are you looking to{" "}
             <span className="clip">increase your professional network</span> and
             grow your business
@@ -39,7 +39,7 @@ const LinkedContains = () => {
         </div>
       </section>
 
-      <section className="flex justify-between flex-col lg:flex-row  lg:gap-14 mx-4 mt-20">
+      <section className="flex justify-between items-center flex-col lg:flex-row  lg:gap-14 mx-4 mt-20">
         <div className="max-h-[479px]">
           <Image
             src={linkedImg2}
@@ -47,9 +47,9 @@ const LinkedContains = () => {
           />
         </div>
         <div className="lg:w-[50%] mt-4 lg:mt-0">
-          <h2 className="text-[28px] leading-[30px]  2xl:text-[48px] 2xl:leading-[50px] tracking-tight capitalize font-extrabold text-center lg:text-left italic clip">
+          <h6 className="italic text-[22px] leading-7 text-center lg:text-start 2xl:text-[32px] font-semibold 2xl:leading-10 tracking-tight mt-3 capitalize clip">
             But creating a brilliant LinkedIn profile can be challenging
-          </h2>
+          </h6>
           <p className="text-base xl:text-xl font-semibold xl:leading-7 text-center lg:text-start mt-3 ">
             Six common mistakes can get in the way of a fantastic LinkedIn
             profile, including an incomplete headline, a summary that lacks
@@ -66,11 +66,11 @@ const LinkedContains = () => {
           </p>
         </div>
       </section>
-      <section className="lg:flex justify-between lg:gap-8 mx-4 mt-20 2xl:mt-28">
+      <section className="lg:flex justify-between items-center lg:gap-8 mx-4 mt-20 2xl:mt-28">
         <div className="lg:w-[50%]">
-          <h2 className="text-[28px] leading-[30px]  2xl:text-[48px] 2xl:leading-[50px] tracking-tight capitalize font-extrabold text-center lg:text-left italic clip">
+          <h6 className="italic text-[22px] leading-7 text-center lg:text-start 2xl:text-[32px] font-semibold 2xl:leading-10 tracking-tight mt-3 capitalize clip">
           Don't stress, we're here to help.
-          </h2>
+          </h6>
           <p className="text-base xl:text-xl font-semibold xl:leading-7 text-center lg:text-start mt-3 ">
           Our team of experts has spent countless hours crafting the perfect
             profiles for our clients. With a compelling mix of content,
@@ -96,7 +96,7 @@ const LinkedContains = () => {
         </div>
       </section>
 
-      <section className="flex justify-between flex-col lg:flex-row  lg:gap-14 mx-4 mt-20">
+      <section className="flex items-center justify-between flex-col lg:flex-row  lg:gap-14 mx-4 mt-20">
         <div className="max-h-[479px]">
           <Image
             src={linkedImg4}
@@ -104,11 +104,11 @@ const LinkedContains = () => {
           />
         </div>
         <div className="lg:w-[50%] mt-4 lg:mt-0">
-          <h2 className="text-[28px] leading-[30px]  2xl:text-[48px] 2xl:leading-[50px] tracking-tight capitalize font-extrabold text-center lg:text-left italic clip">
+          <h6 className="italic text-[22px] leading-7 text-center lg:text-start 2xl:text-[32px] font-semibold 2xl:leading-10 tracking-tight mt-3 capitalize clip">
           We also offer customized DM outreach sequences and LinkedIn DFY
             prospecting and outreach campaigns to help you build relationships
             of trust while also qualifying your prospects
-          </h2>
+          </h6>
           <p className="text-base xl:text-xl font-semibold xl:leading-7 text-center lg:text-start mt-3 ">
           Our packages include up to 20 hours of work per month, and we'll
             connect with 100 prospects per week. <br />
