@@ -92,10 +92,10 @@ const ProductManagement = () => {
         </div>
         <div className="xl:w-[50%]">
           <div>
-            <h1 className="clip text-2xl xl:text-[48px] xl:leading-10 2xl:leading-[60px] leading-8 italic mt-8 xl:mt-0 text-center xl:text-left 2xl:ml-4">
+            <h6 className="clip text-2xl xl:text-[32px] xl:leading-7 2xl:leading-[43px] tracking-tight leading-8 italic mt-8 xl:mt-0 text-center font-medium xl:text-left 2xl:ml-4">
               Our wide range of services
               includes
-            </h1>
+            </h6>
           </div>
           <section className=" grid grid-cols-1 md:grid-cols-2  justify-items-center  gap-8  mt-4 mx-4 lg:mx-0 text-center lg:text-left">
             <MyDetailsCard
@@ -148,9 +148,9 @@ const ProductManagement = () => {
         </div>
         <div className="xl:w-[50%] mt-96 xl:mt-4">
           <div>
-            <h1 className="clip text-2xl xl:text-[48px] xl:leading-[60px] leading-8 italic mt-8 xl:mt-0 text-center xl:text-left">
+            <h6 className="clip text-2xl xl:text-[32px] xl:leading-[43px] leading-8 italic mt-8 xl:mt-0 text-center xl:text-left font-medium">
               More Than Just Virtual Assistants
-            </h1>
+            </h6>
             <h6 className="italic text-xl leading-6 xl:font-[32px] xl:leading-10 text-center xl:text-left">
               Why Choose Product Paparazzi Management Services?
             </h6>

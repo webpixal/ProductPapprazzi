@@ -36,8 +36,8 @@ const ExpertServices = () => {
     <main className="container mx-auto">
       <section className="lg:flex justify-between lg:gap-8 mx-4 mt-18">
         <div className="lg:w-[50%]">
-          <h2 className="text-[28px] leading-[30px]  2xl:text-[48px] 2xl:leading-[50px] tracking-tight capitalize font-extrabold text-center lg:text-left italic ">
-            Master Your <span className="clip">Amazon PPC Campaigns</span> with
+          <h2 className="text-[28px] leading-[30px]  2xl:text-[48px] 2xl:leading-[50px] tracking-tighter capitalize font-bold text-center lg:text-left italic ">
+            Master Your  <span className="clip inline-block 2xl:w-[24.5rem] w-[14.5rem]">{" "}Amazon PPC Campaigns</span> with
             Our <span className="clip">Expert Services</span>
           </h2>
           <h6 className="italic text-[22px] leading-7 text-center lg:text-start 2xl:text-[32px] font-semibold 2xl:leading-10 tracking-tight mt-3 capitalize">
@@ -87,9 +87,9 @@ const ExpertServices = () => {
         </div>
         <div className="xl:w-[50%]">
           <div className="-ml-4 2xl:-ml-4">
-            <h1 className="clip text-2xl 2xl:text-[48px] xl:leading-10 2xl:leading-[60px] leading-5 italic mt-8 xl:mt-0 text-center xl:text-left 2xl:ml-4 clip">
+            <h6 className="clip text-2xl 2xl:text-[32px] xl:leading-7 2xl:leading-[43px] leading-7 italic mt-8 xl:mt-0 text-center xl:text-left 2xl:ml-4 clip tracking-tight font-medium">
               Our Comprehensive Amazon PPC Management Services
-            </h1>
+            </h6>
             <p className="text-center lg:text-left 2xl:ml-4">
               Our team of Amazon advertising specialists is dedicated to helping
               you harness the full potential of PPC campaigns. We offer a wide
@@ -146,9 +146,9 @@ const ExpertServices = () => {
         </div>
         <div className="xl:w-[50%] mt-12 lg:mt-4">
           <div>
-            <h1 className="clip text-2xl xl:text-[48px] xl:leading-[60px] leading-8 italic mt-8 xl:mt-0 text-center xl:text-left clip">
+            <h6 className="clip text-2xl xl:text-[32px] xl:leading-[43px] leading-7 italic mt-8 xl:mt-0 text-center xl:text-left clip tracking-tight font-medium">
               Why Choose Our Amazon PPC Services?
-            </h1>
+            </h6>
           </div>
           <section className=" grid grid-cols-1 md:grid-cols-2  justify-items-center  gap-8 mt-12 mx-4 lg:mx-0 text-center lg:text-left">
             <MyDetailsCard

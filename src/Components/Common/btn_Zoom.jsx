@@ -15,20 +15,20 @@ const Btn_Zoom = ({ colorTrue = false, classNAME }) => {
         <Pattern className="absolute left-0 xl:-left-12 xl:top-20 top-36 " />
         <div className="grid justify-items-center">
           <h1
-            className={`text-center text-3xl leading-10 min-w-[610px] italic font-extrabold  ${
+            className={`text-center text-[32px] leading-[44px] tracking-tight min-w-[610px] italic font-medium  ${
               colorTrue ? "cliptwo" : "clip"
             }`}
           >
-            Don't leave opportunities on the span{" "}
+            Don't leave opportunities on the table{" "}
           </h1>
           <p
-            className={`text-center italic text-2xl font-semibold leading-8 mt-3 relative z-1 ${
+            className={`text-center italic text-2xl font-normal leading-8 mt-3 relative z-1 ${
               colorTrue ? "text-white" : ""
             }`}
           >
             Book a Zoom call with us today to learn more about our <br />
-            White background Photography and enhance your product images and
-            boost your sales success.
+            Amazon PPC Services and enhance your product images and boost your
+            sales success.
           </p>
           <button
             className="btn_light_primary2 mt-8 flex items-center justify-center"

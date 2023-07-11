@@ -41,12 +41,12 @@ const AmazonServices = () => {
       <div className="container mx-auto">
         <section className="lg:flex justify-between gap-4 mx-4 mt-28 xl:mt-48">
           <div className="lg:w-[50%] pt-20 xl:pt-0">
-            <h2 className="text-[28px] leading-[30px]  2xl:text-[48px] 2xl:leading-[50px] tracking-tight clip capitalize font-extrabold text-center lg:text-start text-white">
+            <h2 className="text-[28px] leading-[30px]  2xl:text-[48px] 2xl:leading-[50px] tracking-tight clip capitalize font-bold text-center lg:text-start text-white">
               <span className="cliptwo">Product Paparazzi</span> Optimization
               Services The Key to{" "}
               <span className="cliptwo">Unlocking Your Amazon Success</span>
             </h2>
-            <h6 className="italic text-[22px] leading-7 text-center lg:text-start 2xl:text-[32px] font-semibold 2xl:leading-10 tracking-tight mt-3 text-white">
+            <h6 className="italic text-[22px] leading-7 text-center lg:text-start 2xl:text-[32px] font-medium 2xl:leading-10 tracking-tight mt-3 text-white">
               Elevate <span className="cliptwo">Your Amazon Listing</span> with
               Expertly Crafted Content &{" "}
               <span className="cliptwo">Proven Optimization</span> Strategies
@@ -90,9 +90,9 @@ const AmazonServices = () => {
           </div>
           <div className="xl:w-[50%]">
             <div>
-              <h1 className="clip text-2xl 2xl:text-[48px] xl:leading-10 2xl:leading-[60px] leading-8 italic mt-8 xl:mt-0 text-center xl:text-left 2xl:ml-4 cliptwo">
+              <h6 className="clip text-2xl 2xl:text-[32px] xl:leading-7 2xl:leading-[43px] leading-8 italic mt-8 xl:mt-0 text-center xl:text-left 2xl:ml-4 cliptwo tracking-tight">
                 Our Comprehensive Amazon Listing Optimization Process
-              </h1>
+              </h6>
             </div>
             <section className=" grid grid-cols-1 md:grid-cols-2  justify-items-center  gap-8  mt-4 mx-4 lg:mx-0 text-center lg:text-left">
               <MyDetailsCardTwo
@@ -147,9 +147,9 @@ const AmazonServices = () => {
           </div>
           <div className="xl:w-[50%] mt-4">
             <div>
-              <h1 className="clip text-2xl xl:text-[48px] xl:leading-[60px] leading-8 italic mt-8 xl:mt-0 text-center xl:text-left cliptwo">
+              <h6 className="clip text-2xl xl:text-[32px] xl:leading-[43px] leading-8 italic mt-8 xl:mt-0 text-center xl:text-left cliptwo tracking-tight">
                 Why Choose Product Paparazzi Optimization Services?
-              </h1>
+              </h6>
             </div>
             <section className=" grid grid-cols-1 md:grid-cols-2  justify-items-center  gap-8 mt-12 mx-4 lg:mx-0 text-center lg:text-left">
               <MyDetailsCardTwo
