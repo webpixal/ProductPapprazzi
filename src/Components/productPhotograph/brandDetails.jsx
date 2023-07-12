@@ -77,25 +77,26 @@ const BrandDetails = () => {
           P="Professional images can be used across various marketing channels, including website, email marketing, print advertising, and in-store displays, ensuring a cohesive brand experience for customers."
         />
       </main>
-      <section className=" flex justify-between flex-col md:flex-row gap-4 lg:items-center lg:mx-8  mt-12  ">
+      <section className="flex justify-between flex-col md:flex-row gap-4 lg:items-center lg:mx-8 mt-12">
         <MyDetailsCard
           LOGO={OurBuildsTrust}
+          CLASS="ml-6"
           H1="Builds Trust"
           P="Customers who see high-quality, accurate product images are likelier to trust your brand and feel confident in their purchase."
         />
         <div className="w-[420px] xl:w-[652px] ">
-          <p className="leading-6 font-normal text-[#494949] tracking-tight">
+          <p className="text-base font-normal leading-normal text-[#474747]">
             Investing in professional product photography is crucial for
             e-commerce businesses looking to drive sales, increase brand
             awareness, and create a lasting impression on potential customers.
           </p>
-          <p className="leading-6 font-normal text-[#494949]  tracking-tight">
+          <p className="text-base font-normal leading-normal text-[#474747]">
             Embrace the power of visually stunning images to set your brand
             apart and enjoy the benefits of a successful e-commerce presence.
           </p>
         </div>
       </section>
-      <Btn_Zoom />
+      <Btn_Zoom H1="Don't leave opportunities on the table" P="Book a Zoom call with us today to learn more about our" P2="White background Photography and enhance your product images and boost your sales success." />
     </div>
   );
 };

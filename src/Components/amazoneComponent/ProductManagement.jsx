@@ -29,19 +29,19 @@ const ProductManagement = () => {
     <main className="container mx-auto">
       <section className="lg:flex justify-between gap-4 mx-4 mt-16">
         <div className="lg:w-[50%]">
-          <h2 className="text-[28px] leading-[30px]  2xl:text-[48px] 2xl:leading-[60px] tracking-tight clip capitalize font-extrabold text-center lg:text-start text-black">
+          <h1 className="text-[28px] italic leading-[30px]  2xl:text-[48px] 2xl:leading-[3.75rem] tracking-[-0.06rem] clip capitalize font-bold text-center lg:text-start text-black">
             <span className="clip">Product Paparazzi Management </span> Services
             Your Ultimate <span className="clip">Amazon Success Partner</span>
-          </h2>
-          <h6 className="italic text-[22px] leading-7 text-center lg:text-start 2xl:text-[32px] font-semibold 2xl:leading-10 tracking-tight mt-1 2xl:mt-3">
+          </h1>
+          <h6 className="italic text-[22px] leading-7 text-center lg:text-start 2xl:text-[32px] font-medium 2xl:leading-[2.6875rem] tracking-[-0.04rem] mt-1 2xl:mt-3">
             Comprehensive{" "}
             <span className="clip">Amazon Account Management </span> to <br />
             Streamline Your{" "}
-            <span className="clip inline-block w-[410px]">
+            <span className="clip inline-block xl:w-[410px]">
               Business and Maximize Profitability{" "}
             </span>
           </h6>
-          <p className="text-base xl:text-xl font-semibold xl:leading-7 text-center lg:text-start text-[#494949] mt-1 2xl:mt-3">
+          <p className="text-base font-normal xl:leading-[1.5rem] text-center lg:text-start text-[#000] mt-1 2xl:mt-3 ">
             In the ever-evolving Amazon marketplace, many sellers find
             themselves overwhelmed by the complex rules and processes.
             Maintaining a healthy Seller Account is crucial to scaling your
@@ -66,7 +66,7 @@ const ProductManagement = () => {
         </div>
       </section>
 
-      <section className="flex justify-between flex-col xl:flex-row  gap-4 mx-4 mt-4 ">
+      <section className="flex justify-between items-center flex-col xl:flex-row  gap-4 mx-4 mt-4 ">
         <div
           className="relative w-[500px] h-[500px] 2xl:w-[702px] 2xl:h-[701px] mx-auto"
           onClick={() => handelVideoModal("videos/bg1.mp4")}
@@ -92,7 +92,7 @@ const ProductManagement = () => {
         </div>
         <div className="xl:w-[50%]">
           <div>
-            <h6 className="clip text-2xl xl:text-[32px] xl:leading-7 2xl:leading-[43px] tracking-tight leading-8 italic mt-8 xl:mt-0 text-center font-medium xl:text-left 2xl:ml-4">
+            <h6 className="clip text-2xl xl:text-[32px] xl:leading-7 2xl:leading-[43px] tracking-[-0.04rem] leading-8 italic mt-8 xl:mt-0 text-center font-medium xl:text-left 2xl:ml-4 capitalize">
               Our wide range of services
               includes
             </h6>
@@ -128,7 +128,7 @@ const ProductManagement = () => {
       </section>
 
       <section className="flex justify-between flex-col xl:flex-row-reverse items-center gap-4 mt-8 mx-4 ">
-        <div className="w-[600px] h-[500px] xl:h-[675px] 2xl:w-[775px] 2xl:h-[875px] ">
+        <div className="w-[600px] h-[500px] xl:h-[675px] 2xl:w-[775px] 2xl:h-[875px] my-4">
           <Image
             src={amazonimage3}
             width={775}
@@ -136,7 +136,7 @@ const ProductManagement = () => {
             // layout="fill"
             className="rounded-3xl object-cover"
           />
-          <p className="mt-12 text-center xl:text-left">
+          <p className="text-base font-normal xl:leading-[1.5rem] text-center lg:text-start text-[#000] mt-12">
             Product Paparazzi Management Services is your one-stop solution for
             comprehensive and effective Amazon account management. Our team of
             experienced and certified Amazon consultants will handle every
@@ -148,13 +148,13 @@ const ProductManagement = () => {
         </div>
         <div className="xl:w-[50%] mt-96 xl:mt-4">
           <div>
-            <h6 className="clip text-2xl xl:text-[32px] xl:leading-[43px] leading-8 italic mt-8 xl:mt-0 text-center xl:text-left font-medium">
+            <h6 className="clip text-2xl xl:text-[32px] xl:leading-[2.6875rem] leading-8 italic mt-8 xl:mt-0 text-center xl:text-left font-medium tracking-[-0.04rem]">
               More Than Just Virtual Assistants
             </h6>
-            <h6 className="italic text-xl leading-6 xl:font-[32px] xl:leading-10 text-center xl:text-left">
-              Why Choose Product Paparazzi Management Services?
+            <h6 className="clip text-2xl xl:text-[32px] xl:leading-[2.6875rem] leading-8 italic mt-8 xl:mt-0 text-center xl:text-left font-medium tracking-[-0.04rem]">
+              <span className="text-black">Why Choose</span> Product Paparazzi Management Services?
             </h6>
-            <p className="text-center xl:text-left">
+            <p className="text-center xl:text-left leading-[1.5rem]">
               Our team consists of experienced and certified Amazon consulting
               experts who possess an in-depth understanding of the Amazon
               ecosystem. We go above and beyond to ensure your Amazon business

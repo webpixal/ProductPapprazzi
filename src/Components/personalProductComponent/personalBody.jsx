@@ -8,13 +8,9 @@ import {
   Personal_incorporate_into,
   Personal_leverage_customer,
   Personal_utilise,
-  ZIcon,
 } from "@/Assets/SVGs/SVG";
 import MyDetailsCard from "../Common/myDetailsCard";
 import Image from "next/image";
-import PlayIcon from "@/Assets/SVGs/Play";
-import Patter from "@/Assets/SVGs/Patter";
-import Patter_color from "@/Assets/SVGs/Patter_color";
 import Btn_Zoom from "../Common/btn_Zoom";
 
 const PersonalBody = () => {
@@ -22,17 +18,17 @@ const PersonalBody = () => {
     <main className="container mx-auto">
       <section className="lg:flex justify-between lg:gap-8 mx-4 mt-28">
         <div className="lg:w-[50%]">
-          <h2 className="text-[28px] leading-[30px]  2xl:text-[48px] 2xl:leading-[60px] tracking-tight capitalize font-extrabold text-center lg:text-left italic">
+          <h2 className="text-[28px] leading-[30px]  2xl:text-[48px] 2xl:leading-[60px] tracking-[-0.06rem] capitalize font-bold text-center lg:text-left italic text-[#000]">
             Looking for a way to {" "}
             <span className="clip inline-block 2xl:w-[515px]">showcase the people behind</span> your
             business in a visually <span className="clip inline-block 2xl:w-[300px]">engaging way?</span>
           </h2>
-          <h6 className="italic text-[22px] leading-7 text-center lg:text-start 2xl:text-[32px] font-semibold 2xl:leading-10 tracking-tight mt-3">
+          <h6 className="italic capitalize text-[22px] leading-7 text-center lg:text-start 2xl:text-[32px] font-medium 2xl:leading-[2.6875rem] tracking-[-0.04rem] mt-3">
             Our <span className="clip inline-block 2xl:w-[155px]">personalized</span> infographics and
             plain white photography services{" "}
             <span className="clip ">are the perfect solution.</span>
           </h6>
-          <p className="text-base xl:text-xl font-semibold xl:leading-7 text-center lg:text-start mt-3 ">
+          <p className="text-base font-normal leading-[1.5rem] text-center lg:text-start mt-3 ">
             Our expert designers will work with you to create customized
             infographics that feature personal images of your team members, or
             provide high-quality images featuring your team members or products
@@ -44,7 +40,7 @@ const PersonalBody = () => {
           <ul>
             Personalized infographics and plain white photography offer many
             benefits, including:
-            <div className="ml-8 lg:w-[90%]">
+            <div className="ml-8 mt-4 lg:w-[90%]">
               <li className="list-disc ">
                 A unique and memorable way to showcase the people behind your
                 business and differentiate yourself from the competition.
@@ -92,11 +88,11 @@ const PersonalBody = () => {
         </div>
         <div className="xl:w-[50%]">
           <div className="-ml-4 2xl:-ml-4">
-            <h1 className="text-2xl 2xl:text-[48px] xl:leading-10 2xl:leading-[60px] leading-5 italic mt-8 xl:mt-0 text-center xl:text-left  2xl:ml-4">
+            <h6 className="text-2xl 2xl:text-[32px] xl:leading-[2.6875rem] leading-7 tracking-[-0.04rem] italic mt-8 xl:mt-0 text-center xl:text-left  2xl:ml-4 capitalize">
               The versatility of {" "}
-              <span className="clip">plain white photography {" "}</span> 
-            </h1>
-            <p className="text-center lg:text-left 2xl:ml-4">
+              <span className="clip inline-block md:w-[28%] xl:w-[40%]">plain white photography {" "}</span> 
+            </h6>
+            <p className="text-center lg:text-left 2xl:ml-4 leading-[1.5rem]">
               Which can be used in a variety of ways to showcase your team
               members or products in a consistent and professional manner. To
               best promote your business and brand using personalised
@@ -133,7 +129,7 @@ const PersonalBody = () => {
         </div>
       </section>
       <div>
-        <p className="text-center mt-16">
+        <p className="text-center mt-16 leading-[1.5rem]">
           In conclusion, personalized infographics and plain white photography
           are unique and memorable ways to showcase the people behind your
           business and build trust with your customers. By promoting your images
@@ -143,7 +139,7 @@ const PersonalBody = () => {
           white photography can benefit your business.
         </p>
       </div>
-      <Btn_Zoom />
+      <Btn_Zoom P="Book a Zoom call with us today to learn more about our" P2="Personal Portraits and take the first step in building your presence and authority on LinkedIn."/>
     </main>
   );
 };

@@ -12,16 +12,11 @@ import {
   Amazon_comprehensive_copywriting,
   Amazon_cretified_seo,
   Amazon_delivered_in,
-  Amazon_experienced_certified,
   Amazon_five_informativesvg,
   Amazon_in_depth,
   Amazon_results_drived,
-  Box_dot,
-  ZIcon,
 } from "@/Assets/SVGs/SVG";
 import MyDetailsCardTwo from "@/Components/Common/DetailsCardTwo";
-import Patter from "@/Assets/SVGs/Patter";
-import Patter_color from "@/Assets/SVGs/Patter_color";
 import Btn_Zoom from "../Common/btn_Zoom";
 import VideoPlayerModal from "../Common/VideoPlayerModal";
 const AmazonServices = () => {
@@ -41,14 +36,14 @@ const AmazonServices = () => {
       <div className="container mx-auto">
         <section className="lg:flex justify-between gap-4 mx-4 mt-28 xl:mt-48">
           <div className="lg:w-[50%] pt-20 xl:pt-0">
-            <h2 className="text-[28px] leading-[30px]  2xl:text-[48px] 2xl:leading-[50px] tracking-tight clip capitalize font-bold text-center lg:text-start text-white">
+            <h2 className="text-[28px] leading-[30px]  2xl:text-[48px] 2xl:leading-[3.75rem] tracking-[-0.06rem] clip capitalize font-bold text-center lg:text-start text-white italic">
               <span className="cliptwo">Product Paparazzi</span> Optimization
               Services The Key to{" "}
               <span className="cliptwo">Unlocking Your Amazon Success</span>
             </h2>
-            <h6 className="italic text-[22px] leading-7 text-center lg:text-start 2xl:text-[32px] font-medium 2xl:leading-10 tracking-tight mt-3 text-white">
+            <h6 className="italic text-[22px] leading-7 text-center lg:text-start 2xl:text-[32px] font-medium 2xl:leading-[2.6875rem] tracking-[-0.04rem] mt-3 text-white capitalize">
               Elevate <span className="cliptwo">Your Amazon Listing</span> with
-              Expertly Crafted Content &{" "}
+              Expertly Crafted <br className="xl:block hidden" /> Content &{" "}
               <span className="cliptwo">Proven Optimization</span> Strategies
             </h6>
             <p className="text-base xl:text-xl font-semibold xl:leading-7 text-center lg:text-start text-[#D9D9D9] mt-3">
@@ -90,7 +85,7 @@ const AmazonServices = () => {
           </div>
           <div className="xl:w-[50%]">
             <div>
-              <h6 className="clip text-2xl 2xl:text-[32px] xl:leading-7 2xl:leading-[43px] leading-8 italic mt-8 xl:mt-0 text-center xl:text-left 2xl:ml-4 cliptwo tracking-tight">
+              <h6 className="clip text-2xl 2xl:text-[32px] xl:leading-[2.6875rem] 2xl:leading-[43px] font-medium leading-8 italic mt-8 xl:mt-0 text-center xl:text-left 2xl:ml-4 cliptwo tracking-[-0.04rem]">
                 Our Comprehensive Amazon Listing Optimization Process
               </h6>
             </div>
@@ -147,7 +142,7 @@ const AmazonServices = () => {
           </div>
           <div className="xl:w-[50%] mt-4">
             <div>
-              <h6 className="clip text-2xl xl:text-[32px] xl:leading-[43px] leading-8 italic mt-8 xl:mt-0 text-center xl:text-left cliptwo tracking-tight">
+              <h6 className="text-2xl xl:text-[32px] xl:leading-[2.6875rem] leading-8 italic mt-8 xl:mt-0 text-center xl:text-left cliptwo tracking-[-0.04rem] font-medium">
                 Why Choose Product Paparazzi Optimization Services?
               </h6>
             </div>
@@ -179,7 +174,7 @@ const AmazonServices = () => {
             </section>
           </div>
         </section>
-        <section className="flex justify-between flex-col lg:flex-row w-[80%] mx-auto lg:gap-14">
+        <section className="flex justify-between flex-col lg:flex-row w-[80%] mx-auto lg:gap-14 xl:-mt-40">
           <p className="mt-12 lg:w-[50%] text-center xl:text-left text-white">
             Don't leave your Amazon success to chance; partner with Product
             Paparazzi Optimization Services today and unlock the full potential
@@ -191,7 +186,12 @@ const AmazonServices = () => {
             of your Amazon listing.
           </p>
         </section>
-        <Btn_Zoom colorTrue={true} classNAME="pb-52" />
+        <Btn_Zoom
+          colorTrue={true}
+          classNAME="pb-52"
+          P="Book a Zoom call with us today to learn more about our"
+          P2="SEO / Product copywriting and enhance your product images and boost your sales success."
+        />
       </div>
       <>
         {openVideoModal && (

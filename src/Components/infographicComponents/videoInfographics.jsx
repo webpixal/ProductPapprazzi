@@ -27,16 +27,16 @@ const VideoInfographics = () => {
             layout="fill"
             className="rounded-3xl object-cover "
           />
-          <div className="absolute top-[-4rem] right-0 2xl:top-[-31px] 2xl:right-0">
+          <div className="absolute w-[130px] top-[-4rem] right-0 2xl:top-[-31px] 2xl:right-0">
             {" "}
-            <Circle_Dash />
+            <Circle_Dash className="w-[130px]"/>
           </div>
         </div>
         <div className="xl:w-[50%]">
           <div>
-            <h1 className="clip text-2xl xl:text-[48px] xl:leading-[60px] leading-8 italic mt-8 xl:mt-0 text-center xl:text-left">
+            <h6 className="italic text-[22px] leading-7 text-center lg:text-start 2xl:text-[32px] font-medium 2xl:leading-[2.6875rem] tracking-[-0.04rem] clip">
               The Benefits of Video Infographics
-            </h1>
+            </h6>
           </div>
           <section className=" grid grid-cols-1 md:grid-cols-2  justify-items-center gap-8  mt-12 text-center lg:text-left">
             <MyDetailsCard
@@ -69,12 +69,12 @@ const VideoInfographics = () => {
       <section className="flex justify-between flex-col xl:flex-row items-center mt-8 mx-4">
         <MyDetailsCard
           LOGO={Be_increase}
-          CLASS="lg:w-[50%] mx-auto flex flex-col items-center xl:items-start text-center md:text-left"
+          CLASS="lg:max-w-[301px] mx-auto flex flex-col items-center xl:items-start text-center md:text-left"
           H1="Increased Share ability"
           P="Compelling video content is more likely to be shared on social media, expanding your reach and amplifying your brand's presence."
         />
         <div className="lg:w-[50%] mt-4 xl:mt-0">
-          <h6 className="text-center xl:text-left">
+          <h6 className="text-center xl:text-left leading-[1.5rem]">
             At Product Paparazzi UK Limited, our innovative video infographics
             are designed to turn heads and leave a lasting impact. Transforming
             plain white 180-degree images into dynamic visual experiences, we
@@ -85,7 +85,7 @@ const VideoInfographics = () => {
           </h6>
         </div>
       </section>
-      <Btn_Zoom />
+      <Btn_Zoom P="Book a Zoom call with us today to learn more about our" P2="Video Infographics and enhance your product images and boost your sales success."/>
     </main>
   );
 };

@@ -17,15 +17,21 @@ const OurProcess = () => {
     <main className="container mx-auto">
       <section className="lg:flex justify-between gap-4 mx-4 mt-16">
         <div className="lg:w-[50%]">
-          <h2 className="text-[28px] leading-[30px]  2xl:text-[48px] 2xl:leading-[60px] tracking-tight clip capitalize font-extrabold text-center lg:text-start text-black"> 
+          <h2 className="text-[28px] leading-[30px]  2xl:text-[48px] 2xl:leading-[3.75rem] italic clip capitalize font-bold text-center lg:text-start text-black tracking-[-0.06rem]">
             Breath-taking <span className="clip">Video Infographics</span>{" "}
             <span className="clip">Revolutionizing</span> E-commerce Imagery
           </h2>
-          <h6 className="italic text-[22px] leading-7 text-center lg:text-start 2xl:text-[32px] font-semibold 2xl:leading-10 tracking-tight mt-3">
-            Transform Plain <span className="clip inline-block 2xl:w-[180px]">Product Photos</span> into{" "}
-            <span className="clip inline-block w-[318px]">Dynamic Visual Experiences</span>
+          <h6 className="italic text-[22px] leading-7 text-center lg:text-start 2xl:text-[32px] font-medium 2xl:leading-[2.6875rem] tracking-[-0.04rem]  mt-3">
+            Transform Plain{" "}
+            <span className="clip inline-block 2xl:w-[178px]">
+              Product Photos
+            </span>{" "}
+            into
+            <span className="clip inline-block ml-1">
+              Dynamic Visual Experiences
+            </span>
           </h6>
-          <p className="text-base xl:text-xl font-semibold xl:leading-7 text-center lg:text-start text-[#494949] mt-3">
+          <p className="text-base xl:text-xl font-normal xl:leading-[1.875rem] text-center lg:text-start text-[#000] mt-3 2xl:w-[40.375rem]">
             In today's fast-paced digital world, captivating your audience's
             attention has become more challenging. At Product Paparazzi UK
             Limited, we're pushing the boundaries of visual content by
@@ -36,7 +42,10 @@ const OurProcess = () => {
           </p>
         </div>
         <div className="">
-          <Image src={design_man} className="w-[500px] h-[300px] xl:w-[735px] xl:h-[417px] mx-auto mt-8 xl:mt-0" />
+          <Image
+            src={design_man}
+            className="w-[500px] h-[300px] xl:w-[735px] xl:h-[417px] mx-auto mt-8 xl:mt-0"
+          />
         </div>
       </section>
 
@@ -59,7 +68,7 @@ const OurProcess = () => {
         </div>
         <div className="xl:w-[50%]">
           <div>
-            <h1 className="clip text-2xl xl:text-[48px] xl:leading-[60px] leading-8 italic mt-8 xl:mt-0 text-center xl:text-left">
+            <h1 className="italic text-[22px] leading-7 text-center lg:text-start 2xl:text-[32px] font-medium 2xl:leading-[2.6875rem] tracking-[-0.04rem] clip">
               Our Process
             </h1>
             <p className="text-center xl:text-left">

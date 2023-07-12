@@ -1,3 +1,4 @@
+"use client"
 import {
   LogoProductPaparazzi,
   LogoPaymentMethod,
@@ -9,6 +10,10 @@ import {
 import React from "react";
 
 const Footer = () => {
+  
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
   return (
     <>
       <main className="flex flex-wrap justify-around mt-10 items-start mb-16 xl:ml-32 xl:mr-32">
@@ -91,7 +96,11 @@ const Footer = () => {
         <div>
           <h5 className="text-[18px] font-bold mt-24">Newsletter</h5>
           <div className="w-[226px] h-[46px] bg-white text-[#2A3342 border border-[#D5DAE1] text-[16px] rounded-[8px] mt-8 overflow-hidden">
-            <input type="text" placeholder="pat@shuffle.dev" className="w-[100%] h-[100%] p-4 border-none outline-none"/>
+            <input
+              type="text"
+              placeholder="pat@shuffle.dev"
+              className="w-[100%] h-[100%] p-4 border-none outline-none"
+            />
           </div>
           <h5 className="text-[18px] font-bold mt-14">Product Paparazzi</h5>
           <p className="border-b-[1px] border-[#000000] mt-3 w-32 ml-3"></p>
@@ -99,7 +108,7 @@ const Footer = () => {
             <LogoFbLinkComponent />
           </div>
         </div>
-        <div className=" flex flex-col justify-end items-end">
+        <div className=" flex flex-col justify-end items-center 2xl:items-end">
           <button className="btn_light_primary mt-[155px]">
             <span className="text-[#F0FDF4] font-medium">Subscribe</span>
           </button>
@@ -108,6 +117,20 @@ const Footer = () => {
           </div>
         </div>
       </main>
+      {/* <div className="flex justify-center">
+        <button onClick={scrollToTop} className="my-2 relative">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="2rem"
+            width="5rem"
+
+            className="rotate-180 hover:bg-[#F0FDF4] rounded-lg"
+            viewBox="0 0 448 512"
+          >
+            <path d="M201.4 342.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 274.7 86.6 137.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z" />
+          </svg>
+        </button>
+      </div> */}
       <div className="h-[100px] shadow-2xl">
         <div className="pt-7">
           <h4 className="text-center font-bold">

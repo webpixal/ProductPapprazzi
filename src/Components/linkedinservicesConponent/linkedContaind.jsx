@@ -9,12 +9,12 @@ const LinkedContains = () => {
     <div>
       <section className="lg:flex justify-between items-center lg:gap-8 mx-4 mt-20">
         <div className="lg:w-[50%]">
-          <h2 className="text-[28px] leading-[30px]  2xl:text-[48px] 2xl:leading-[60px] tracking-tight capitalize font-extrabold text-center lg:text-left italic ">
+          <h2 className="text-[28px] leading-[30px]  2xl:text-[48px] 2xl:leading-[50px] tracking-[-0.06rem] capitalize font-bold text-center lg:text-left italic ">
             Are you looking to{" "}
             <span className="clip">increase your professional network</span> and
             grow your business
           </h2>
-          <h6 className="italic text-[22px] leading-7 text-center lg:text-start 2xl:text-[32px] font-semibold 2xl:leading-10 tracking-tight mt-3 capitalize">
+          <h6 className="italic text-[22px] leading-7 text-center lg:text-start 2xl:text-[32px] font-medium 2xl:leading-[2.6875rem] tracking-tight mt-3 capitalize">
             Look no further than LinkedIn, the world's{" "}
             <span className="clip">
               largest professional network with over 134 million daily active
@@ -23,7 +23,7 @@ const LinkedContains = () => {
             But with so many users, how can you stand out? That's where our
             LinkedIn services come in.
           </h6>
-          <p className="text-base xl:text-xl font-semibold xl:leading-7 text-center lg:text-start mt-3 ">
+          <p className="text-base font-normal leading-[1.5rem] text-center lg:text-start mt-3 ">
             We offer a range of services to help you build your presence and
             authority fast on LinkedIn. We'll create a captivating LinkedIn
             profile that proves your talents and highlights your experiences
@@ -47,10 +47,10 @@ const LinkedContains = () => {
           />
         </div>
         <div className="lg:w-[50%] mt-4 lg:mt-0">
-          <h6 className="italic text-[22px] leading-7 text-center lg:text-start 2xl:text-[32px] font-semibold 2xl:leading-10 tracking-tight mt-3 capitalize clip">
-            But creating a brilliant LinkedIn profile can be challenging
+          <h6 className="italic text-[22px] leading-7 text-center lg:text-start 2xl:text-[32px] font-medium 2xl:leading-[2.6875rem] tracking-[-0.04rem] mt-3 capitalize clip">
+            But creating a brilliant LinkedIn profile <br className="xl:inline-block hidden"/>can be challenging
           </h6>
-          <p className="text-base xl:text-xl font-semibold xl:leading-7 text-center lg:text-start mt-3 ">
+          <p className="text-base font-normal xl:leading-7 text-center lg:text-start mt-3 ">
             Six common mistakes can get in the way of a fantastic LinkedIn
             profile, including an incomplete headline, a summary that lacks
             differentiation, insufficient connections or recommendations, and no
@@ -68,10 +68,10 @@ const LinkedContains = () => {
       </section>
       <section className="lg:flex justify-between items-center lg:gap-8 mx-4 mt-20 2xl:mt-28">
         <div className="lg:w-[50%]">
-          <h6 className="italic text-[22px] leading-7 text-center lg:text-start 2xl:text-[32px] font-semibold 2xl:leading-10 tracking-tight mt-3 capitalize clip">
+          <h6 className="italic text-[22px] leading-7 text-center lg:text-start 2xl:text-[32px] font-medium 2xl:leading-[2.5875rem] tracking-[-0.04rem] mt-3 capitalize clip">
           Don't stress, we're here to help.
           </h6>
-          <p className="text-base xl:text-xl font-semibold xl:leading-7 text-center lg:text-start mt-3 ">
+          <p className="text-base font-normal leading-[1.5rem] text-center lg:text-start mt-3 ">
           Our team of experts has spent countless hours crafting the perfect
             profiles for our clients. With a compelling mix of content,
             character limits, and formatting tailored to your vision, we'll make
@@ -104,12 +104,12 @@ const LinkedContains = () => {
           />
         </div>
         <div className="lg:w-[50%] mt-4 lg:mt-0">
-          <h6 className="italic text-[22px] leading-7 text-center lg:text-start 2xl:text-[32px] font-semibold 2xl:leading-10 tracking-tight mt-3 capitalize clip">
+          <h6 className="italic text-[22px] leading-7 text-center lg:text-start 2xl:text-[32px] font-medium 2xl:leading-[2.6875rem] tracking-[-0.04rem] mt-3 capitalize clip">
           We also offer customized DM outreach sequences and LinkedIn DFY
             prospecting and outreach campaigns to help you build relationships
             of trust while also qualifying your prospects
           </h6>
-          <p className="text-base xl:text-xl font-semibold xl:leading-7 text-center lg:text-start mt-3 ">
+          <p className="text-base font-normal leading-[1.5rem] text-center lg:text-start mt-3 ">
           Our packages include up to 20 hours of work per month, and we'll
             connect with 100 prospects per week. <br />
             <br />

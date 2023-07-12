@@ -18,7 +18,6 @@ import {
   Commercial_pre_product,
   Commercial_production,
   Commercial_timely_delivey,
-  ZIcon,
 } from "@/Assets/SVGs/SVG";
 import PlayIcon from "@/Assets/SVGs/Play";
 import Btn_Zoom from "../Common/btn_Zoom";
@@ -34,16 +33,21 @@ const CommercialProductBody = () => {
     <main className="container mx-auto">
       <section className="lg:flex justify-between lg:gap-8 mx-4 mt-20">
         <div className="lg:w-[50%]">
-          <h2 className="text-[28px] leading-[30px]  2xl:text-[48px] 2xl:leading-[60px] tracking-tight capitalize font-extrabold text-center lg:text-left italic">
-            <span className="clip inline-block 2xl:w-[465px]">Premium Video Production</span> Services
-            Tailored for <span className="clip inline-block 2xl:w-[465px]">Television & E-commerce</span>{" "}
+          <h2 className="text-[28px] leading-[30px]  2xl:text-[48px] 2xl:leading-[60px] capitalize font-bold text-center lg:text-left italic tracking-[-0.06rem]">
+            <span className="clip inline-block w-[265px] 2xl:w-[475px]">
+              Premium Video Production{" "}
+            </span>{" "}
+            Services Tailored for{" "}
+            <span className="clip inline-block w-[255px] 2xl:w-[465px]">
+              Television & E-commerce
+            </span>{" "}
             Advertisements
           </h2>
-          <h6 className="italic text-[22px] leading-7 text-center lg:text-start 2xl:text-[32px] font-semibold 2xl:leading-10 tracking-tight mt-3 ">
+          <h6 className="italic text-[22px] leading-7 text-center lg:text-start 2xl:text-[32px] font-medium 2xl:leading-10 tracking-[-0.04rem] mt-3 ">
             Your <span className="text-[#6940CC]">Vision</span>, Our{" "}
             <span className="text-[#6940CC]">Expertise</span>
           </h6>
-          <p className="text-base xl:text-xl xl:leading-7 text-center lg:text-start mt-3 ">
+          <p className="text-base  leading-[1.5rem] text-center lg:text-start mt-3 ">
             Welcome to Product Paparazzi UK Limited, where we turn your vision
             into a reality by crafting visually stunning and emotionally
             captivating video content that leaves a lasting impact on your
@@ -69,7 +73,10 @@ const CommercialProductBody = () => {
       </section>
 
       <section className="flex justify-between flex-col xl:flex-row  lg:gap-14 mx-4 mt-12">
-        <div className="relative w-[500px] h-[500px] xl:w-[702px] xl:h-[701px] mx-auto" onClick={() => handelVideoModal("videos/photo.webm")}>
+        <div
+          className="relative w-[500px] h-[500px] xl:w-[702px] xl:h-[701px] mx-auto"
+          onClick={() => handelVideoModal("videos/photo.webm")}
+        >
           <Image
             src={commerImg2}
             // width={675}
@@ -89,9 +96,9 @@ const CommercialProductBody = () => {
         </div>
         <div className="xl:w-[50%]">
           <div className="-ml-4 2xl:-ml-4">
-            <h1 className="clip text-2xl 2xl:text-[48px] xl:leading-10 2xl:leading-[60px] leading-5 italic mt-8 xl:mt-0 text-center xl:text-left 2xl:ml-4 clip">
+            <h6 className="text-2xl xl:text-[32px] xl:leading-[2.6875rem] leading-5 italic mt-12 xl:mt-0 text-center xl:text-left 2xl:ml-4 clip font-medium tracking-[-0.04rem]">
               Our Comprehensive Video Production Services
-            </h1>
+            </h6>
           </div>
           <section className=" grid grid-cols-1 md:grid-cols-2  justify-items-center gap-8 mt-4 mx-4 lg:mx-0 text-center lg:text-left">
             <MyDetailsCard
@@ -137,7 +144,7 @@ const CommercialProductBody = () => {
             // layout="fill"
             className="rounded-3xl object-cover"
           />
-          <p className="mt-3">
+          <p className="mt-3 leading-[1.5rem]">
             Product Paparazzi UK Limited is your one-stop-shop for exceptional
             video production services that captivate, engage, and inspire your
             audience. <br /> <br />
@@ -150,21 +157,23 @@ const CommercialProductBody = () => {
             masterpieces.
           </p>
           <div className="absolute top-[-31px] right-0 lg:top-[-45px] lg:right-[-12px]">
-            <Coloring_circle />
+            <Coloring_circle className="w-[130px]" />
           </div>
         </div>
         <div className="xl:w-[50%] mt-80 xl:mt-8">
           <div>
-            <h1 className="clip text-2xl xl:text-[48px] xl:leading-[60px] leading-8 italic mt-8 xl:mt-0 text-center xl:text-left clip">
-              <span className="cliptwo">Why Choose</span> <br />
+            <h6 className="text-2xl xl:text-[32px] font-medium xl:leading-[2.6875rem] leading-7 italic mt-8 xl:mt-0 text-center xl:text-left clip">
+              <span className="cliptwo">Why Choose </span>
               Product Paparazzi UK Limited
-            </h1>
-            <h6 className="italic text-[22px] leading-7 text-center lg:text-start 2xl:text-[32px] font-semibold 2xl:leading-10 tracking-tight mt-3 ">
-              We <span className="clip">understand</span> that every client's{" "}
-              <span className="clip">needs & budget</span> constraints are
-              unique
             </h6>
-            <p className="text-base xl:text-xl font-semibold xl:leading-7 text-center lg:text-start mt-3 ">
+            <h6 className="italic text-2xl leading-7 text-center lg:text-start 2xl:text-[32px] font-medium 2xl:leading-[2.6875rem] tracking-[-0.04rem] mt-3 ">
+              We <span className="clip">understand </span> that every client's{" "}
+              <span className="clip inline-block 2xl:w-[15rem]">
+                needs & budget
+              </span>{" "}
+              constraints are unique
+            </h6>
+            <p className="text-base font-normal leading-[1.5rem] text-black text-center lg:text-start mt-3 ">
               That's why we offer tailored video production packages that cater
               to a wide range of budgets without compromising on quality.
               Whether you're an established brand seeking a high-end commercial
@@ -207,7 +216,10 @@ const CommercialProductBody = () => {
           </section>
         </div>
       </section>
-      <Btn_Zoom />
+      <Btn_Zoom
+        P="Book a Zoom call with us today to learn more about our"
+        P2="Commercial Product and take the first step in building your presence and authority on LinkedIn."
+      />
       <>
         {openVideoModal && (
           <VideoPlayerModal

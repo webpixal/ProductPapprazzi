@@ -12,18 +12,18 @@ const ImageEditor = () => {
     <main className="container mx-auto">
       <section className="lg:flex justify-between gap-4 mx-4 mt-16">
         <div className="lg:w-[50%]">
-          <h2 className="text-[28px] leading-[30px]  xl:text-[48px] xl:leading-[50px] tracking-tight clip capitalize font-extrabold text-center lg:text-start ">
+          <h2 className="text-[28px] leading-[30px]  xl:text-[48px] xl:leading-[60px] tracking-[-0.06rem] clip  text-center lg:text-start w-[779px] text-5xl font-semibold capitalize italic">
             Our e-commerce product image editing services are specifically
             tailored to the needs of commercial selling platforms.
           </h2>
-          <h6 className="italic text-[22px] leading-7 text-center lg:text-start xl:text-[32px] font-semibold xl:leading-10 tracking-tight mt-3">
+          <h6 className="italic text-base leading-7 text-center xl:leading-[2.4375rem] lg:text-start mt-4 text-black text-[1.75rem] font-normal capitalize tracking-[-0.035rem]">
             We can help you improve your product photography, giving it a
             professional and modern look that resonates with potential buyers.
             Our services include creating Amazon lifestyle images, composite
             lifestyle images, Amazon infographic images, white background
             images, and more.
           </h6>
-          <p className="text-base xl:text-xl font-semibold xl:leading-7 text-center lg:text-start text-[#494949] mt-8">
+          <p className="text-center xl:text-left text-zinc-700 text-base xl:text-xl font-normal xl:leading-[30px] mt-4">
             We understand that each platform has its own requirements and rules
             when it comes to product photos. That's why we take care to ensure
             our edits meet those guidelines while still allowing your product to
@@ -39,17 +39,17 @@ const ImageEditor = () => {
       </section>
       <section className="lg:flex flex-row-reverse justify-between gap-4 mx-4 mt-16 items-center">
         <div className="lg:w-[50%]">
-          <h2 className="italic tracking-tight clip capitalize  text-center lg:text-start text-2xl 2xl:text-[32px] font-semibold">
+          <h6 className="italic text-base leading-7 text-center xl:leading-[2.6875rem] lg:text-start mt-4 clip text-[1.5rem] font-semibold capitalize tracking-[-0.035rem]">
             We deliver images with at least 1000 pixels in length or width.
-          </h2>
-          <p className=" text-xl text-center lg:text-start  font-semibold mt-4">
+          </h6>
+          <p className="text-center xl:text-left text-zinc-700 text-base xl:text-xl font-normal xl:leading-[30px] mt-4">
             All files are thoroughly optimized for the web, including being
             given search engine-friendly file names and formatted in
             commonly-used JPEG, PNG, GIF, or TIFF format. Our experienced team
             of editors uses Adobe Photoshop to professionally edit your product
             photos, ensuring a high-res finish that looks great on any device.
           </p>
-          <p className="text-base xl:text-xl font-semibold xl:leading-7 text-center lg:text-start text-[#494949]">
+          <p className="text-center xl:text-left text-zinc-700 text-base xl:text-xl font-normal xl:leading-[30px] mt-4">
             Using our professional product image editing services, you can boost
             conversions through improved visuals and maximize sales performance
             on any commercial platform. With expert knowledge of e-commerce
@@ -64,14 +64,14 @@ const ImageEditor = () => {
       </section>
       <section className="lg:flex justify-between gap-4 mx-4 mt-16 items-center">
         <div className="lg:w-[50%]">
-          <h2 className="italic tracking-tight clip capitalize  text-center lg:text-start 2xl:text-[32px text-2xl font-semibold">
+          <h6 className="italic text-base leading-7 text-center xl:leading-[1.90625rem] lg:text-start mt-4 clip text-[1.5rem] font-semibold capitalize tracking-[-0.035rem]">
             Not only do we stay up to date with the latest trends in Amazon
             images, but we also adhere to Amazon's guidelines to ensure that
             your images meet all requirements and are ready for upload. This not
             only increases your chances of getting your listing approved but
             also helps your products stand out from the competition.
-          </h2>
-          <p className=" text-xl text-center lg:text-start  font-semibold mt-4">
+          </h6>
+          <p className="text-center xl:text-left text-zinc-700 text-base xl:text-xl font-normal xl:leading-[30px] mt-4">
             In addition to image editing, we also provide performance
             evaluations at the ad-group level to monitor the effectiveness of
             your campaigns. With weekly analysis of search term reports and
@@ -84,15 +84,15 @@ const ImageEditor = () => {
         </div>
       </section>
       <section>
-        <h6 className="text-center italic tracking-tight text-2xl leading-6 lg:text-[32px] lg:leading-10 font-semibold capitalize mt-14">
-          Don't let <span className="clip">poor imagery</span> hold back your
-          sales <span className="clip">potential on Amazon.</span> <br />
-          <span className="clip">Trust us</span> to enhance your{" "}
-          <span className="clip">product images</span> and{" "}
-          <span>boost your sales success.</span>
+        <h6 className="text-center italic tracking-[ -0.04rem] text-2xl leading-6 lg:text-[32px] lg:leading-10 font-medium capitalize mt-14">
+          Don't let <span className="clip inline-block lg:w-[10.5rem]">poor imagery</span> hold back your
+          sales <span className="clip inline-block lg:w-[16.5rem]">potential on Amazon</span>. <br />
+          <span className="clip inline-block lg:w-[6.5rem]">Trust us</span> to enhance your{" "}
+          <span className="clip inline-block lg:w-[12.5rem]">product images</span> and{" "}
+          <span className="clip inline-block lg:w-[19.5rem]">boost your sales success</span>.
         </h6>
       </section>
-      <Btn_Zoom />
+      <Btn_Zoom P="Book a Zoom call with us today to learn more about our" P2="Product Photography and enhance your product images and boost your sales success."/>
     </main>
   );
 };

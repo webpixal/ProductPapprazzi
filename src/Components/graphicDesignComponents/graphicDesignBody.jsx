@@ -19,22 +19,32 @@ const GraphicDesignBody = () => {
     <main className="container mx-auto">
       <section className="lg:flex justify-between items-center lg:gap-8 mx-4 mt-20">
         <div className="lg:w-[50%]">
-          <h2 className="text-[28px] leading-[30px]  2xl:text-[48px] 2xl:leading-[50px] tracking-tight capitalize font-extrabold text-center lg:text-left italic">
-            <span className="clip xl:inline-block 2xl:w-[265px]">Graphic design {" "}</span> is a broad field that
-            encompasses a range of{" "}
-            <span className="clip_secondary xl:inline-block 2xl:w-[275px]">services aimed.</span>
+          <h2 className="text-[28px] leading-[30px] font-bold 2xl:text-[48px] 2xl:leading-[60px] tracking-[-0.06rem] capitalize  text-center lg:text-left italic">
+            <span className="clip xl:inline-block w-[155px] 2xl:w-[266px]">
+              Graphic design{" "}
+            </span>{" "}
+            is a broad field that encompasses a range of{" "}
+            <span className="clip_secondary xl:inline-block ">
+              services aimed.
+            </span>
           </h2>
-          <h6 className="italic text-[22px] leading-7 text-center lg:text-start 2xl:text-[32px] font-semibold 2xl:leading-10 tracking-tight mt-3 capitalize">
-            at <span className="clip xl:inline-block 2xl:w-[270px]">creating visual content </span> for
-            different mediums, such as {" "}
+          <h6 className="italic text-[22px] leading-7 text-center lg:text-start 2xl:text-[32px] font-medium 2xl:leading-[2.687rem] tracking-[-0.04rem] mt-3 capitalize">
+            at{" "}
+            <span className="clip xl:inline-block w-[188px] 2xl:w-[279px]">
+              creating visual content{" "}
+            </span>{" "}
+            for different mediums, such as{" "}
             <span className="clip_secondary">print, digital, & </span>{" "}
-            <span className="clip xl:inline-block 2xl:w-[140px]">multimedia</span>. Some of the most popular
-            graphic design services
+            <span className="clip xl:inline-block 2xl:w-[140px] mr-1">
+              multimedia.{" "}
+            </span>
+            Some of the most popular graphic design services
           </h6>
-          <p className="text-xl xl:text-xl xl:leading-7 text-center lg:text-start mt-3 font-semibold">
+          <p className="text-base leading-[1.5rem] text-center lg:text-start mt-3 font-normal">
             Overall, graphic design services play a vital role in creating
-            visual content that communicates a message, enhances brand identity,
-            and engages audiences across various mediums.
+            visual content that communicates a message,
+            <br className="hidden xl:block" /> enhances brand identity, and
+            engages audiences across various mediums.
           </p>
         </div>
         <div>
@@ -82,7 +92,10 @@ const GraphicDesignBody = () => {
           P="Graphic designers create illustrations for books, magazines, websites, and other mediums. They use various techniques such as vector graphics, digital painting, and hand-drawn sketches to create unique and engaging visual content."
         />
       </section>
-      <Btn_Zoom />
+      <Btn_Zoom
+        P="Book a Zoom call with us today to learn more about our"
+        P2="Graphic design and take the first step in building your presence and authority on LinkedIn."
+      />
     </main>
   );
 };

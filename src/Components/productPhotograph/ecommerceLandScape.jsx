@@ -15,15 +15,16 @@ const Ecommercelandscape = () => {
     <main className="container mx-auto mt-28">
       <div className="mx-4 flex justify-between flex-col xl:flex-row items-center">
         <div className="text-center lg:text-left">
-          <h1 className="text-[30px] leading-[40px]  xl:text-[48px] max-w-[739px] xl:leading-[60px] font-extrabold italic font-sans w-full xl:w-9/12 text-cap capitalize">
+          <h1 className="text-[30px] leading-[40px]  xl:text-[48px] max-w-[739px] h-[117px] xl:leading-[60px] font-bold italic font-sans w-full xl:w-9/12 text-cap capitalize">
             In today's{" "}
             <span className="text-[#F02E6B]">
               competitive
-              e-commerce
+              <br />e-commerce
             </span>{" "}
             landscape
           </h1>
-          <p className="text-[20px] font-semibold leading-7">
+
+          <p className="w-[608px] h-[92px] text-zinc-700 text-xl font-normal leading-[30px] mt-4">
             The professional product photography is vital for driving success.
             High-quality <br />
             images can captivate potential customers, ultimately influencing
@@ -62,7 +63,7 @@ const Ecommercelandscape = () => {
           </div>
         </div>
         <div className="mt-8 xl:mt-0">
-          <Image src={cameraMan} className="w-[777px] h-[439px]" />
+          <Image src={cameraMan} className="w-[777px] h-[439px] rounded-3xl" />
         </div>
       </div>
     </main>

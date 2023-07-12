@@ -11,9 +11,6 @@ import {
   ZIcon,
 } from "@/Assets/SVGs/SVG";
 import body_bildre from "../../Assets/img/zim_man.png";
-
-import Patter_color from "@/Assets/SVGs/Patter_color";
-import Patter from "@/Assets/SVGs/Patter";
 import Image from "next/image";
 import MyDetailsCardTwo from "@/Components/Common/DetailsCardTwo";
 import Btn_Zoom from "../Common/btn_Zoom";
@@ -29,11 +26,10 @@ const InfoGraphisMarketPlace = () => {
       <div className="container mx-auto">
         <section className="container flex justify-between gap-4 flex-col xl:flex-row items-center mx-4 pt-24">
           <div className="md:w-[767px]">
-            <h1 className=" text-[30px] mt-8 lg:mt-0 leading-[40px]  xl:text-[38px] xxl:text-[48px] xxl:leading-[60px] font-extrabold italic font-sans w-full text-cap capitalize text-white text-center xl:text-left">
-              Dominate the{" "}
-              <span className="cliptwo">Marketplace</span>
+            <h1 className=" text-[30px] mt-8 lg:mt-0 leading-[40px]  xl:text-[38px] 2xl:text-[48px] 2xl:leading-[3.75rem] font-bold italic font-sans w-full text-cap capitalize text-white text-center xl:text-left tracking-[-0.06rem]">
+              Dominate the <span className="cliptwo">Marketplace</span>
             </h1>
-            <h6 className="italic text-[22px] leading-7 text-center lg:text-start 2xl:text-[32px] font-semibold 2xl:leading-10 tracking-tight mt-8 capitalize">
+            <h6 className="italic text-[22px] leading-7 text-center lg:text-start 2xl:text-[32px] font-medium 2xl:leading-[2.6875rem] mt-8 capitalize tracking-[-0.04rem] text-white">
               Turbocharge Your{" "}
               <span className="cliptwo">eBay and Amazon Listings</span> with
               Exceptional{" "}
@@ -41,7 +37,7 @@ const InfoGraphisMarketPlace = () => {
                 Product Photography and Persuasive Infographics
               </span>
             </h6>
-            <p className="text-[20px] font-semibold leading-7 mt-3 text-white text-center xl:text-left">
+            <p className="text-[20px] font-normal leading-[1.875rem] mt-3 text-[#D9D9D9] text-center xl:text-left">
               Implementing product and infographic images on selling platforms
               like eBay and Amazon can significantly impact your product
               listings' success and help drive sales. Here are the key benefits
@@ -50,7 +46,7 @@ const InfoGraphisMarketPlace = () => {
           </div>
           <Image
             src={body_bildre}
-            className=" w-[486px] h-[486px] md:w-[486px] mt-8 pt-8 md:mr-8 xxl:mr-0 lg:mt-0 lg:pt0 md:h-[486px]  xl:w-[486px] xl:h-[486px] rounded-xl"
+            className=" w-[486px] h-[486px] md:w-[486px] mt-8 pt-8 md:mr-8 xxl:mr-0 lg:mt-0 lg:pt0 md:h-[486px]  xl:w-[46.125rem]  xl:h-[37.25rem] rounded-xl"
           />
         </section>
         <section className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 md:justify-items-center mx-4 gap-8 mt-12">
@@ -115,7 +111,13 @@ const InfoGraphisMarketPlace = () => {
             </p>
           </div>
         </section>
-        <Btn_Zoom colorTrue={true} />
+        <div className="pb-40 xl:pb-32">
+          <Btn_Zoom
+            colorTrue={true}
+            P="Book a Zoom call with us today to learn more about our"
+            P2="Product Infographics and enhance your product images and boost your sales success."
+          />
+        </div>
       </div>
     </main>
   );

@@ -29,21 +29,21 @@ const InfoGraphics = () => {
       <div className="container mx-auto">
         <section className="container flex justify-between flex-col xl:flex-row items-center mx-4 pt-24">
           <div className="md:w-[767px]">
-            <h1 className="text-[30px] mt-8 lg:mt-0 leading-[40px]  xl:text-[38px] xxl:text-[48px] 2xl:leading-[60px] font-extrabold italic font-sans w-full text-cap capitalize text-white">
+            <h1 className="text-[30px] mt-8 lg:mt-0 leading-[40px]  xl:text-[38px] xxl:text-[48px] 2xl:leading-[50px] font-bold italic font-sans w-full text-cap capitalize text-white tracking-[-0.06rem]">
               From Stunning Product Shots to <br className="hidden lg:block" />{" "}
               Informative <span className="cliptwo">Graphics</span> Skyrocket{" "}
               <br className="hidden lg:block" />
               Your Business with the <br />
               <span className="cliptwo"> Power of Infographics</span>
             </h1>
-            <p className="text-[20px] font-semibold leading-7 mt-8 text-white">
+            <p className="w-[647px] h-24 text-[#D9D9D9] text-base font-normal leading-normal mt-4">
               Infographics are a powerful visual tool that can help convey
               complex information in an easily digestible format. By
               transforming your professional product photography into
               infographic images, you can enjoy numerous benefits that will
               elevate your brand's online presence and drive sales. Here are the
-              key advantages of using infographics <br />
-              based on your professional product photography:
+              key advantages of using infographics based on your professional
+              product photography:
             </p>
           </div>
           <Image
@@ -112,7 +112,12 @@ const InfoGraphics = () => {
           </div>
         </section>
         <section className="lg:mt-28 mx-4 pb-48 mt-6">
-         <Btn_Zoom colorTrue={true} />
+          <Btn_Zoom
+            colorTrue={true}
+            H1="Don't leave opportunities on the table"
+            P="Book a Zoom call with us today to learn more about our"
+            P2="180 Degree plain white imagery and enhance your product images and boost your sales success."
+          />
         </section>
       </div>
     </main>

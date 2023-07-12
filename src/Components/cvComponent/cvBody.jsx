@@ -19,22 +19,33 @@ const CvBody = () => {
     <div className="container mx-auto">
       <section className="lg:flex justify-between lg:gap-8 mx-4 mt-20">
         <div className="lg:w-[50%]">
-          <h2 className="text-[28px] leading-[30px]  2xl:text-[48px] 2xl:leading-[60px] tracking-tight capitalize font-extrabold text-center lg:text-left ">
+          <h2 className="text-[28px] leading-[30px]  2xl:text-[48px] 2xl:leading-[60px] tracking-[-0.06rem] capitalize font-bold text-center lg:text-left italic">
             Are you tired of{" "}
-            <span className="clip">your outdated, bland CV getting lost</span>{" "}
-            in the sea of <span className="clip">job applications?</span>
+            <span className="clip">
+              your outdated, bland<span className="opacity-0">'</span> CV
+              <span className="opacity-0">'</span>
+              getting lost'
+            </span>{" "}
+            in the sea of{" "}
+            <span className="clip">
+              job<span className="opacity-0">'</span> applications?'
+            </span>
           </h2>
-          <h6 className="italic text-[22px] leading-7 text-center lg:text-start 2xl:text-[32px] font-semibold 2xl:leading-10 tracking-tight mt-3 capitalize">
+          <h6 className="italic text-[22px] leading-7 text-center lg:text-start 2xl:text-[32px] font-medium 2xl:leading-[2.6875rem] tracking-[-0.04rem] mt-3 capitalize">
             Do you want{" "}
             <span className="clip">
               to stand out from the crowd and showcase
             </span>{" "}
+            <span className="opacity-0">'</span>
             your skills in a{" "}
-            <span className="clip">modern and visually appealing way</span>?
+            <span className="clip">modern and visually appealing way </span>?
             Look no further than{" "}
-            <span className="clip">our infographic modern CV service!</span>
+            <span className="clip">
+              our infographic modern CV service!
+              <span className="opacity-0">'</span>
+            </span>
           </h6>
-          <p className="text-base xl:text-xl font-semibold xl:leading-7 text-center lg:text-start mt-3 ">
+          <p className="text-base  font-normal leading-[1.5rem] text-center lg:text-start mt-3 ">
             Our expert team of designers and writers will work with you to
             create a stunning, customized infographic CV that highlights your
             unique skills and experiences in a visually engaging way. Our
@@ -44,8 +55,9 @@ const CvBody = () => {
             Why is a modern, infographic CV important in today's job market?
             First impressions are everything, and your CV is often the first
             point of contact with a potential employer. A visually appealing CV
-            can set you apart from other applicants and make a lasting
-            impression.
+            can set you apart from other{" "}
+            <br className="hidden xl:inline-block" />
+            applicants and make a lasting impression.
           </p>
         </div>
         <div className="max-h-[479px]">
@@ -69,38 +81,38 @@ const CvBody = () => {
             <Frame />
           </div>
         </div>
-        <div className="lg:w-[50%] mt-4 lg:mt-0">
-          <h2 className="text-[28px] leading-[30px]  2xl:text-[48px] 2xl:leading-[60px] tracking-tight capitalize font-semibold text-center lg:text-left italic clip">
+        <div className="lg:w-[50%] mt-12 lg:ml-4 lg:mt-0 ">
+          <h2 className="text-[28px] leading-[30px]  2xl:text-[32] 2xl:leading-[2.687rem] capitalize font-medium text-center lg:text-left italic clip tracking-[-0.04rem]">
             Our infographic CVs offer many benefits and opportunities. They
           </h2>
 
-          <div className="grid xl:gap-4 mt-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-1 xl:grid-cols-2 place-items-center lg:mr-8 mr-0">
-            <div className=" w-[323px] mb-5 mr-5">
+          <div className="grid xl:gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-1 xl:grid-cols-2 place-items-center xl:place-items-start lg:mr-8 mr-0">
+            <div className=" xl:w-[280px] 2xl:w-[323px] mb-5 mr-5">
               <p className="text-base font-normal leading-6">
                 Provide a visual representation of your skills and experience,
                 making it easier for potential employers to quickly assess your
                 qualifications.
               </p>
             </div>
-            <div className=" w-[323px] mb-5 mr-5">
+            <div className=" xl:w-[280px] 2xl:w-[323px] mb-5 mr-5">
               <p className="text-base font-normal leading-6">
                 Set you apart from other applicants with a unique and memorable
                 design.
               </p>
             </div>
-            <div className="w-[323px]  mb-5 mr-5">
+            <div className="xl:w-[280px] 2xl:w-[323px]  mb-5 mr-5">
               <p className="text-base font-normal leading-6">
                 Showcase your creativity and attention to detail, demonstrating
                 your ability to think outside the box.
               </p>
             </div>
-            <div className="w-[323px] mb-5 mr-5">
+            <div className="xl:w-[280px] 2xl:w-[323px] mb-5 mr-5">
               <p className="text-base font-normal">
                 Demonstrate your ability to effectively communicate complex
                 information in a concise and engaging manner.
               </p>
             </div>
-            <div className="w-[323px] mb-5 mr-5 relative xl:left-52">
+            <div className="xl:w-[280px] 2xl:w-[323px] mb-5 mr-5 relative xl:left-52">
               <p className="text-base font-normal">
                 Are easily shareable on social media, allowing you to expand
                 your network and increase your visibility to potential
@@ -124,13 +136,13 @@ const CvBody = () => {
         </div>
       </section>
 
-      <section className="lg:flex justify-between lg:gap-8 mx-4 mt-0">
+      <section className="lg:flex justify-between lg:gap-8 mx-4 mt-8">
         <div className="lg:w-[50%]">
-          <h2 className="text-[28px] leading-[30px]  2xl:text-[48px] clip 2xl:leading-[60px] tracking-tight capitalize font-semibold text-center lg:text-left italic mt-36">
+          <h2 className="text-[28px] leading-[30px]  2xl:text-[32px] clip 2xl:leading-[2.6875rem] tracking-[-0.04rem] capitalize font-medium text-center lg:text-left italic mt-36 lg:mt-20">
             There are several websites that offer services for creating
             infographic resumes or CVs. Here are some of the best oness
           </h2>
-          <div className="2xl:w-[731px] md:w-[700px] w-[600px] flex flex-wrap justify-center lg:justify-start gap-4 mt-4 mx-auto">
+          <div className="2xl:w-[731px] md:w-[700px] w-[600px] flex flex-wrap justify-center lg:justify-start gap-4 mt-4 mx-auto xl:mt-20">
             <Image
               src={resume_1}
               width={350}
@@ -177,7 +189,10 @@ const CvBody = () => {
         </div>
       </section>
       <div className="lg:-mt-44">
-        <Btn_Zoom />
+        <Btn_Zoom
+          P="Book a Zoom call with us today to learn more about our"
+          P2="CV Design Services  and take the first step in building your presence and authority on LinkedIn."
+        />
       </div>
       {selectedImg && (
         <ImgShowModal

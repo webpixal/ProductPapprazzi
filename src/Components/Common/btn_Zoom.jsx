@@ -3,7 +3,7 @@ import { Pattern, ZIcon } from "@/Assets/SVGs/SVG";
 import React, { useState } from "react";
 import Meeting from "./meeting";
 
-const Btn_Zoom = ({ colorTrue = false, classNAME }) => {
+const Btn_Zoom = ({ colorTrue = false, classNAME, P, P2, H1 }) => {
   const [handelMeting, setHandelMeting] = useState(false);
   const HandelZoom = () => setHandelMeting((pre) => !pre);
   console.log(handelMeting);
@@ -15,20 +15,24 @@ const Btn_Zoom = ({ colorTrue = false, classNAME }) => {
         <Pattern className="absolute left-0 xl:-left-12 xl:top-20 top-36 " />
         <div className="grid justify-items-center">
           <h1
-            className={`text-center text-[32px] leading-[44px] tracking-tight min-w-[610px] italic font-medium  ${
+            className={`text-center text-[2rem] leading-[44px] tracking-[-0.04rem] min-w-[610px] italic font-medium  ${
               colorTrue ? "cliptwo" : "clip"
             }`}
           >
-            Don't leave opportunities on the table{" "}
+            {H1 || `Don't leave opportunities on the table`}
           </h1>
           <p
-            className={`text-center italic text-2xl font-normal leading-8 mt-3 relative z-1 ${
-              colorTrue ? "text-white" : ""
+            className={`text-center italic text-2xl font-normal leading-[2.09375rem] mt-[0.81rem] relative z-1 ${
+              colorTrue ? "text-white" : "#000"
             }`}
           >
-            Book a Zoom call with us today to learn more about our <br />
-            Amazon PPC Services and enhance your product images and boost your
-            sales success.
+            {P ? <>{P} <br /> {P2} </> : (
+              <>
+                Book a Zoom call with us today to learn more about our <br />
+                Amazon PPC Services and enhance your product images and boost
+                your sales success.
+              </>
+            )}
           </p>
           <button
             className="btn_light_primary2 mt-8 flex items-center justify-center"

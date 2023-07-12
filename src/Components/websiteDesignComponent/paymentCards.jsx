@@ -4,12 +4,12 @@ import CommonTextLine from "./commonTextLine";
 const PaymentCards = () => {
   return (
     <div>
-      <section className="flex justify-between flex-col text-center w-[80%] xl:w-[60%] mx-auto mt-4">
-        <h2 className="text-xl leading-7 font-semibold italic xl:text-[32px] xl:leading-10 tracking-tight">
+      <section className="flex justify-between flex-col text-center w-[80%] xl:w-[60%] mx-auto mt-16">
+        <h2 className="text-xl leading-7 font-medium italic xl:text-[32px] xl:leading-[2.6875rem] tracking-tight">
           We've got you covered Our website design and development services
           offer customized solutions at competitive prices.
         </h2>
-        <p className="text-center xl:text-lef mt-4">
+        <p className="text-center text-base mt-4">
           From simple website builds to premium development options, we use the
           latest technology and design trends to create efficient and scalable
           web applications that cater to your unique needs.

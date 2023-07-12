@@ -36,16 +36,29 @@ const ExpertServices = () => {
     <main className="container mx-auto">
       <section className="lg:flex justify-between lg:gap-8 mx-4 mt-18">
         <div className="lg:w-[50%]">
-          <h2 className="text-[28px] leading-[30px]  2xl:text-[48px] 2xl:leading-[50px] tracking-tighter capitalize font-bold text-center lg:text-left italic ">
-            Master Your  <span className="clip inline-block 2xl:w-[24.5rem] w-[14.5rem]">{" "}Amazon PPC Campaigns</span> with
-            Our <span className="clip">Expert Services</span>
+          <h2 className="text-[28px] leading-[30px]  2xl:text-[48px] 2xl:leading-[3.75rem] tracking-[-0.06rem] capitalize font-bold text-center lg:text-left italic ">
+            Master Your{" "}
+            <span className="clip inline-block 2xl:w-[26.5rem] w-[15rem]">
+              {" "}
+              Amazon PPC Campaigns
+            </span>
+            <br className="hidden xl:block" /> with Our{" "}
+            <span className="clip 2xl:w-[17rem] inline-block">
+              Expert Services
+            </span>
           </h2>
-          <h6 className="italic text-[22px] leading-7 text-center lg:text-start 2xl:text-[32px] font-semibold 2xl:leading-10 tracking-tight mt-3 capitalize">
-            <span className="clip">Boost Sales</span> and{" "}
-            <span className="clip">Maximize Profit Margins</span> through{" "}
-            <span className="clip">Effective PPC Management</span>
+          <h6 className="italic text-[22px] leading-7 text-center lg:text-start 2xl:text-[32px] font-medium 2xl:leading-[2.6875rem] tracking-[-0.04rem] mt-3 capitalize xl:w-[32rem]">
+            <span className="clip inline-block xl:w-[8.5rem]">Boost Sales</span>{" "}
+            and{" "}
+            <span className="clip inline-block xl:w-[18rem]">
+              Maximize Profit Margins
+            </span>{" "}
+            through{" "}
+            <span className="clip inline-block xl:w-[20rem]">
+              Effective PPC Management
+            </span>
           </h6>
-          <p className="text-base xl:text-xl font-semibold xl:leading-7 text-center lg:text-start mt-3 ">
+          <p className="text-base font-normal leading-[1.5rem] text-center lg:text-start mt-3 ">
             Amazon PPC (Pay-Per-Click) campaigns are a powerful tool for sellers
             looking to promote their products and drive sales. However, managing
             these campaigns effectively requires a thorough understanding of
@@ -76,18 +89,18 @@ const ExpertServices = () => {
             className="rounded-3xl object-cover"
           />
           <div className="absolute top-[-31px] right-0 lg:top-[-45px] lg:right-[-12px]">
-            <Circle_Dash />
+            <Circle_Dash className="w-[130px]" />
           </div>
           <div className="absolute -bottom-8 left-0 lg:-bottom-14 lg:-left-24 ">
             <Box_dot />
           </div>
-          <div className="absolute left-[-20%] xl:left-[45%] top-[45%] 2xl:left-[45%]">
+          <div className="absolute left-[45%] xl:left-[45%] top-[45%] 2xl:left-[45%]">
             <PlayIcon />
           </div>
         </div>
         <div className="xl:w-[50%]">
           <div className="-ml-4 2xl:-ml-4">
-            <h6 className="clip text-2xl 2xl:text-[32px] xl:leading-7 2xl:leading-[43px] leading-7 italic mt-8 xl:mt-0 text-center xl:text-left 2xl:ml-4 clip tracking-tight font-medium">
+            <h6 className="clip text-2xl 2xl:text-[32px] xl:leading-7 2xl:leading-[2.6875rem] leading-7 italic mt-8 xl:mt-0 text-center xl:text-left 2xl:ml-4 clip tracking-[-0.04rem] font-medium">
               Our Comprehensive Amazon PPC Management Services
             </h6>
             <p className="text-center lg:text-left 2xl:ml-4">
@@ -141,12 +154,12 @@ const ExpertServices = () => {
             className="rounded-3xl object-cover"
           />
           <div className="absolute top-[-31px] right-0 lg:top-[-45px] lg:right-[-12px]">
-            <Coloring_circle />
+            <Coloring_circle className="w-[130px]" />
           </div>
         </div>
         <div className="xl:w-[50%] mt-12 lg:mt-4">
           <div>
-            <h6 className="clip text-2xl xl:text-[32px] xl:leading-[43px] leading-7 italic mt-8 xl:mt-0 text-center xl:text-left clip tracking-tight font-medium">
+            <h6 className="clip text-2xl xl:text-[32px] xl:leading-[43px] leading-7 italic mt-8 xl:mt-0 text-center xl:text-left clip tracking-[-0.04rem] font-medium">
               Why Choose Our Amazon PPC Services?
             </h6>
           </div>
@@ -177,7 +190,7 @@ const ExpertServices = () => {
             />
             <MyDetailsCard
               LOGO={Amazon_ongoing_support}
-              CLASS="lg:max-w-[301px] grid justify-items-center lg:block"
+              CLASS="lg:max-w-[301px] grid justify-items-center lg:block xl:ml-96"
               H1="Ongoing Support"
               P="Our team is committed to your success, providing ongoing support and guidance to help you continually improve and refine your PPC campaigns."
             />
@@ -190,13 +203,16 @@ const ExpertServices = () => {
           Paparazzi Optimization Services today and unlock the full potential of
           your Amazon listing.
         </p>
-        <p className="mt-12 text-center xl:text-lef lg:w-[50%] lg:">
+        <p className="mt-12 text-center xl:text-lef lg:w-[50%]">
           Don't leave your Amazon success to chance; partner with Product
           Paparazzi Optimization Services today and unlock the full potential of
           your Amazon listing.
         </p>
       </section>
-      <Btn_Zoom />
+      <Btn_Zoom
+        P="Book a Zoom call with us today to learn more about our"
+        P2="Amazon PPC Services and enhance your product images and boost your sales success."
+      />
       <>
         {openVideoModal && (
           <VideoPlayerModal

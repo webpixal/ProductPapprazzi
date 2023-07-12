@@ -6,7 +6,9 @@ const LinkedBody = () => {
   return (
     <div className="container mx-auto">
       <LinkedContains />
-      <Btn_Zoom />
+      <div className="mt-44">
+        <Btn_Zoom P="Book a Zoom call with us today to learn more about our" P2="LinkedIn services and take the first step in building your presence and authority on LinkedIn."/>
+      </div>
     </div>
   );
 };
