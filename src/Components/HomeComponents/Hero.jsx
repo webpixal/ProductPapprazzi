@@ -5,7 +5,7 @@ import { Facebook, Line, Linkdin, Twitter } from "@/Assets/SVGs/SVG";
 const Hero = () => {
   return (
     <section
-      className="h-[424px] xl:h-[648px] w-full bg-cover bg-center flex flex-col justify-center overflow-hidden blank_mode_2"
+      className="thamnel-height  w-full bg-cover bg-center flex flex-col justify-center overflow-hidden blank_mode_2"
       // style={{
       //   backgroundImage: `url("home.png")`,
       // }}
@@ -22,7 +22,7 @@ const Hero = () => {
         autoPlay
         loop
         muted
-        className="object-cover  h-[424px] xl:h-[648px] w-full z-[-1] -mt-[10rem]"
+        className="object-cover thamnel-height w-full z-[-1] -mt-[10rem]"
       >
         <source src="Videos/bg1.mp4" type="video/mp4" />
       </video>
@@ -53,7 +53,7 @@ const Hero = () => {
           <Twitter className="mb-[49px] " />
         </span>
         <span>
-          <Line className="mb-[49px] ml-3 max-[1280px]:h-14" />
+          <Line className="mb-[49px] ml-3 h-[85px] min-[1800px]:h-32 min-[1800px]:mt-8" />
         </span>
       </div>
     </section>
